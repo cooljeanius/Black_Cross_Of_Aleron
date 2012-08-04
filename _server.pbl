@@ -1,0 +1,8 @@
+author="Celtic Minstrel"
+title="Besieged Druids"
+icon="terrain/castle/elven/keep-tile.png~BLIT(units/elves-wood/druid-defend-2.png~RC(magenta>teal),0,0)"
+version="0.1"
+description="A training camp for druids comes under siege. Who is the perpetrator?"
+type="campaign"
+email=""
+#passphrase=""

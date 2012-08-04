@@ -1,0 +1,21 @@
+
+Units with unique IDs:
+
+chiefdruid - the leader Elvish Druid
+chiefguard - the hero Elvish Ranger
+braveguard - the loyal Elvish Fighter
+advancescout - the Elvish Scout
+tw_1st - the loyal Elvish Initiate with the treewalk ability
+
+healthy_dwarf_brother - one of two Dwarvish Fighters from the camp in the tunnels
+wounded_dwarf_brother - one of two Dwarvish Fighters from the camp in the tunnels
+
+hermitsorceress - the non-loyal Elvish Sorceress with the dominates ability
+loyalmermaid - the loyal Mermaid Initiate
+agedcaptain - an old Elvish Captain living on an island
+cowardlyorcarcher - a cowardly Orcish Archer who is decidedly un-orcish and begs for his life
+
+fleeingspirit - a Ghost running away in the caves
+dwarfhermit - the Dwarvish Berserker living alone in the caves
+
+agedlord - the hero Elvish Lord who joins up with recruitable civilians

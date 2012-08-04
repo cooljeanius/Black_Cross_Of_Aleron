@@ -1,0 +1,8 @@
+This is a list of people to credit, mostly for my reference when I get around to doing it properly.
+
+- Chasm bridge created by lurker from the forums.
+- Star-shaped ellipse is from core, but with blue and green channels removed to allow team colouring
+- Elvish Civilian was taken from The Settlers of Light, but it's also found in Invasion from the Unknown and After the Storm, so I'm not sure who to credit.
+- Ankh and storm trident overlays are from Dead Water
+- Dominated overlay adapted from an attack icon by Eleazar
+- Other overlays are adapted from mainline icons of various purposes
