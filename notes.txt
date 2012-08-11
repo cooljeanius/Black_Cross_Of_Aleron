@@ -19,3 +19,8 @@ fleeingspirit - a Ghost running away in the caves
 dwarfhermit - the Dwarvish Berserker living alone in the caves
 
 agedlord - the hero Elvish Lord who joins up with recruitable civilians
+
+Ideas
+- Death messages for Ariandela, orc archer, aged captain, Halbern
+- Ariandela could have a message for when she's recalled after being resurrected
+- Only the unit who took the Ring of Domination from the ruined hut can give it to Ariandela
