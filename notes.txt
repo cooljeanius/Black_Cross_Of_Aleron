@@ -53,3 +53,5 @@ Ideas
 - Change potion mechanics so that you select exactly which units get the benefits
 
 - Custom AI persistence code which doesn't involve carryover gold or including the side in the carryover summary
+- Special dialogue if the cowardly archer kills the orc leader
+- Ruined castle on Along the Coast so you can recruit/recall more units partway through
