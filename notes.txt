@@ -46,11 +46,9 @@ malcornsub3 - Malcorn's scout
 
 Ideas
 =====
-- Ariandela could have a message for when she's recalled after being resurrected
 - Only the unit who took the Ring of Domination from the ruined hut can give it to Ariandela
 - An option with Ariandela to hint at the Ring of Domination being the key to getting her which is available even when you don't have much gold
 - Change potion mechanics so that you select exactly which units get the benefits
 
 - Custom AI persistence code which doesn't involve carryover gold or including the side in the carryover summary
-- Special dialogue if the cowardly archer kills the orc leader
 - Ruined castle on Along the Coast so you can recruit/recall more units partway through
