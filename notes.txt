@@ -46,7 +46,6 @@ malcornsub3 - Malcorn's scout
 
 Ideas
 =====
-- Death messages for Ariandela, orc archer, aged captain, Halbern
 - Ariandela could have a message for when she's recalled after being resurrected
 - Only the unit who took the Ring of Domination from the ruined hut can give it to Ariandela
 - An option with Ariandela to hint at the Ring of Domination being the key to getting her which is available even when you don't have much gold
