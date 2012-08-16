@@ -70,3 +70,4 @@ Ideas
 
 - Scrap watery tunnels map and redesign from scratch
 - Make chasm map a little more palatable for elves, and in particular reduce the bottleneck leading to the lich
+- Make the young ogre in Journey Home putter around a bit near its home, staying within a certain radius of it. If it's attacked, maybe make the old ogre no longer a guardian and give him appropriate dialogue.
