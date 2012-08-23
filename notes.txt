@@ -46,32 +46,48 @@ malcornsub3 - Malcorn's scout
 
 Ideas
 =====
-- Only the unit who took the Ring of Domination from the ruined hut can give it to Ariandela
-- An option with Ariandela to hint at the Ring of Domination being the key to getting her which is available even when you don't have much gold
-- Make source of dominates ability on Ariandela more clear
-- Change potion mechanics so that you select exactly which units get the benefits
-- In the swamp, scatter four or so "nests" around the map, and spawn 2-3 giant frogs every time any unit steps on them
-- In the swamp, spawn 3 groups each of 3-6 giant mosquitoes at the beginning of every dusk turn
-- Add some giant bats and giant mosquitoes to Journey Home at the start of every dusk turn
-- Gryphon nest in Journey Home? Step on it, and the gryphon shows up
-- Dialogue when you step in the muck in the last scenario
-- Goblin spearmen pop out when you seize a tent village in last scenario
 
-- Custom AI persistence code which doesn't involve carryover gold or including the side in the carryover summary
-- Ruined castle on Along the Coast so you can recruit/recall more units partway through
-
-- Watery Tunnels: Make it more obvious how to get back from the Storm Trident cave (place another whirlpool at the other end of the tunnel?)
-- More loyal guard orcs? (Orcs in the Port)
+Scenario 1
+----------
 - Hard mode: Allow less/no archer/fighter recruits?
 - Hard mode: Start Erendor as an archer locked into the ranger line?
 - Easy mode: Start Eärendil as a shyde? Erendor an avenger?
 
-- After killing the orc leader in Orc Port, allow the player to end the scenario by stepping on the revealed tunnel.
-- Add end dialogue and/or end cutscene and/or end story after final scenario
+Scenario 2
+----------
+- Change potion mechanics so that you select exactly which units get the benefits
+- Add two great trees to the mudcrawler clearing
 
-- Scrap watery tunnels map and redesign from scratch
-- Make chasm map a little more palatable for elves, and in particular reduce the bottleneck leading to the lich
+Scenario 3
+----------
+- Only the unit who took the Ring of Domination from the ruined hut can give it to Ariandela
+- An option with Ariandela to hint at the Ring of Domination being the key to getting her which is available even when you don't have much gold
+- Make source of dominates ability on Ariandela more clear
+- More loyal guard orcs? (Orcs in the Port)
+- After killing the orc leader in Orc Port, allow the player to end the scenario by stepping on the revealed tunnel.
+- Orcs in the Port: Move encampment to edge of hills; leave all else in area unchanged
+
+Scenario 4
+----------
+- Watery Tunnels: Make it more obvious how to get back from the Storm Trident cave (place another whirlpool at the other end of the tunnel?)
+
+Scenario 5
+----------
+- Ruined castle on Along the Coast so you can recruit/recall more units partway through
+
+Scenario 6
+----------
+- In the swamp, scatter four or so "nests" around the map, and spawn 2-3 giant frogs every time any unit steps on them
+- In the swamp, spawn 3 groups each of 3-6 giant mosquitoes at the beginning of every dusk turn
+
+Scenario 8
+----------
+- Add some giant bats and giant mosquitoes to Journey Home at the start of every dusk turn
+- Gryphon nest in Journey Home? Step on it, and the gryphon shows up
 - Make the young ogre in Journey Home putter around a bit near its home, staying within a certain radius of it. If it's attacked, maybe make the old ogre no longer a guardian and give him appropriate dialogue.
 
-- Add two great trees to the mudcrawler clearing
-- Orcs in the Port: Move encampment to edge of hills; leave all else in area unchanged
+Scenario 9
+----------
+- Dialogue when you step in the muck in the last scenario
+- Goblin spearmen pop out when you seize a tent village in last scenario
+- Add end dialogue and/or end cutscene and/or end story after final scenario
