@@ -49,9 +49,6 @@ Ideas
 
 Scenario 3
 ----------
-- Only the unit who took the Ring of Domination from the ruined hut can give it to Ariandela
-- An option with Ariandela to hint at the Ring of Domination being the key to getting her which is available even when you don't have much gold
-- Make source of dominates ability on Ariandela more clear
 - More loyal guard orcs? (Orcs in the Port)
 - After killing the orc leader in Orc Port, allow the player to end the scenario by stepping on the revealed tunnel.
 - Orcs in the Port: Move encampment to edge of hills; leave all else in area unchanged
