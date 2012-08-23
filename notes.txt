@@ -47,12 +47,6 @@ malcornsub3 - Malcorn's scout
 Ideas
 =====
 
-Scenario 1
-----------
-- Hard mode: Allow less/no archer/fighter recruits?
-- Hard mode: Start Erendor as an archer locked into the ranger line?
-- Easy mode: Start Eärendil as a shyde? Erendor an avenger?
-
 Scenario 2
 ----------
 - Change potion mechanics so that you select exactly which units get the benefits
