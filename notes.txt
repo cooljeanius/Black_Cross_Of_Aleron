@@ -47,11 +47,6 @@ malcornsub3 - Malcorn's scout
 Ideas
 =====
 
-Scenario 2
-----------
-- Change potion mechanics so that you select exactly which units get the benefits
-- Add two great trees to the mudcrawler clearing
-
 Scenario 3
 ----------
 - Only the unit who took the Ring of Domination from the ruined hut can give it to Ariandela
