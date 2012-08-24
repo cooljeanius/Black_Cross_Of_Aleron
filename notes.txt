@@ -50,8 +50,6 @@ Ideas
 Scenario 3
 ----------
 - More loyal guard orcs? (Orcs in the Port)
-- After killing the orc leader in Orc Port, allow the player to end the scenario by stepping on the revealed tunnel.
-- Orcs in the Port: Move encampment to edge of hills; leave all else in area unchanged
 
 Scenario 4
 ----------
