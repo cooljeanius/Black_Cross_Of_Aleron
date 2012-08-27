@@ -47,10 +47,6 @@ malcornsub3 - Malcorn's scout
 Ideas
 =====
 
-Scenario 3
-----------
-- More loyal guard orcs? (Orcs in the Port)
-
 Scenario 4
 ----------
 - Watery Tunnels: Make it more obvious how to get back from the Storm Trident cave (place another whirlpool at the other end of the tunnel?)
