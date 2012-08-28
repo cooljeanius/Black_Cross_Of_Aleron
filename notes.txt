@@ -70,6 +70,7 @@ Scenario 8
 - Gryphon nest in Journey Home? Step on it, and the gryphon shows up
 - Make the young ogre in Journey Home putter around a bit near its home, staying within a certain radius of it. If it's attacked, maybe make the old ogre no longer a guardian and give him appropriate dialogue.
 - Some dialogue or something at the end
+- Ending conditions are odd (only one unit has to reach the bridge)
 
 Scenario 9
 ----------
