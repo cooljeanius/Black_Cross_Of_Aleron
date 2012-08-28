@@ -62,7 +62,5 @@ Scenario 8
 
 Scenario 9
 ----------
-- Dialogue when you step in the muck in the last scenario
-- Goblin spearmen pop out when you seize a tent village in last scenario
 - Add end dialogue and/or end cutscene and/or end story after final scenario
 
