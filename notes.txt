@@ -51,15 +51,6 @@ Scenario 4
 ----------
 - Watery Tunnels: Make it more obvious how to get back from the Storm Trident cave (place another whirlpool at the other end of the tunnel?)
 
-Scenario 5
-----------
-- Ruined castle on Along the Coast so you can recruit/recall more units partway through
-
-Scenario 6
-----------
-- In the swamp, scatter four or so "nests" around the map, and spawn 2-3 giant frogs every time any unit steps on them
-- In the swamp, spawn 3 groups each of 3-6 giant mosquitoes at the beginning of every dusk turn
-
 Scenario 7
 ----------
 - ??? I forget...
