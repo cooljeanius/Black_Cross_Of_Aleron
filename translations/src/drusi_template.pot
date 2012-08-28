@@ -1,0 +1,2339 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2012-08-28 11:31-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. [campaign]: id=celmin-druid-siege
+#: ./_main.cfg:13
+msgid "Besieged Druids"
+msgstr ""
+
+#. [campaign]: id=celmin-druid-siege
+#: ./_main.cfg:14
+msgid "DruSi"
+msgstr ""
+
+#. [campaign]: id=celmin-druid-siege
+#: ./_main.cfg:20
+msgid "The druid citadel where elf maidens are trained in their art comes under siege. Who is the perpetrator? In your quest you may happen upon unexpected and unusual allies. (9 scenarios)"
+msgstr ""
+
+#. [campaign]: id=celmin-druid-siege
+#: ./_main.cfg:23
+msgid "Initiate"
+msgstr ""
+
+#. [campaign]: id=celmin-druid-siege
+#: ./_main.cfg:23
+msgid "(easy)"
+msgstr ""
+
+#. [campaign]: id=celmin-druid-siege
+#: ./_main.cfg:24
+msgid "(medium)"
+msgstr ""
+
+#. [campaign]: id=celmin-druid-siege
+#: ./_main.cfg:24
+msgid "Druid"
+msgstr ""
+
+#. [campaign]: id=celmin-druid-siege
+#: ./_main.cfg:25
+msgid "Faerie"
+msgstr ""
+
+#. [campaign]: id=celmin-druid-siege
+#: ./_main.cfg:25
+msgid "(hard)"
+msgstr ""
+
+#. [about]
+#: ./credits.cfg:4
+msgid "Design and Coding"
+msgstr ""
+
+#. [about]
+#: ./credits.cfg:11
+msgid "Testing"
+msgstr ""
+
+#. [entry]
+#: ./credits.cfg:14
+msgid "Extensive testing and balancing help"
+msgstr ""
+
+#. [entry]
+#: ./credits.cfg:27
+msgid "Some help with dialogue improvements"
+msgstr ""
+
+#. [about]
+#: ./credits.cfg:32
+msgid "Graphics"
+msgstr ""
+
+#. [entry]
+#: ./credits.cfg:35
+msgid "Adapted, edited, recoloured, and rescaled others' graphics to suit the scenario"
+msgstr ""
+
+#. [entry]
+#: ./credits.cfg:39
+msgid "Several attack icons were taken from his icon pack, and a few more icons were adapted for status icons and overlays"
+msgstr ""
+
+#. [entry]
+#: ./credits.cfg:43
+msgid "The Elvish Civilian portrait was created by her"
+msgstr ""
+
+#. [entry]
+#: ./credits.cfg:47
+msgid "Treewalker and wisp sprites adapted from his work"
+msgstr ""
+
+#. [entry]
+#: ./credits.cfg:50
+msgid "'Swamplings'"
+msgstr ""
+
+#. [entry]
+#: ./credits.cfg:51
+msgid "Mosquito sprites taken from the Swamplings campaign."
+msgstr ""
+
+#. [entry]
+#: ./credits.cfg:54
+msgid "'Invasion from the Unknown' and 'The Settlers of Light'"
+msgstr ""
+
+#. [entry]
+#: ./credits.cfg:55
+msgid "Priestess and archmage sprites adapted from Aragwaithi sprites in IftU and TSoL"
+msgstr ""
+
+#. [entry]
+#: ./credits.cfg:58
+msgid "'Dead Water'"
+msgstr ""
+
+#. [entry]
+#: ./credits.cfg:59
+msgid "The ankh and trident overlays"
+msgstr ""
+
+#. [entry]
+#: ./credits.cfg:62
+msgid "Wesnoth (core)"
+msgstr ""
+
+#. [entry]
+#: ./credits.cfg:63
+msgid "The star ellipse and most of the overlays were adapted from images in core."
+msgstr ""
+
+#. [side]: id=gruk, type=Goblin Rouser
+#. [side]: type=Goblin Impaler
+#: ./scenarios/01-what-happened.cfg:49 ./scenarios/01-what-happened.cfg:54 ./scenarios/test.cfg:35
+msgid "Gruk"
+msgstr ""
+
+#. [side]
+#. [side]: id=burluk, type=Goblin Knight
+#. [side]: id=gruk, type=Goblin Rouser
+#: ./scenarios/01-what-happened.cfg:50 ./scenarios/01-what-happened.cfg:81 ./scenarios/09-back-home.cfg:320
+msgid "Goblins"
+msgstr ""
+
+#. [side]: id=burluk, type=Goblin Knight
+#: ./scenarios/01-what-happened.cfg:80 ./scenarios/01-what-happened.cfg:85
+msgid "Burluk"
+msgstr ""
+
+#. [part]
+#: ./scenarios/01-what-happened.cfg:130
+msgid "The Isle of Aleron. This is a place where elf maidens come to learn the art of the druid. The druid citadel is protected by the arts of its teachers and a small complement of trained fighters, and its island location mostly protects it from any potential invaders. However, there is always a first time..."
+msgstr ""
+
+#. [objective]: condition=lose
+#: ./scenarios/01-what-happened.cfg:141 ./scenarios/02-dank-tunnels.cfg:322 ./scenarios/03-orc-port.cfg:237 ./scenarios/03-orc-port.cfg:617 ./scenarios/04-watery-tunnels.cfg:236 ./scenarios/05-along-the-coast.cfg:332 ./scenarios/06-dread-marsh.cfg:441 ./scenarios/07-chasm-descent.cfg:262 ./scenarios/08-return-home.cfg:204 ./scenarios/09-back-home.cfg:186
+msgid "Death of Eärendil"
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/01-what-happened.cfg:151
+msgid "What's this? I hear something from the citadel!"
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/01-what-happened.cfg:160
+msgid "Oh no! Goblins are sacking the keep! I must do something!"
+msgstr ""
+
+#. [objective]: condition=win
+#: ./scenarios/01-what-happened.cfg:171
+msgid "Reach the druid citadel"
+msgstr ""
+
+#. [value]
+#: ./scenarios/01-what-happened.cfg:181
+msgid "Oh my lady, it's terrible! There are goblins everywhere and I know not where to hide!"
+msgstr ""
+
+#. [reply]
+#: ./scenarios/01-what-happened.cfg:183
+msgid "Worry not, I'll see what I can do right away!"
+msgstr ""
+
+#. [reply]
+#: ./scenarios/01-what-happened.cfg:184
+msgid "It's okay, I've already dealt with them!"
+msgstr ""
+
+#. [reply]
+#: ./scenarios/01-what-happened.cfg:185
+msgid "Worry not, for together we can defeat them."
+msgstr ""
+
+#. [value]
+#: ./scenarios/01-what-happened.cfg:189
+msgid "Is it safe now? Are the goblins gone?"
+msgstr ""
+
+#. [reply]
+#: ./scenarios/01-what-happened.cfg:191
+msgid "Not yet, but I am doing what I can!"
+msgstr ""
+
+#. [reply]
+#: ./scenarios/01-what-happened.cfg:192
+msgid "Yes, child, they are."
+msgstr ""
+
+#. [reply]
+#: ./scenarios/01-what-happened.cfg:193
+msgid "For the moment, yes, but there are more coming. We must prepare!"
+msgstr ""
+
+#. [value]
+#: ./scenarios/01-what-happened.cfg:197
+msgid "Oh! My lady! You are alive! Does that mean the goblins have gone?"
+msgstr ""
+
+#. [reply]
+#: ./scenarios/01-what-happened.cfg:199
+msgid "Sadly not, but I'm doing what I can."
+msgstr ""
+
+#. [reply]
+#: ./scenarios/01-what-happened.cfg:200
+msgid "Yes, they are gone. Worry not!"
+msgstr ""
+
+#. [reply]
+#: ./scenarios/01-what-happened.cfg:201
+msgid "The initial wave has passed, but more are coming. Be wary!"
+msgstr ""
+
+#. [value]
+#: ./scenarios/01-what-happened.cfg:205
+msgid "Eeeeeeek! Don't kill me oh please don't... huh? You're not...? Oh! My lady! You're alive!"
+msgstr ""
+
+#. [reply]
+#: ./scenarios/01-what-happened.cfg:207
+msgid "Yes, very much alive. Come, cheer up and let us go defeat these nasty goblins who have the nerve to invade our home."
+msgstr ""
+
+#. [reply]
+#: ./scenarios/01-what-happened.cfg:208
+msgid "The goblins are all gone. They're not going to kill you now. Come on, come out of hiding."
+msgstr ""
+
+#. [reply]
+#: ./scenarios/01-what-happened.cfg:209
+msgid "The goblins are gone for now. They're not going to kill you. Come on, come out of hiding."
+msgstr ""
+
+#. [value]
+#: ./scenarios/01-what-happened.cfg:213
+msgid "Come on, goblins! You won't take me without a fight! I'll take you with... huh? Oh, uh... my lady! ..."
+msgstr ""
+
+#. [reply]
+#: ./scenarios/01-what-happened.cfg:215
+msgid "Nice spirit, child! Let us go take them on together!"
+msgstr ""
+
+#. [reply]
+#: ./scenarios/01-what-happened.cfg:216
+msgid "You have spirit, child, but fortunately the goblins are all gone now."
+msgstr ""
+
+#. [reply]
+#: ./scenarios/01-what-happened.cfg:217
+msgid "You have spirit, child, which will be sorely needed in the coming battle. We have defeated the first wave, but more are on the way."
+msgstr ""
+
+#. [message]: speaker=gruk
+#: ./scenarios/01-what-happened.cfg:258
+msgid "You cannot defeat me!"
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/01-what-happened.cfg:262
+msgid "What have you done to the guards?"
+msgstr ""
+
+#. [message]: speaker=gruk
+#: ./scenarios/01-what-happened.cfg:266
+msgid "They put up a fight, but I am certain my knights have just about finished them off by now!"
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/01-what-happened.cfg:270
+msgid "I'll not let you get away with this!"
+msgstr ""
+
+#. [message]: speaker=tw_1st
+#: ./scenarios/01-what-happened.cfg:303
+msgid "My lady, thank goodness you're safe! Most of the initiates managed to hide in the woods while they were sacking the citadel. Some are a little injured and all are scared, but they're safe."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/01-what-happened.cfg:307
+msgid "Well, that is good news at least."
+msgstr ""
+
+#. [objective]: condition=win
+#: ./scenarios/01-what-happened.cfg:315
+msgid "Defeat Gruk and his minions."
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/01-what-happened.cfg:327
+msgid "You may have killed me, but my masters will hunt you down!"
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/01-what-happened.cfg:337
+msgid "I should investigate what happened to the guards..."
+msgstr ""
+
+#. [objective]: condition=win
+#: ./scenarios/01-what-happened.cfg:343
+msgid "Find out what happened to the guards (move leader to guardhouse)"
+msgstr ""
+
+#. [unit]: type=Elvish Archer, type=Elvish Ranger, id=chiefguard
+#: ./scenarios/01-what-happened.cfg:367
+msgid "Erendor"
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/01-what-happened.cfg:379
+msgid "My lady! We have routed the goblin invaders, but only with heavy losses."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/01-what-happened.cfg:383
+msgid "Then has the danger passed already?"
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/01-what-happened.cfg:387
+msgid "I am unsure. I have sent a scout to investigate across the river."
+msgstr ""
+
+#. [message]: speaker=braveguard
+#: ./scenarios/01-what-happened.cfg:402
+msgid "Sir, I have finished my sweep. There's not a single goblin left in the dwellings."
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/01-what-happened.cfg:406
+msgid "Very good, now we just have to wait for the scout's report."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./scenarios/01-what-happened.cfg:425
+msgid "Note: You can now recruit Fighters and Archers, but only in limited numbers."
+msgstr ""
+
+#. [objective]: condition=win
+#: ./scenarios/01-what-happened.cfg:431
+msgid "Wait for the scout to return"
+msgstr ""
+
+#. [message]: speaker=advancescout
+#: ./scenarios/01-what-happened.cfg:474
+msgid "Sir, my lady, there is a goblin base across the river! They appear to be mustering for an attack! I barely escaped with my life!"
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/01-what-happened.cfg:485
+msgid "Oh no! The last batch nearly finished our forces! What shall we do?"
+msgstr ""
+
+#. [message]: speaker=tw_1st
+#: ./scenarios/01-what-happened.cfg:489
+msgid "My lady, the initiates will fight. Some of them have even learned offensive spells."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/01-what-happened.cfg:493
+msgid "They've been learning what? ... Never mind, in times like this we need everything we can get."
+msgstr ""
+
+#. [objective]: condition=win
+#: ./scenarios/01-what-happened.cfg:501 ./scenarios/03-orc-port.cfg:228 ./scenarios/05-along-the-coast.cfg:328
+msgid "Defeat enemy leader"
+msgstr ""
+
+#. [objective]: condition=lose
+#: ./scenarios/01-what-happened.cfg:505 ./scenarios/02-dank-tunnels.cfg:326 ./scenarios/03-orc-port.cfg:241 ./scenarios/03-orc-port.cfg:621 ./scenarios/04-watery-tunnels.cfg:240 ./scenarios/06-dread-marsh.cfg:445 ./scenarios/07-chasm-descent.cfg:266 ./scenarios/08-return-home.cfg:208 ./scenarios/09-back-home.cfg:190
+msgid "Death of Erendor"
+msgstr ""
+
+#. [message]: role=scoutcommenter
+#: ./scenarios/01-what-happened.cfg:526
+msgid "My lady, there is a ladder descending this shaft. Perhaps they came from down there."
+msgstr ""
+
+#. [message]: id=chiefdruid
+#: ./scenarios/01-what-happened.cfg:530
+msgid "I think we'd better go after them, then. The leader of the initial raiding party implied he had multiple masters, so I suspect this may not be the last of them."
+msgstr ""
+
+#. [side]: type=Mother Rat
+#: ./scenarios/02-dank-tunnels.cfg:42 ./scenarios/02-dank-tunnels.cfg:84
+msgid "Rats"
+msgstr ""
+
+#. [side]
+#. [side]: type=Giant Mudcrawler
+#. [side]: type=Mother Rat
+#: ./scenarios/02-dank-tunnels.cfg:43 ./scenarios/02-dank-tunnels.cfg:85 ./scenarios/02-dank-tunnels.cfg:117 ./scenarios/02-dank-tunnels.cfg:118 ./scenarios/02-dank-tunnels.cfg:203 ./scenarios/08-return-home.cfg:44 ./scenarios/08-return-home.cfg:46 ./scenarios/08-return-home.cfg:72
+msgid "Monsters"
+msgstr ""
+
+#. [side]: type=Giant Mudcrawler
+#: ./scenarios/02-dank-tunnels.cfg:202
+msgid "Mudcrawlers"
+msgstr ""
+
+#. [part]
+#: ./scenarios/02-dank-tunnels.cfg:275
+msgid "The elvish druids and their protectors descended the shaft into the dank tunnels beneath. For some time they travelled through the caves..."
+msgstr ""
+
+#. [objective]: condition=win
+#: ./scenarios/02-dank-tunnels.cfg:313
+msgid "Move Eärendil into the light at the far end of the tunnels"
+msgstr ""
+
+#. [objective]: condition=win
+#: ./scenarios/02-dank-tunnels.cfg:318
+msgid "Defeat all enemy leaders"
+msgstr ""
+
+#. [note]
+#: ./scenarios/02-dank-tunnels.cfg:330
+msgid "You can flag most nests for income."
+msgstr ""
+
+#. [note]
+#: ./scenarios/02-dank-tunnels.cfg:333
+msgid "Areas where you can recruit are marked off with stones; stand on the nest to recruit."
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/02-dank-tunnels.cfg:365
+msgid "These tunnels are dark and dreary."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/02-dank-tunnels.cfg:369
+msgid "Indeed they are."
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/02-dank-tunnels.cfg:382
+msgid "There's a narrow passageway here!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/02-dank-tunnels.cfg:404
+msgid "There is much of value in this chest! Gold, jewels, and some potions... that looks like a healing potion! Also... there's another narrow passage behind it."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./scenarios/02-dank-tunnels.cfg:413
+msgid "Note: To use a potion, right-click anywhere and select the appropriate option. However, you can only use it once."
+msgstr ""
+
+#. [event]
+#: ./scenarios/02-dank-tunnels.cfg:416
+msgid " doses left"
+msgstr ""
+
+#. [set_menu_item]: id=use_healing_potion
+#: ./scenarios/02-dank-tunnels.cfg:423 ./scenarios/02-dank-tunnels.cfg:457
+msgid "Use healing potion"
+msgstr ""
+
+#. [set_menu_item]: id=use_haste_potion
+#: ./scenarios/02-dank-tunnels.cfg:467 ./scenarios/02-dank-tunnels.cfg:546
+msgid "Use haste potion"
+msgstr ""
+
+#. [unstore_unit]
+#: ./scenarios/02-dank-tunnels.cfg:530
+msgid "hasted!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/02-dank-tunnels.cfg:572
+msgid "This cave is open to the air! What a refreshing change from those dark tunnels..."
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/02-dank-tunnels.cfg:585
+msgid "There's a crude shelter here! And there's someone inside!"
+msgstr ""
+
+#. [message]: speaker=healthy_dwarf_brother
+#: ./scenarios/02-dank-tunnels.cfg:614
+msgid "I'll thank ye not to criticize my shelter-buildin' skills."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/02-dank-tunnels.cfg:618
+msgid "What are you doing back there?"
+msgstr ""
+
+#. [message]: speaker=healthy_dwarf_brother
+#: ./scenarios/02-dank-tunnels.cfg:622
+msgid "Me an' me brother were travellin' home after visitin' relatives, but we were swarmed by the rats and he was heavily wounded by a lucky hit."
+msgstr ""
+
+#. [message]: speaker=wounded_dwarf_brother
+#: ./scenarios/02-dank-tunnels.cfg:626
+msgid "Yeah, yeah, spread me disgrace to all and sundry..."
+msgstr ""
+
+#. [message]: speaker=healthy_dwarf_brother
+#: ./scenarios/02-dank-tunnels.cfg:630
+msgid "Anyway, I snuck back here and built the fire to keep them away, since they're afeared of fire."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/02-dank-tunnels.cfg:634
+msgid "We're tracking a band of goblins that raided our citadel. Would you like to accompany us?"
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/02-dank-tunnels.cfg:638
+msgid "I believe there are likely to be orcs behind this."
+msgstr ""
+
+#. [message]: speaker=wounded_dwarf_brother
+#: ./scenarios/02-dank-tunnels.cfg:642
+msgid "Goblins? Orcs? I say let me at 'em!"
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/02-dank-tunnels.cfg:658
+msgid "I see light! We're almost out!"
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/02-dank-tunnels.cfg:662
+msgid "At last, we're out of these tunnels. Let us hope we don't need to enter any more caves."
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/02-dank-tunnels.cfg:693
+msgid "Looks like that's the last of these vermin. Let's hurry out of these caves."
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/02-dank-tunnels.cfg:707
+msgid "A rat was hiding here!"
+msgstr ""
+
+#. [side]: id=pakhai, type=Orcish Warrior, type=Orcish Warlord
+#: ./scenarios/03-orc-port.cfg:39 ./scenarios/03-orc-port.cfg:48
+msgid "Vrughnar"
+msgstr ""
+
+#. [modify_side]
+#. [side]
+#. [side]: id=pakhai, type=Orcish Warrior, type=Orcish Warlord
+#: ./scenarios/03-orc-port.cfg:40 ./scenarios/06-dread-marsh.cfg:525 ./scenarios/08-return-home.cfg:506
+msgid "Orcs"
+msgstr ""
+
+#. [part]
+#: ./scenarios/03-orc-port.cfg:167
+msgid "Finally out of the caves, the elves find themselves in the hills near the coast."
+msgstr ""
+
+#. [objective]: condition=win
+#: ./scenarios/03-orc-port.cfg:233 ./scenarios/03-orc-port.cfg:613
+msgid "Find Ariandela and convince her to help you"
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/03-orc-port.cfg:251
+msgid "I don't know this part of the coast well, but I've heard tell of a powerful sorceress living just north of here. Her name was... Ariandela, I believe."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/03-orc-port.cfg:255
+msgid "Really? Perhaps she'll help us."
+msgstr ""
+
+#. [unit]: type=Elvish Sorceress, id=hermitsorceress
+#: ./scenarios/03-orc-port.cfg:271
+msgid "Ariandela"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/03-orc-port.cfg:290
+msgid "There's someone here!"
+msgstr ""
+
+#. [message]: speaker=hermitsorceress
+#: ./scenarios/03-orc-port.cfg:294
+msgid "Hello. What brings you here?"
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/03-orc-port.cfg:298
+msgid "You must be Ariandela? We have an orc problem."
+msgstr ""
+
+#. [message]: speaker=hermitsorceress
+#: ./scenarios/03-orc-port.cfg:302
+msgid "Should I do something about that? The orcs don't bother me here."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/03-orc-port.cfg:306
+msgid "They have sent goblins to the druid citadel. We fear they may be planning a larger attack."
+msgstr ""
+
+#. [message]: speaker=hermitsorceress
+#: ./scenarios/03-orc-port.cfg:310
+msgid "And this affects me how?"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/03-orc-port.cfg:340
+msgid "Hello again, Ariandela."
+msgstr ""
+
+#. [message]: speaker=hermitsorceress
+#: ./scenarios/03-orc-port.cfg:344
+msgid "Still trying to convince me to join you?"
+msgstr ""
+
+#. [unit]: id=loyalmermaid, type=Mermaid Initiate
+#: ./scenarios/03-orc-port.cfg:362
+msgid "Aphrophila"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/03-orc-port.cfg:373
+msgid "Is there someone here?"
+msgstr ""
+
+#. [message]: speaker=loyalmermaid
+#: ./scenarios/03-orc-port.cfg:377
+msgid "Oh, thank goodness you're here! The orcs have been raiding our homes recently; most of us left, but a few wanted to hang on and hope for a chance to defeat them."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/03-orc-port.cfg:381
+msgid "Well, that's what we're here for. We'll help you out."
+msgstr ""
+
+#. [message]: speaker=loyalmermaid
+#: ./scenarios/03-orc-port.cfg:385
+msgid "Thank you! I'm sure the others will be grateful too."
+msgstr ""
+
+#. [message]
+#: ./scenarios/03-orc-port.cfg:395
+msgid "Note: You can now recruit limited numbers of Mermaid Initiates and Mermaid Hunters."
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/03-orc-port.cfg:420
+msgid "One of these cabins is inhabited!"
+msgstr ""
+
+#. [message]: speaker=agedcaptain
+#: ./scenarios/03-orc-port.cfg:424
+msgid "Hello. It's been awhile since I saw an elven face."
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/03-orc-port.cfg:428
+msgid "We're planning an assault on the orc base just up the coast. Want to join us?"
+msgstr ""
+
+#. [message]: speaker=agedcaptain
+#: ./scenarios/03-orc-port.cfg:432
+msgid "Sure, though I'm not as agile as I used to be."
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/03-orc-port.cfg:445
+msgid "There's an odd ring in this abandoned shack... it glows softly in the darkness!"
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/03-orc-port.cfg:449
+msgid "Perhaps it may come in handy later. Keep it safe for now."
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/03-orc-port.cfg:453
+msgid "Yes, my lady."
+msgstr ""
+
+#. [message]: speaker=cowardlyorcarcher
+#: ./scenarios/03-orc-port.cfg:487
+msgid "Aaaagh! Don't kill me!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/03-orc-port.cfg:491
+msgid "Uh... okay. Why not?"
+msgstr ""
+
+#. [message]: speaker=cowardlyorcarcher
+#: ./scenarios/03-orc-port.cfg:495
+msgid "I don't wanna die!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/03-orc-port.cfg:499
+msgid "Okay fine, I won't kill you."
+msgstr ""
+
+#. [message]: speaker=cowardlyorcarcher
+#: ./scenarios/03-orc-port.cfg:503
+msgid "Phew! Can I come with you? It must be safer than staying here."
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/03-orc-port.cfg:515
+msgid "Uh... let me ask our leader."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/03-orc-port.cfg:521
+msgid "An orc wishing to help us? That's a new one, but I've no reason to refuse. You can tag along."
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/03-orc-port.cfg:528
+msgid "Well, we've killed the leader, but where are they coming from?"
+msgstr ""
+
+#. [then]
+#: ./scenarios/03-orc-port.cfg:564
+msgid "Sir, there's a cave opening in the mountains here, with indications that a lot of orcs have been coming this way."
+msgstr ""
+
+#. [else]
+#: ./scenarios/03-orc-port.cfg:571
+msgid "My lady, there's a cave opening in the mountains here, with indications that a lot of orcs have been coming this way."
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#. [option]: role=caveresponder
+#: ./scenarios/03-orc-port.cfg:588 ./scenarios/03-orc-port.cfg:677
+msgid "Well, I guess it's back to the caves, then."
+msgstr ""
+
+#. [option]: role=caveresponder
+#: ./scenarios/03-orc-port.cfg:596
+msgid "Wait, maybe we should see if we can find the sorceress Ariandela first."
+msgstr ""
+
+#. [message]: speaker=cowardlyorcarcher
+#: ./scenarios/03-orc-port.cfg:607
+msgid "Wait... you intend to bring along that scary sorceress? She lives up north in the forest beyond the mountains, but be careful! Her clearing is booby-trapped!"
+msgstr ""
+
+#. [note]
+#: ./scenarios/03-orc-port.cfg:625
+msgid "To end the scenario without obtaining Ariandela's help, simply move any unit onto the newly revealed cave entrance. <small>(at 28,10)</small>"
+msgstr ""
+
+#. [message]: speaker={SPEAKER}
+#: ./scenarios/03-orc-port.cfg:639
+msgid "Perhaps we should give up on the search for Ariandela."
+msgstr ""
+
+#. [option]: speaker=chiefdruid
+#: ./scenarios/03-orc-port.cfg:658
+msgid "That's a good idea. Let us proceed into the caves now."
+msgstr ""
+
+#. [option]: speaker=chiefdruid
+#: ./scenarios/03-orc-port.cfg:666
+msgid "No, I think we should continue to look a little longer."
+msgstr ""
+
+#. [message]: speaker=cowardlyarcherhinter
+#: ./scenarios/03-orc-port.cfg:701
+msgid "Aaah! Don't kill me! I tried to stop him but he ran off to the lighthouse!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/03-orc-port.cfg:705
+msgid "Uh... what are you talking about?"
+msgstr ""
+
+#. [message]: speaker=cowardlyarcherhinter
+#: ./scenarios/03-orc-port.cfg:709
+msgid "Huh? You're not my boss? Wait! Wait! You're elves! How did you get here!? Whatever! DIE!!!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/03-orc-port.cfg:841
+msgid "A merfolk village is under siege! It looks like it's about to be overrun!"
+msgstr ""
+
+#. [message]: speaker=last_merman_fighter
+#: ./scenarios/03-orc-port.cfg:845
+msgid "You won't take me without a fight!"
+msgstr ""
+
+#. [message]: speaker=first_mervillage_assaulter
+#: ./scenarios/03-orc-port.cfg:849
+msgid "You don't stand a chance. Where are your friends <i>now</i>?"
+msgstr ""
+
+#. [message]: speaker=last_merman_fighter
+#: ./scenarios/03-orc-port.cfg:859
+msgid "You will never find where the others are hiding!"
+msgstr ""
+
+#. [message]: speaker=second_mervillage_assaulter
+#: ./scenarios/03-orc-port.cfg:863
+msgid "Fool! We will hunt them down in every nook and cranny until we find them!"
+msgstr ""
+
+#. [message]: speaker=$unit.id
+#: ./scenarios/03-orc-port.cfg:868
+msgid "Not so fast! We won't let you take that village so easily!"
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/03-orc-port.cfg:882
+msgid "We can't keep looking forever. Let's just move on to the caves."
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/03-orc-port.cfg:911
+msgid "I have discovered a shipwreck! I will see if I can salvage anything from it..."
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/03-orc-port.cfg:935
+msgid "It looks like an orc ship that sank here on the journey over! There's a sea chart of the area around the isle, and I found a chest of $gold gold!"
+msgstr ""
+
+#. [side]
+#. [side]: id=ghastlord, type=Ghast
+#. [side]: id=nightlord, type=Nightgaunt
+#: ./scenarios/04-watery-tunnels.cfg:37 ./scenarios/06-dread-marsh.cfg:108 ./scenarios/06-dread-marsh.cfg:146 ./utils/sides.cfg:55 ./utils/sides.cfg:82
+msgid "Darkness"
+msgstr ""
+
+#. [side]: id=malcorn, type=Death Knight
+#: ./scenarios/04-watery-tunnels.cfg:79
+msgid "Sir Malcorn"
+msgstr ""
+
+#. [unit]: type=Ghost, id=fleeingspirit
+#: ./scenarios/04-watery-tunnels.cfg:124
+msgid "Halbern"
+msgstr ""
+
+#. [part]
+#: ./scenarios/04-watery-tunnels.cfg:154
+msgid "The elves ventured underground once more, following the orcs' trail."
+msgstr ""
+
+#. [event]
+#: ./scenarios/04-watery-tunnels.cfg:199
+msgid "This looks like an interesting necklace."
+msgstr ""
+
+#. [event]
+#: ./scenarios/04-watery-tunnels.cfg:199
+msgid "Leave it alone"
+msgstr ""
+
+#. [event]
+#: ./scenarios/04-watery-tunnels.cfg:199
+msgid "Put it on!"
+msgstr ""
+
+#. [objective]: condition=win
+#: ./scenarios/04-watery-tunnels.cfg:227
+msgid "Defeat orc leader"
+msgstr ""
+
+#. [objective]: condition=win
+#: ./scenarios/04-watery-tunnels.cfg:232
+msgid "Defeat other enemy leader"
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/04-watery-tunnels.cfg:254
+msgid "Why must orcs always hide in caves?"
+msgstr ""
+
+#. [message]: speaker=loyalmermaid
+#: ./scenarios/04-watery-tunnels.cfg:267
+msgid "There seems to be a river running into the cave. Perhaps we could be of use to you in exploring it."
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/04-watery-tunnels.cfg:279
+msgid "You know, I've heard I have an uncle living in this area, up the western path. Though he may well have moved on by now."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./scenarios/04-watery-tunnels.cfg:294
+msgid "$unit.name is taken by surprise by the whirlpool and is sucked down into a hidden cave!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/04-watery-tunnels.cfg:306
+msgid "Huh, this cave is filled with water... what's that at the bottom?"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/04-watery-tunnels.cfg:338
+msgid "Whoa! A spirit just came out of the wall!"
+msgstr ""
+
+#. [message]: speaker=fleeingspirit
+#: ./scenarios/04-watery-tunnels.cfg:342
+msgid "Please, you must help me! I won't serve Kaden Kreuz no matter what!"
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/04-watery-tunnels.cfg:346
+msgid "Who?"
+msgstr ""
+
+#. [message]: speaker=fleeingspirit
+#: ./scenarios/04-watery-tunnels.cfg:364
+msgid "Ahh, see, they've come to get me! Help!"
+msgstr ""
+
+#. [message]: speaker=gragchak
+#: ./scenarios/04-watery-tunnels.cfg:374
+msgid "No! I can't die at a time like this!"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: ./scenarios/04-watery-tunnels.cfg:384
+msgid "Hah! An orc after my own heart, pleading for his life!"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: ./scenarios/04-watery-tunnels.cfg:390
+msgid "What's this I hear? Is an orc pleading for its life?"
+msgstr ""
+
+#. [message]: speaker=gragchak
+#: ./scenarios/04-watery-tunnels.cfg:396
+msgid "Never! It's Kaden Kreuz I'm thinking of. If I die now, I'll never get the chance to stab him in the back."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/04-watery-tunnels.cfg:400
+msgid "Who is this Kaden Kreuz, and what has he done to you?"
+msgstr ""
+
+#. [message]: speaker=gragchak
+#: ./scenarios/04-watery-tunnels.cfg:404
+msgid "He came to us with promises of land, and gold, and war, but he has been desecrating our dead and even killing some of our warriors in dishonour."
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: ./scenarios/04-watery-tunnels.cfg:414
+msgid "So if he's so dangerous, why haven't you killed him already?"
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: ./scenarios/04-watery-tunnels.cfg:420
+msgid "Er... forgive me, but I thought you orcs were a warlike sort. Why haven't you killed him already?"
+msgstr ""
+
+#. [message]: speaker=gragchak
+#: ./scenarios/04-watery-tunnels.cfg:426
+msgid "Fool! His forces are a hundred times larger than mine, and they would swell for every one of us they killed. Even if we made a dent in them, he'd be sitting there in his fortress laughing his head off at us. It pains me to sit here and wait, but it was the only way we'd have a chance."
+msgstr ""
+
+#. [option]: speaker=chiefguard
+#: ./scenarios/04-watery-tunnels.cfg:431
+msgid "If we let you live, would you help us?"
+msgstr ""
+
+#. [message]: speaker=gragchak
+#: ./scenarios/04-watery-tunnels.cfg:439
+msgid "If you can break down his hordes, I will send my forces in to finish him off. But know this. If you deprive me of the satisfaction of taking his life, we will be enemies forever."
+msgstr ""
+
+#. [option]: speaker=chiefguard
+#: ./scenarios/04-watery-tunnels.cfg:460
+msgid "I think we'd rather take our chances with the undead."
+msgstr ""
+
+#. [message]: speaker=gragchak
+#: ./scenarios/04-watery-tunnels.cfg:464
+msgid "Nooooo!"
+msgstr ""
+
+#. [unit]: id=dwarfhermit, type=Dwarvish Berserker
+#: ./scenarios/04-watery-tunnels.cfg:509
+msgid "Uncle Thrar"
+msgstr ""
+
+#. [message]: speaker=dwarfhermit
+#: ./scenarios/04-watery-tunnels.cfg:522
+msgid "Ahoy! Who goes there? Be it friend or foe?"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/04-watery-tunnels.cfg:526
+msgid "Friend! We mean you no harm; we're hunting orcs."
+msgstr ""
+
+#. [message]: speaker=dwarfhermit
+#: ./scenarios/04-watery-tunnels.cfg:530
+msgid "Orcs, ye say? Why, their castle's just t'other side o' that wall. There's a hidden passage that'll take ye right there."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/04-watery-tunnels.cfg:534
+msgid "Thank you for the information."
+msgstr ""
+
+#. [option]: speaker=chiefdruid
+#: ./scenarios/04-watery-tunnels.cfg:536
+msgid "Can you show us this passage?"
+msgstr ""
+
+#. [message]: speaker=dwarfhermit
+#: ./scenarios/04-watery-tunnels.cfg:540
+msgid "Aye, it's just over here..."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/04-watery-tunnels.cfg:549
+msgid "Thanks, I'm sure that'll help a lot. Would you like to join us?"
+msgstr ""
+
+#. [message]: speaker=dwarfhermit
+#: ./scenarios/04-watery-tunnels.cfg:553
+msgid "Aye, I might as well. It's been tae long since I cracked orc noggin."
+msgstr ""
+
+#. [option]: speaker=chiefdruid
+#: ./scenarios/04-watery-tunnels.cfg:558
+msgid "Would you like to join us?"
+msgstr ""
+
+#. [message]: speaker=dwarfhermit
+#: ./scenarios/04-watery-tunnels.cfg:562
+msgid "Aye, I might as well. It's been tae long since I cracked orc noggin. And let me know when ye'd like me to show you the passage."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./scenarios/04-watery-tunnels.cfg:567
+msgid "Note: To open the passage, move the berserker onto this village."
+msgstr ""
+
+#. [message]: speaker=dwarfhermit
+#: ./scenarios/04-watery-tunnels.cfg:579
+msgid "See? Here's yer hidden passage."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/04-watery-tunnels.cfg:588
+msgid "Thanks, I'm sure that'll help a lot."
+msgstr ""
+
+#. [side]: id=glamethkor, type=Dwarvish Pathfinder
+#: ./scenarios/05-along-the-coast.cfg:45 ./scenarios/05-along-the-coast.cfg:51
+msgid "Glamethkor"
+msgstr ""
+
+#. [side]: id=glamethkor, type=Dwarvish Pathfinder
+#: ./scenarios/05-along-the-coast.cfg:47
+msgid "Misfits"
+msgstr ""
+
+#. [unit]: id=kalg, type=Troll Shaman
+#: ./scenarios/05-along-the-coast.cfg:59
+msgid "Kalg"
+msgstr ""
+
+#. [side]
+#: ./scenarios/05-along-the-coast.cfg:133 ./scenarios/05-along-the-coast.cfg:135
+msgid "Undead"
+msgstr ""
+
+#. [then]
+#: ./scenarios/05-along-the-coast.cfg:187
+msgid "After slaying the orc sovereign, the elves continued north along the coast until the drew near the fabled Dread Marsh..."
+msgstr ""
+
+#. [else]
+#: ./scenarios/05-along-the-coast.cfg:190
+msgid "After a brief strategy meeting with Graktar, the orc sovereign, he set out to muster more forces while they continued north along the coast until the drew near the fabled Dread Marsh..."
+msgstr ""
+
+#. [objective]: condition=win
+#: ./scenarios/05-along-the-coast.cfg:322
+msgid "Survive for 30 turns"
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/05-along-the-coast.cfg:358
+msgid "There is a small elf settlement just south of here. I will see whether I can muster any more aid for our cause there."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/05-along-the-coast.cfg:362
+msgid "Very well, but hurry back. I think the undead are coming out of the swamp."
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/05-along-the-coast.cfg:366
+msgid "As long as you can hold them off until I return, you should be fine."
+msgstr ""
+
+#. [message]: race=dwarf
+#: ./scenarios/05-along-the-coast.cfg:385
+msgid "I used to come up here sometimes in my youth; the place is riddled with narrow tunnels. Most of you are probably too big to navigate them well, but dwarves, goblins, and bats should have no problem."
+msgstr ""
+
+#. [message]: id=glamethkor
+#: ./scenarios/05-along-the-coast.cfg:389
+msgid "Well, what have we here? A band of elves coming up the coast! I hope they have lots of gold!"
+msgstr ""
+
+#. [message]: id=kalg
+#: ./scenarios/05-along-the-coast.cfg:393
+msgid "Master, undead come out of swamp."
+msgstr ""
+
+#. [message]: id=glamethkor
+#: ./scenarios/05-along-the-coast.cfg:397
+msgid "Bah, undead never have any loot. Ignore them and focus on the elves!"
+msgstr ""
+
+#. [message]: id=loyalmermaid
+#: ./scenarios/05-along-the-coast.cfg:405
+msgid "Foolish outlaws! Do they not see that the undead are a travesty to be destroyed without question?"
+msgstr ""
+
+#. [message]: id=glamethkor
+#: ./scenarios/05-along-the-coast.cfg:450
+msgid "Argh! These pesky undead running are getting irksome! Make them stop!"
+msgstr ""
+
+#. [message]: id=kalg
+#: ./scenarios/05-along-the-coast.cfg:454
+msgid "Yes, Master!"
+msgstr ""
+
+#. [message]: role=outlawpleader
+#: ./scenarios/05-along-the-coast.cfg:607
+msgid "Hey! If we show you the awesome magic orb in the vault, will you let us live?"
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/05-along-the-coast.cfg:611
+msgid "What does it do?"
+msgstr ""
+
+#. [message]: role=outlawpleader
+#: ./scenarios/05-along-the-coast.cfg:615
+msgid "I dunno! It's bright and powerful."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/05-along-the-coast.cfg:619
+msgid "Very well, if you wish."
+msgstr ""
+
+#. [message]: role=outlawpleader
+#: ./scenarios/05-along-the-coast.cfg:632
+msgid "See? I think you use it like this..."
+msgstr ""
+
+#. [message]: id=chiefdruid
+#: ./scenarios/05-along-the-coast.cfg:636
+msgid "Uh, hold on a second..."
+msgstr ""
+
+#. [message]: role=outlawpleader
+#: ./scenarios/05-along-the-coast.cfg:681
+msgid "Uh... okay, that's not what I expected it to do. And it looks like it's broken. Sorry? Don't kill me?"
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/05-along-the-coast.cfg:685
+msgid "Don't worry; it seems to have destroyed all of the undead in the swamp outskirts, so we'll forgive you."
+msgstr ""
+
+#. [message]: role=outlawpleader
+#: ./scenarios/05-along-the-coast.cfg:689
+msgid "Thanks, elf lady! We won't bother you again!"
+msgstr ""
+
+#. [unit]: id=agedlord, type=Elvish Lord
+#: ./scenarios/05-along-the-coast.cfg:706
+msgid "Galdar"
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/05-along-the-coast.cfg:725
+msgid "I see you've held out nicely! We'll be able to mop up the rest of the undead quickly now, and then we can head into the swamp."
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/05-along-the-coast.cfg:731
+msgid "Wow, you've done quite well in my absence. I see not a single undead in the swamp. No matter, the reinforcements I brought will still be handy when we venture into the swamp."
+msgstr ""
+
+#. [message]: speaker=agedcaptain
+#: ./scenarios/05-along-the-coast.cfg:748
+msgid "Well met, Lord Galdar! It's been awhile!"
+msgstr ""
+
+#. [message]: speaker=agedlord
+#: ./scenarios/05-along-the-coast.cfg:752
+msgid "Is... is that $agedcaptain.name, my old friend? Well met indeed! It's been so long since we saw each other."
+msgstr ""
+
+#. [message]: speaker=agedcaptain
+#: ./scenarios/05-along-the-coast.cfg:756
+msgid "Aye, and you a lord now. Who would have thought?"
+msgstr ""
+
+#. [message]: speaker=agedlord
+#: ./scenarios/05-along-the-coast.cfg:760
+msgid "I know what you mean. But let's leave the catching up for later. We have undead to hunt."
+msgstr ""
+
+#. [message]: speaker=agedlord
+#: ./scenarios/05-along-the-coast.cfg:767
+msgid "Lady Eärendil, I place many of my citizens under your command for this venture. They are not extensively trained in combat, but they can wield a sword and bow, which should be enough."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/05-along-the-coast.cfg:771
+msgid "Thank you, Lord Galdar. I will treat them as I would treat my own initiates."
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/05-along-the-coast.cfg:812
+msgid "This village shows signs of recent occupation, but I haven't seen anyone yet..."
+msgstr ""
+
+#. [message]: speaker=firedrake
+#: ./scenarios/05-along-the-coast.cfg:840
+msgid "Ahoy, stranger! What brings you here?"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/05-along-the-coast.cfg:844
+msgid "We're battling undead over in the swamp."
+msgstr ""
+
+#. [message]: speaker=skydrake
+#: ./scenarios/05-along-the-coast.cfg:848
+msgid "Undead, eh? We've been meaning to do something about those. Every so often they get this far out and make a nuisance of themselves."
+msgstr ""
+
+#. [message]: speaker=firedrake
+#: ./scenarios/05-along-the-coast.cfg:852
+msgid "We'll come with you. You've found yourself an ally."
+msgstr ""
+
+#. [unit]: type=Death Knight, id=mendal
+#: ./scenarios/06-dread-marsh.cfg:78
+msgid "Sir Mendal"
+msgstr ""
+
+#. [side]
+#: ./scenarios/06-dread-marsh.cfg:95
+msgid "Neutral"
+msgstr ""
+
+#. [side]: id=ghastlord, type=Ghast
+#: ./scenarios/06-dread-marsh.cfg:107 ./scenarios/06-dread-marsh.cfg:113
+msgid "Krrrgra"
+msgstr ""
+
+#. [side]: id=nightlord, type=Nightgaunt
+#: ./scenarios/06-dread-marsh.cfg:145 ./scenarios/06-dread-marsh.cfg:151
+msgid "Terror of the Knight"
+msgstr ""
+
+#. [side]: id=malcornsub, type=Deathblade
+#: ./scenarios/06-dread-marsh.cfg:194
+msgid "Malcorn's Squire"
+msgstr ""
+
+#. [then]
+#: ./scenarios/06-dread-marsh.cfg:289
+msgid "As the elves ventured deeper into the marsh, a secret emissary arrived in the night from Graktar, explaining that he had set up camp in the marsh and expected more reinforcements within a day; he planned to attack when they arrived. Unfortunately for the elves, the undead didn't seem willing to wait..."
+msgstr ""
+
+#. [else]
+#: ./scenarios/06-dread-marsh.cfg:292
+msgid "The elves ventured deeper and deeper into the marsh, getting into several skirmishes with undead or orcs, until finally they arrived at a gaping hole in the ground..."
+msgstr ""
+
+#. [objective]: condition=win
+#: ./scenarios/06-dread-marsh.cfg:432 ./scenarios/07-chasm-descent.cfg:247
+msgid "Defeat Kaden Kreuz"
+msgstr ""
+
+#. [objective]: condition=win
+#: ./scenarios/06-dread-marsh.cfg:437
+msgid "Defeat other enemy leaders first"
+msgstr ""
+
+#. [objective]: condition=lose
+#: ./scenarios/06-dread-marsh.cfg:449 ./scenarios/07-chasm-descent.cfg:270 ./scenarios/08-return-home.cfg:212 ./scenarios/09-back-home.cfg:194
+msgid "Death of Galdar"
+msgstr ""
+
+#. [objective]: condition=lose
+#: ./scenarios/06-dread-marsh.cfg:459
+msgid "Death of Graktar"
+msgstr ""
+
+#. [message]: speaker=malinkalar
+#: ./scenarios/06-dread-marsh.cfg:470
+msgid "So, the foolish elves think they can defeat me. Me, who controls the orcish horde and the very dead themselves! Let us see what they are truly capable of."
+msgstr ""
+
+#. [unit]: type=Orcish Leader, id=sonofgragchak
+#: ./scenarios/06-dread-marsh.cfg:486
+msgid "Gashak"
+msgstr ""
+
+#. [message]: speaker=sonofgragchak
+#: ./scenarios/06-dread-marsh.cfg:502
+msgid "Ah, so the filthy elves finally make an appearance! I'll make you pay for killing my father!"
+msgstr ""
+
+#. [message]: id=loyalmermaid
+#: ./scenarios/06-dread-marsh.cfg:515
+msgid "Hmph. Let us hurry and cleanse the swamp of his taint."
+msgstr ""
+
+#. [message]: speaker=gragchak
+#: ./scenarios/06-dread-marsh.cfg:563
+msgid "Hear me, Kaden Kreuz! I've had enough of your scheming and betrayal! You will die by my hand!"
+msgstr ""
+
+#. [message]: speaker=sonofgragchak
+#: ./scenarios/06-dread-marsh.cfg:567
+msgid "And you, foul Kaden Kreuz! Don't think you're exempt from my vengeance!"
+msgstr ""
+
+#. [message]: speaker=malinkalar
+#: ./scenarios/06-dread-marsh.cfg:571
+msgid "Ahahahaha. Fool! You cannot kill such as I!"
+msgstr ""
+
+#. [message]: speaker=gragchak
+#: ./scenarios/06-dread-marsh.cfg:619
+msgid "I warned you, but you did not listen. You will pay for your arrogance."
+msgstr ""
+
+#. [message]: speaker=sonofgragchak
+#: ./scenarios/06-dread-marsh.cfg:623
+msgid "Arrogant elves! I'll let you go for now, but we'll meet again soon!"
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/06-dread-marsh.cfg:631 ./scenarios/06-dread-marsh.cfg:661
+msgid "Wait! The body stirs!"
+msgstr ""
+
+#. [message]: speaker=gragchak
+#: ./scenarios/06-dread-marsh.cfg:641
+msgid "At last! My people are free of the evil of Kaden Kreuz! Rejoice!"
+msgstr ""
+
+#. [message]: speaker=sonofgragchak
+#: ./scenarios/06-dread-marsh.cfg:645
+msgid "Kaden Kreuz is dead at last! Now we just need to mop up these elves..."
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/06-dread-marsh.cfg:649
+msgid "Don't celebrate too early... I thought I saw the corpse move."
+msgstr ""
+
+#. [message]: speaker=second_unit
+#: ./scenarios/06-dread-marsh.cfg:657
+msgid "I killed him!"
+msgstr ""
+
+#. [message]: speaker=malinkalar
+#: ./scenarios/06-dread-marsh.cfg:671
+msgid "Hahahahahaha! You've made me more powerful than ever before!"
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/06-dread-marsh.cfg:682
+msgid "Well... that's not good. I guess our chase is not yet over."
+msgstr ""
+
+#. [message]: speaker=agedlord
+#: ./scenarios/06-dread-marsh.cfg:686
+msgid "I fear you are right."
+msgstr ""
+
+#. [message]: role=rouser
+#: ./scenarios/06-dread-marsh.cfg:721
+msgid "Our leader has fallen! Let us punish those who let him die! Death to the elves!"
+msgstr ""
+
+#. [scenario]: id=dread-marsh
+#: ./scenarios/06-dread-marsh.cfg:727
+msgid "Noooo! Now my father will never be avenged!"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./scenarios/06-dread-marsh.cfg:737
+msgid "As the ghast lord falls, Kaden Kreuz lets out a gasp of pain. It seems that maintaining such a powerful creation has taken a toll on him."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: ./scenarios/06-dread-marsh.cfg:750
+msgid "As the nightgaunt falls, Kaden Kreuz lets out a gasp of pain. It seems that maintaining such a powerful creation has taken a toll on him."
+msgstr ""
+
+#. [message]: id=loyalmermaid
+#: ./scenarios/06-dread-marsh.cfg:774
+msgid "I fear we wouldn't be much help in the chasm, so my friends and I will now take our leave and return home."
+msgstr ""
+
+#. [message]: id=chiefdruid
+#: ./scenarios/06-dread-marsh.cfg:778
+msgid "Very well then. Thank you so much for the aid, and I hope we meet again."
+msgstr ""
+
+#. [message]: id=chiefguard
+#: ./scenarios/06-dread-marsh.cfg:782
+msgid "You have proven invaluable on this foray. I too hope we meet again."
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/06-dread-marsh.cfg:819
+msgid "There's a tunnel at the base of this tree! Shall I follow it to see where it leads?"
+msgstr ""
+
+#. [option]: speaker=chiefdruid
+#: ./scenarios/06-dread-marsh.cfg:824
+msgid "Go for it! Perhaps it'll get us closer to the enemy."
+msgstr ""
+
+#. [option]: speaker=chiefdruid
+#: ./scenarios/06-dread-marsh.cfg:835
+msgid "I think we'd better focus on fighting right now, rather than exploring."
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/06-dread-marsh.cfg:852
+msgid "Should I explore this tunnel now?"
+msgstr ""
+
+#. [option]: speaker=chiefdruid
+#: ./scenarios/06-dread-marsh.cfg:857
+msgid "Sure, let's see where it goes."
+msgstr ""
+
+#. [option]: speaker=chiefdruid
+#: ./scenarios/06-dread-marsh.cfg:868
+msgid "We're in the middle of battle here; we don't have time for that!"
+msgstr ""
+
+#. [side]: id=malcornsub2, type=Draug
+#: ./scenarios/07-chasm-descent.cfg:113
+msgid "Malcorn's Sergeant"
+msgstr ""
+
+#. [part]
+#: ./scenarios/07-chasm-descent.cfg:144
+msgid "The chasm into which the necromancer's ghost had vanished was a huge scar upon the landscape, as if a giant had reached down and scooped out a gigantic handful of earth and rock. The sides were rough, and the elves slowly descended into the depths."
+msgstr ""
+
+#. [part]
+#: ./scenarios/07-chasm-descent.cfg:149
+msgid "Descent was slow but pretty steady, and as they ventured deeper, the high walls cut off the heat of the sun, casting an unusual chill across the barren landscape."
+msgstr ""
+
+#. [objective]: condition=win
+#: ./scenarios/07-chasm-descent.cfg:258
+msgid "Defeat Sir Malcorn"
+msgstr ""
+
+#. [message]: speaker=agedlord
+#: ./scenarios/07-chasm-descent.cfg:281
+msgid "This deep scar in the land is deathly cold. Even though the sun's light reaches us, its warmth does not."
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/07-chasm-descent.cfg:285
+msgid "Indeed. We should kill this lich and get back into the light as soon as possible."
+msgstr ""
+
+#. [message]: role=cave_scouter
+#: ./scenarios/07-chasm-descent.cfg:295
+msgid "I've scouted out the caves a bit. There are a few undead to the northeast, but I believe the lich is in the south."
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/07-chasm-descent.cfg:306
+msgid "Noooo! All my work, all for nothing!"
+msgstr ""
+
+#. [message]
+#: ./scenarios/07-chasm-descent.cfg:317
+msgid "At last! Our enemy is dead!"
+msgstr ""
+
+#. [message]
+#: ./scenarios/07-chasm-descent.cfg:321
+msgid "Let us make our way home, then."
+msgstr ""
+
+#. [message]
+#: ./scenarios/07-chasm-descent.cfg:325
+msgid "I will accompany you back to your citadel, in case of further dangers on the road."
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/07-chasm-descent.cfg:385
+msgid "Oh my... what is that huge mass of bones coming at us?"
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/07-chasm-descent.cfg:389
+msgid "It looks like it may have been a dragon in life. Now it's just a pawn of this Kaden Kreuz."
+msgstr ""
+
+#. [side]
+#: ./scenarios/08-return-home.cfg:70
+msgid "Ogre"
+msgstr ""
+
+#. [part]
+#: ./scenarios/08-return-home.cfg:116
+msgid "Having dispatched the lich, the elves hurried home by the most direct path possible."
+msgstr ""
+
+#. [objective]: condition=win
+#: ./scenarios/08-return-home.cfg:200
+msgid "Reach the river and cross it"
+msgstr ""
+
+#. [note]
+#: ./scenarios/08-return-home.cfg:217
+msgid "The scenario ends when any of your units reaches the bridge."
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/08-return-home.cfg:357
+msgid "Oh dear, I fear we have angered the mother of these eggs..."
+msgstr ""
+
+#. [message]: type=Ogre
+#: ./scenarios/08-return-home.cfg:382
+msgid "$second_unit.name eat puny $unit.race!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/08-return-home.cfg:386
+msgid "I think that is a bad idea. I'm very stringy."
+msgstr ""
+
+#. [message]: type=Ogre
+#: ./scenarios/08-return-home.cfg:390
+msgid "$second_unit.name not care! $second_unit.name has eaten only bugs for past six days!"
+msgstr ""
+
+#. [message]: type=Ogre
+#: ./scenarios/08-return-home.cfg:415
+msgid "You kill son! For that, you die!"
+msgstr ""
+
+#. [side]: id=outlaw, type=Fugitive
+#: ./scenarios/08-return-home.cfg:472 ./scenarios/08-return-home.cfg:474 ./scenarios/08-return-home.cfg:477
+msgid "Harry Muflin"
+msgstr ""
+
+#. [message]: speaker=outlaw
+#: ./scenarios/08-return-home.cfg:494
+msgid "Oho, what have we here? A band of elves returning home! Let us see how much loot we can get from them!"
+msgstr ""
+
+#. [message]: speaker=sonofgragchak
+#: ./scenarios/08-return-home.cfg:535
+msgid "First you kill my father, then you get in the way of my vengeance! Now it is time for you to die!"
+msgstr ""
+
+#. [message]: speaker=gragchak
+#: ./scenarios/08-return-home.cfg:541
+msgid "You killed Kaden Kreuz, who was mine to kill. In exchange for this insult, I will take your life."
+msgstr ""
+
+#. [part]
+#: ./scenarios/09-back-home.cfg:89
+msgid "Finally back at the druid citadel, the elves camp out for the night in the fortifications built by the goblins. Unfortunately, they would find a surprise in the morning..."
+msgstr ""
+
+#. [objective]: condition=win
+#: ./scenarios/09-back-home.cfg:182
+msgid "Reclaim the citadel (by killing all enemy units)"
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/09-back-home.cfg:209
+msgid "We may have killed the leader, but we still need to mop up the stragglers!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./scenarios/09-back-home.cfg:256
+msgid "Whoa, what a stench! I think the goblins have been dumping their waste here!"
+msgstr ""
+
+#. [side]
+#: ./scenarios/09-back-home.cfg:302 ./scenarios/09-back-home.cfg:318
+msgid "Hajak"
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: ./scenarios/09-back-home.cfg:334
+msgid "At last, we are home!"
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/09-back-home.cfg:338
+msgid "Indeed, but it appears the citadel is once more overrun with goblins."
+msgstr ""
+
+#. [side]: id=malcornsub3, type=Banebow
+#: ./scenarios/09-back-home.cfg:352
+msgid "Malcorn's Scout"
+msgstr ""
+
+#. [message]: speaker=malcorn
+#: ./scenarios/09-back-home.cfg:435
+msgid "You killed Kaden Kreuz, and thought you were finished! But no! I, Sir Malcorn, will continue the work that my master began! I will become immortal, invincible, and invulnerable! And then, I will conquer the world!"
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: ./scenarios/09-back-home.cfg:439
+msgid "...does he seriously believe that will work?"
+msgstr ""
+
+#: ./scenarios/09-back-home.cfg:442
+msgid "Aagh! My glorious plan is foiled!"
+msgstr ""
+
+#. [message]: id=loyalmermaid
+#: ./scenarios/09-back-home.cfg:527
+msgid "We meet again! One of us noticed the Death Knight fleeing the chasm and followed him here, so I came along with additional forces as soon as I could."
+msgstr ""
+
+#. [message]: id=chiefguard
+#: ./scenarios/09-back-home.cfg:531
+msgid "Indeed, your reinforcements will surely be welcome."
+msgstr ""
+
+#. [message]: speaker=loyalmermaid
+#: ./scenarios/09-back-home.cfg:605
+msgid "At least I was able to help you to the end! My fighters will remain for as long as you need them."
+msgstr ""
+
+#. [side]: type=Elvish Druid
+#: ./scenarios/test.cfg:22 ./utils/sides.cfg:6 ./utils/sides.cfg:16
+msgid "Eärendil"
+msgstr ""
+
+#. [unit_type]: id=Elvish Archmage, race=elf, description=
+#: ./units/archmage.cfg:4
+msgid "Elvish Archmage"
+msgstr ""
+
+#. [attack]: type=fire
+#: ./units/archmage.cfg:55 ./units/mage.cfg:53
+msgid "flamestrike"
+msgstr ""
+
+#. [attack]: type=cold
+#: ./units/archmage.cfg:67 ./units/mage.cfg:65
+msgid "ice bolt"
+msgstr ""
+
+#. [unit_type]: id=Elvish Civilian, race=elf
+#: ./units/civilian.cfg:5
+msgid "Elvish Civilian"
+msgstr ""
+
+#. [unit_type]: id=Elvish Civilian, race=elf
+#: ./units/civilian.cfg:21
+msgid "Since elves are not warlike by nature, most of their population is composed by civilians, who learn, at very early age, basic usage of swords and bows, so that they can defend themselves, or their homes, in times of need, forming a fairly skilled militia. However, if you are hurling civilians at your foes, you're clearly out of superior forces."
+msgstr ""
+
+#. [unit_type]: id=Elvish Initiate, race=elf
+#: ./units/initiate.cfg:6
+msgid "Elvish Initiate"
+msgstr ""
+
+#. [unit_type]: id=Elvish Initiate, race=elf
+#: ./units/initiate.cfg:23
+msgid ""
+"Being partly faerie in nature, elves have an inherent capability for magic. This is realized in their affinity with the natural world, which they can call upon as an ally in combat. Enemies wandering in their forests may soon find themselves entangled by roots and hindered by the very ground they stand on.\n"
+"\n"
+"The healing abilities of the elves are also remarkable, and of capital use in battle."
+msgstr ""
+
+#. [unit_type]: id=Elvish Mage, race=elf, description=
+#: ./units/mage.cfg:4
+msgid "Elvish Mage"
+msgstr ""
+
+#. [unit_type]: id=Giant Mosquito, race=monster
+#: ./units/mosquito.cfg:5
+msgid "Giant Mosquito"
+msgstr ""
+
+#. [unit_type]: id=Giant Mosquito, race=monster
+#: ./units/mosquito.cfg:21
+msgid "Little more than an annoyance, mosquitoes hatch out wherever a puddle of water might be found. Even giant mosquitoes are too small to exert a zone of control."
+msgstr ""
+
+#. [attack]: type=pierce
+#: ./units/mosquito.cfg:29
+msgid "sting"
+msgstr ""
+
+#. [unit_type]: id=Elvish Priest, race=elf
+#: ./units/priestess.cfg:4
+msgid "Elvish Priestess"
+msgstr ""
+
+#. [unit_type]: id=Elvish Priest, race=elf
+#: ./units/priestess.cfg:26
+msgid "After years of experience, the most devout of zealots develop vast spiritual powers. By strict devotion to the path of the light, they can call upon its aid to chase away the shadows of the night."
+msgstr ""
+
+#. [unit_type]: id=Mother Rat, race=monster
+#: ./units/rat_mother.cfg:5
+msgid "Mother Rat"
+msgstr ""
+
+#. [attack]: type=cold
+#: ./units/rat_vapour.cfg:52
+msgid "vile breath"
+msgstr ""
+
+#. [unit_type]: id=Vicious Rat, race=monster
+#: ./units/rat_vicious.cfg:4
+msgid "Vicious Rat"
+msgstr ""
+
+#. [attack]: type=impact
+#: ./units/rat_vicious.cfg:38
+msgid "tailwhip"
+msgstr ""
+
+#. [attack]: type=impact
+#: ./units/swampcrawler.cfg:84
+msgid "slime glob"
+msgstr ""
+
+#. [unit_type]: id=Elvish Treewalker, race=elf
+#: ./units/treewalker.cfg:5
+msgid "Elvish Treewalker"
+msgstr ""
+
+#. [unit_type]: id=Elvish Treewalker, race=elf
+#: ./units/treewalker.cfg:21
+msgid "Occasionally, elves become so in tune with the ancient trees of the forest that they can utilize the connection between them to travel much faster than is normally possible."
+msgstr ""
+
+#. [unit_type]: id=Elvish Wisp, race=elf
+#: ./units/wisp.cfg:5
+msgid "Elvish Wisp"
+msgstr ""
+
+#. [unit_type]: id=Elvish Wisp, race=elf
+#: ./units/wisp.cfg:22
+msgid "The rarest of the fae elves and the most mobile, the Wisp moves like a shadow through the forest, flitting past before you realize it had ever been."
+msgstr ""
+
+#. [unit_type]: id=Elvish Zealot, race=elf, description=
+#: ./units/zealot.cfg:5
+msgid "Elvish Zealot"
+msgstr ""
+
+#. [dominate]: id=dominate
+#: ./utils/abilities.cfg:6
+msgid "dominates"
+msgstr ""
+
+#. [dominate]: id=dominate
+#: ./utils/abilities.cfg:7
+msgid ""
+"Some elves have a powerful aura which can be used to dominate and command weak-willed creatures.\n"
+"\n"
+"Any level 0 units next to this unit at the start of the turn will be converted to her side. If they are not still adjacent to her by the start of the next turn, or if they gain a level, they will be released.\n"
+"\n"
+"Note: If unit with the plague weapon special is dominated and makes a kill, the resulting unit is also considered to be dominated and will be released to the side of the killing unit under the conditions stated above."
+msgstr ""
+
+#. [resurrect]: id=resurrect
+#: ./utils/abilities.cfg:19
+msgid "resurrect"
+msgstr ""
+
+#. [resurrect]: id=resurrect
+#: ./utils/abilities.cfg:20
+msgid "female^resurrect"
+msgstr ""
+
+#. [resurrect]: id=resurrect
+#: ./utils/abilities.cfg:21
+msgid ""
+"Resurrect:\n"
+"The ability to bring back the dead is extremely rare. When a unit dies next to this one, they will be returned to the recall list where you may retrieve them in a keep."
+msgstr ""
+
+#. [teleport]: id=treewalk
+#: ./utils/abilities.cfg:31
+msgid "treewalk"
+msgstr ""
+
+#. [teleport]: id=treewalk
+#: ./utils/abilities.cfg:32
+msgid "female^treewalk"
+msgstr ""
+
+#. [teleport]: id=treewalk
+#: ./utils/abilities.cfg:33
+msgid ""
+"Treewalk:\n"
+"This unit may teleport between any two great trees using one of its moves."
+msgstr ""
+
+#. [heals]: id=healing
+#: ./utils/abilities.cfg:72
+msgid "heals +2"
+msgstr ""
+
+#. [heals]: id=healing
+#: ./utils/abilities.cfg:74
+msgid ""
+"Heals +2:\n"
+"Allows the unit to heal adjacent allied units at the beginning of our turn.\n"
+"\n"
+"A unit cared for by this healer may heal up to 2 HP per turn, or stop poison from taking effect for that turn.\n"
+"A poisoned unit cannot be cured of its poison by a healer, and must seek the care of a village or a unit that can cure."
+msgstr ""
+
+#. [illuminates]: id=faebright
+#: ./utils/abilities.cfg:93
+msgid "faerie glow"
+msgstr ""
+
+#. [illuminates]: id=faebright
+#: ./utils/abilities.cfg:94
+msgid "female^faerie glow"
+msgstr ""
+
+#. [illuminates]: id=faebright
+#: ./utils/abilities.cfg:95
+msgid ""
+"Faerie Glow:\n"
+"This unit illuminates the surrounding area, making lawful units fight better, and chaotic units fight worse."
+msgstr ""
+
+#. [regenerate]: id=nearnature
+#: ./utils/abilities.cfg:104 ./utils/abilities.cfg:107
+msgid "near nature"
+msgstr ""
+
+#. [regenerate]: id=nearnature
+#: ./utils/abilities.cfg:105 ./utils/abilities.cfg:108
+msgid ""
+"Near Nature:\n"
+"A few elves are so in touch with nature that they can heal faster than normal when they are near abundant plant life, such as is found in a forest or swamp. They will gain 3 hit points at the start of their turn when standing on forest, swamp, or mushrooms."
+msgstr ""
+
+#. [adjacent_description]
+#. [resistance]
+#: ./utils/abilities.cfg:122 ./utils/abilities.cfg:123 ./utils/abilities.cfg:129 ./utils/abilities.cfg:130
+msgid "holy aura"
+msgstr ""
+
+#. [resistance]
+#: ./utils/abilities.cfg:124 ./utils/abilities.cfg:126
+msgid ""
+"The holy aura around this person reduces the damage done by undead creatures of all kinds. This effect extends to adjacent allies as well.\n"
+"(+10% resist to cold, arcane, pierce, blade when an undead is adjacent)"
+msgstr ""
+
+#. [adjacent_description]
+#: ./utils/abilities.cfg:131 ./utils/abilities.cfg:133
+msgid ""
+"This person is standing within a holy aura which reduces the damage done by undead creatures of all kinds.\n"
+"(+10% resist to cold, arcane, pierce, blade when an undead is adjacent)"
+msgstr ""
+
+#. [option]: speaker=chiefdruid
+#: ./utils/ariandela.cfg:11
+msgid "They're trying to destroy our way of life!"
+msgstr ""
+
+#. [message]: speaker=hermitsorceress
+#: ./utils/ariandela.cfg:15
+msgid "Your way of life, maybe. They leave me well enough alone, which is just how I like it."
+msgstr ""
+
+#. [option]: speaker=chiefdruid
+#: ./utils/ariandela.cfg:24
+msgid "They're going after the mostly defenseless initiates!"
+msgstr ""
+
+#. [message]: speaker=hermitsorceress
+#: ./utils/ariandela.cfg:28
+msgid "So teach them better defense. I don't see what this has to do with me."
+msgstr ""
+
+#. [option]: speaker=chiefdruid
+#: ./utils/ariandela.cfg:37
+msgid "Uh, perhaps you'll come in exchange for a gift of 50 gold?"
+msgstr ""
+
+#. [message]: speaker=hermitsorceress
+#: ./utils/ariandela.cfg:47
+msgid "I have no use for gold. Perhaps if you found something of greater value, like a magical item."
+msgstr ""
+
+#. [option]: speaker=chiefdruid
+#: ./utils/ariandela.cfg:56
+msgid "What can we do to convince you to help us?"
+msgstr ""
+
+#. [message]: speaker=hermitsorceress
+#: ./utils/ariandela.cfg:66
+msgid "If you could offer me something of value, I might consider it."
+msgstr ""
+
+#. [option]: speaker=chiefdruid
+#: ./utils/ariandela.cfg:75
+msgid "We found an interesting ring in the mountains. Would you help us in exchange for that?"
+msgstr ""
+
+#. [message]: speaker=hermitsorceress
+#: ./utils/ariandela.cfg:94
+msgid "I need to see it in order to make my decision."
+msgstr ""
+
+#. [option]: speaker=chiefdruid
+#: ./utils/ariandela.cfg:103
+msgid "Would you help us in exchange for this ring?"
+msgstr ""
+
+#. [message]: speaker=hermitsorceress
+#: ./utils/ariandela.cfg:113
+msgid "Let me see. Ooh, this <i>is</i> an interesting ring. I'm pretty sure it's the Ring of Domination which I have been seeking. Very well then; I'll come with you for awhile."
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./utils/ariandela.cfg:154
+msgid "Let's go then! Into the caves!"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./utils/ariandela.cfg:163
+msgid "Not a moment too soon. Looks like we've drawn some of the orcs out here."
+msgstr ""
+
+#: ./utils/deaths.cfg:31
+msgid "Alas! Now we shall never see our citadel revived!"
+msgstr ""
+
+#: ./utils/deaths.cfg:32
+msgid "Nooo! We have been defeated!"
+msgstr ""
+
+#: ./utils/deaths.cfg:33
+msgid "I just hope some of my citizens survive..."
+msgstr ""
+
+#: ./utils/deaths.cfg:35
+msgid "Grah! I knew I shouldn't have let you convince me to come with you!"
+msgstr ""
+
+#: ./utils/deaths.cfg:36
+msgid "Aagh! I shouldn't have come with you! It was safer back on the coast after all!"
+msgstr ""
+
+#: ./utils/deaths.cfg:37
+msgid "Alas, I will not live to see victory, but fight on and avenge my death!"
+msgstr ""
+
+#: ./utils/deaths.cfg:38
+msgid "Finally, I am free! Farewell, elvish friends!"
+msgstr ""
+
+#: ./utils/deaths.cfg:39
+msgid "I do wish I could have seen my home again..."
+msgstr ""
+
+#. [message]: id=hermitsorceress
+#: ./utils/deaths.cfg:48
+msgid "No-one said anything about dying! Much less about being brought back! Why did I even come with you?"
+msgstr ""
+
+#. [message]: speaker=unit
+#: ./utils/deaths.cfg:60
+msgid "It has been nice to know you all, but now I die an honourable death in battle. Farewell!"
+msgstr ""
+
+#. [animate_unit]
+#: ./utils/domination.cfg:52 ./utils/domination.cfg:93
+msgid "released!"
+msgstr ""
+
+#. [animate_unit]
+#: ./utils/domination.cfg:239
+msgid "dominated!"
+msgstr ""
+
+#. [effect]
+#: ./utils/initiates.cfg:18
+msgid "thorny staff"
+msgstr ""
+
+#. [effect]
+#: ./utils/initiates.cfg:24
+msgid "thorny entangle"
+msgstr ""
+
+#. [effect]
+#: ./utils/initiates.cfg:31
+msgid "thorny ensnare"
+msgstr ""
+
+#. [effect]
+#: ./utils/initiates.cfg:122
+msgid "slimy entangle"
+msgstr ""
+
+#. [effect]
+#: ./utils/initiates.cfg:132
+msgid "slimy ensnare"
+msgstr ""
+
+#. [effect]
+#: ./utils/initiates.cfg:142
+msgid "slimy gossamer"
+msgstr ""
+
+#. [effect]: type=cold
+#: ./utils/initiates.cfg:221
+msgid "iceball"
+msgstr ""
+
+#. [object]
+#: ./utils/items.cfg:6
+msgid "Holy Necklace"
+msgstr ""
+
+#. [object]
+#: ./utils/items.cfg:7
+msgid "This necklace protects you from undead and imbues holy fire into your melee weapons!"
+msgstr ""
+
+#. [object]
+#: ./utils/items.cfg:32
+msgid "Freezing Staff"
+msgstr ""
+
+#. [object]
+#: ./utils/items.cfg:33
+msgid "This staff allows you to smite your enemies with blasts of ice!"
+msgstr ""
+
+#. [effect]: type=cold
+#: ./utils/items.cfg:37
+msgid "freezing staff"
+msgstr ""
+
+#. [effect]: type=cold
+#: ./utils/items.cfg:52
+msgid "freezing storm"
+msgstr ""
+
+#. [event]
+#: ./utils/malcorn.cfg:21
+msgid "Leave the staff for someone else"
+msgstr ""
+
+#. [event]
+#: ./utils/malcorn.cfg:21
+msgid "Take the staff"
+msgstr ""
+
+#. [event]
+#: ./utils/malcorn.cfg:21
+msgid "Only a mage can use this staff!"
+msgstr ""
+
+#. [event]
+#: ./utils/malcorn.cfg:21
+msgid "The staff is ice cold to the touch"
+msgstr ""
+
+#. [effect]: type=pierce
+#: ./utils/malinkalar.cfg:10
+msgid "shadow drain"
+msgstr ""
+
+#. [animate_unit]
+#: ./utils/resurrect.cfg:26
+msgid "resurrected!"
+msgstr ""
+
+#: ./utils/sides.cfg:7
+msgid "Elves"
+msgstr ""
+
+#: ./utils/sides.cfg:35 ./utils/sides.cfg:43
+msgid "Graktar"
+msgstr ""
+
+#: ./utils/sides.cfg:54
+msgid "Malcorn"
+msgstr ""
+
+#: ./utils/sides.cfg:80 ./utils/sides.cfg:86
+msgid "Kaden Kreuz"
+msgstr ""
+
+#: ./utils/special_notes.cfg:4
+msgid " This unit can use one move to teleport between any two great trees visible on the map."
+msgstr ""
+
+#: ./utils/special_notes.cfg:7
+msgid " This unit's faerie glow slightly increases the lighting level in adjacent areas."
+msgstr ""
+
+#: ./utils/special_notes.cfg:10
+msgid " This unit is capable of restoring people to life. When a unit adjacent to this unit is killed in battle, she will resurrect him, returning him to your recall list at the cost of up to 20 experience points from the killed unit."
+msgstr ""
+
+#: ./utils/special_notes.cfg:13
+msgid " This unit's high alertness and quick reaction time allows it to strike first at range, even in defense."
+msgstr ""
+
+#: ./utils/special_notes.cfg:18
+msgid " This unit is capable of taking control of enemy level 0 units as long as they remain closer by."
+msgstr ""
+
+#: ./utils/special_notes.cfg:21
+msgid " This unit is so in tune with nature that they will gain 3 hit points at the beginning of each turn when on heavily vegetated terrain (forest, swamp, or mushrooms)."
+msgstr ""
+
+#: ./utils/special_notes.cfg:24
+msgid " This unit becomes so desperate when injured that they can actually manage to strike more times than usual."
+msgstr ""
+
+#: ./utils/special_notes.cfg:27
+msgid " This unit becomes a little frenzied when attacking, pressing the attack for up to three rounds of combat."
+msgstr ""
+
+#: ./utils/special_notes.cfg:30
+msgid " This unit's attunement attack has a high chance of striking when used in defence."
+msgstr ""
+
+#: ./utils/special_notes.cfg:33
+msgid " Foes who have their souls sucked out will rise again as a spirit, unless they are standing on a village."
+msgstr ""
+
+#: ./utils/special_notes.cfg:36
+msgid " This person's holy aura protects themselves and adjacent allies from any damage dealt by undead."
+msgstr ""
+
+#. [attacks]: id=briars
+#: ./utils/specials.cfg:6 ./utils/specials.cfg:7
+msgid "briars"
+msgstr ""
+
+#. [attacks]: id=briars
+#: ./utils/specials.cfg:8 ./utils/specials.cfg:9
+msgid "When on swamp or forest terrains, this unit gets to attack more times per engagement. The number of strikes increases in inverse proportion to their remaining hitpoints, up to a maximum of four additional attacks."
+msgstr ""
+
+#. [berserk]: id=berserk
+#: ./utils/specials.cfg:60
+msgid "frenzy"
+msgstr ""
+
+#. [berserk]: id=berserk
+#: ./utils/specials.cfg:61
+msgid ""
+"Frenzy:\n"
+"When used offensively, this attack presses the engagement for up to 3 rounds of attacks. Be careful, though - this means their opponent gets three times as many chances to hit them!"
+msgstr ""
+
+#. [chance_to_hit]: id=attunement
+#: ./utils/specials.cfg:71 ./utils/specials.cfg:74
+msgid "attunement"
+msgstr ""
+
+#. [chance_to_hit]: id=attunement
+#: ./utils/specials.cfg:72 ./utils/specials.cfg:75
+msgid ""
+"Attunement:\n"
+"When used defensively, this attack always has at least a 55% chance to hit."
+msgstr ""
+
+#. [plague]: id=soulsucker, type=Ghost
+#: ./utils/specials.cfg:86
+msgid "soul sucking"
+msgstr ""
+
+#. [plague]: id=soulsucker, type=Ghost
+#: ./utils/specials.cfg:87
+msgid ""
+"Soul Sucking:\n"
+"When a unit is killed by a Soul Sucking attack, that unit is replaced with a Ghost on the same side as the unit with the Soul Sucking attack. This doesn’t work on Undead or units in villages."
+msgstr ""
+
+#. [trait]: id=hardy
+#: ./utils/traits.cfg:6
+msgid "hardy"
+msgstr ""
+
+#. [trait]: id=hardy
+#: ./utils/traits.cfg:7
+msgid "female^hardy"
+msgstr ""
+
+#. [trait]: id=hardy
+#: ./utils/traits.cfg:8
+msgid "Increased resistance to damage (+10%)"
+msgstr ""
+
+#. [trait]: id=agile
+#: ./utils/traits.cfg:27
+msgid "agile"
+msgstr ""
+
+#. [trait]: id=agile
+#: ./utils/traits.cfg:28
+msgid "female^agile"
+msgstr ""
+
+#. [trait]: id=agile
+#: ./utils/traits.cfg:29
+msgid ""
+"Gets an extra strike on all ranged attacks.\n"
+""
+msgstr ""
+
+#. [trait]: id=mighty
+#: ./utils/traits.cfg:42
+msgid "mighty"
+msgstr ""
+
+#. [trait]: id=mighty
+#: ./utils/traits.cfg:43
+msgid "female^mighty"
+msgstr ""
+
+#. [trait]: id=mighty
+#: ./utils/traits.cfg:44
+msgid ""
+"+2 damage on all attacks\n"
+""
+msgstr ""
+
+#. [trait]: id=speedy
+#: ./utils/traits.cfg:56
+msgid "speedy"
+msgstr ""
+
+#. [trait]: id=speedy
+#: ./utils/traits.cfg:57
+msgid "female^speedy"
+msgstr ""
+
+#. [trait]: id=speedy
+#: ./utils/traits.cfg:58
+msgid ""
+"\n"
+""
+msgstr ""
+
+#. [trait]: id=tethered
+#: ./utils/traits.cfg:72
+msgid "tethered"
+msgstr ""
+
+#. [trait]: id=tethered
+#: ./utils/traits.cfg:73
+msgid ""
+"\n"
+"This creature is bound in order to keep it under control, but this severely limits its abilities in combat.\n"
+""
+msgstr ""
+
+#. [lua]: wesnoth.theme_items.unit_status
+#: ./utils/unit-status.lua:12
+msgid "dominated: This unit is dominated. It will be under the control of the dominator's side until it either levels up or ends a turn not adjacent to the dominator."
+msgstr ""
+
+#. [lua]: wesnoth.theme_items.unit_status
+#: ./utils/unit-status.lua:18
+msgid "hasted: Hasted units get 8 more movement points than usual. It lasts until the end of the current scenario."
+msgstr ""
+
