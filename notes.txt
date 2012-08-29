@@ -44,12 +44,36 @@ outlaw - the fugitive on the path home
 hajak - the direwolf rider back at the citadel
 malcornsub3 - Malcorn's scout
 
+TODO
+====
+
+Graphics
+--------
+- Zealot (new staff)
+- Initiate
+- Wisp (more animations and/or change to fairy graphics)
+- Mage (new staff)
+- Frog (attack icon)
+
+New stuff
+---------
+- Extra scenario
+- End cutscene
+
 Ideas
 =====
 
 Scenario 4
 ----------
 - Watery Tunnels: Make it more obvious how to get back from the Storm Trident cave (place another whirlpool at the other end of the tunnel?)
+
+Scenario 5a
+-----------
+- New scenario inserted before Along the Coast, where Erendor moves south
+- He fights off some saurians and brings the lord back north
+- Start with no gold, no units except Erendor
+- Galdar is an ally who is switched to your side once you discover him.
+- In this scenario, Galdar can recruit civilians, and there's one or two loyal level 2's
 
 Scenario 7
 ----------
