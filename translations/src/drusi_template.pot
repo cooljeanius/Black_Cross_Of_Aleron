@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2012-08-28 11:31-0400\n"
+"POT-Creation-Date: 2012-08-29 16:41-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,42 +101,47 @@ msgid "Treewalker and wisp sprites adapted from his work"
 msgstr ""
 
 #. [entry]
-#: ./credits.cfg:50
-msgid "'Swamplings'"
-msgstr ""
-
-#. [entry]
 #: ./credits.cfg:51
-msgid "Mosquito sprites taken from the Swamplings campaign."
+msgid "Mosquito attack icon"
 msgstr ""
 
 #. [entry]
 #: ./credits.cfg:54
-msgid "'Invasion from the Unknown' and 'The Settlers of Light'"
+msgid "'Swamplings'"
 msgstr ""
 
 #. [entry]
 #: ./credits.cfg:55
-msgid "Priestess and archmage sprites adapted from Aragwaithi sprites in IftU and TSoL"
+msgid "Mosquito sprites taken from the Swamplings campaign."
 msgstr ""
 
 #. [entry]
 #: ./credits.cfg:58
-msgid "'Dead Water'"
+msgid "'Invasion from the Unknown' and 'The Settlers of Light'"
 msgstr ""
 
 #. [entry]
 #: ./credits.cfg:59
-msgid "The ankh and trident overlays"
+msgid "Priestess and archmage sprites adapted from Aragwaithi sprites in IftU and TSoL"
 msgstr ""
 
 #. [entry]
 #: ./credits.cfg:62
-msgid "Wesnoth (core)"
+msgid "'Dead Water'"
 msgstr ""
 
 #. [entry]
 #: ./credits.cfg:63
+msgid "The ankh and trident overlays"
+msgstr ""
+
+#. [entry]
+#: ./credits.cfg:66
+msgid "Wesnoth (core)"
+msgstr ""
+
+#. [entry]
+#: ./credits.cfg:67
 msgid "The star ellipse and most of the overlays were adapted from images in core."
 msgstr ""
 
@@ -199,217 +204,232 @@ msgid "It's okay, I've already dealt with them!"
 msgstr ""
 
 #. [reply]
-#: ./scenarios/01-what-happened.cfg:185
+#: ./scenarios/01-what-happened.cfg:185 ./scenarios/01-what-happened.cfg:186
 msgid "Worry not, for together we can defeat them."
 msgstr ""
 
 #. [value]
-#: ./scenarios/01-what-happened.cfg:189
+#: ./scenarios/01-what-happened.cfg:190
 msgid "Is it safe now? Are the goblins gone?"
 msgstr ""
 
 #. [reply]
-#: ./scenarios/01-what-happened.cfg:191
+#: ./scenarios/01-what-happened.cfg:192
 msgid "Not yet, but I am doing what I can!"
 msgstr ""
 
 #. [reply]
-#: ./scenarios/01-what-happened.cfg:192
+#: ./scenarios/01-what-happened.cfg:193
 msgid "Yes, child, they are."
 msgstr ""
 
 #. [reply]
-#: ./scenarios/01-what-happened.cfg:193
+#: ./scenarios/01-what-happened.cfg:194
 msgid "For the moment, yes, but there are more coming. We must prepare!"
 msgstr ""
 
+#. [reply]
+#: ./scenarios/01-what-happened.cfg:195 ./scenarios/01-what-happened.cfg:204
+msgid "They were, but more have come. We are doing our best to drive them away."
+msgstr ""
+
 #. [value]
-#: ./scenarios/01-what-happened.cfg:197
+#: ./scenarios/01-what-happened.cfg:199
 msgid "Oh! My lady! You are alive! Does that mean the goblins have gone?"
 msgstr ""
 
 #. [reply]
-#: ./scenarios/01-what-happened.cfg:199
+#: ./scenarios/01-what-happened.cfg:201
 msgid "Sadly not, but I'm doing what I can."
 msgstr ""
 
 #. [reply]
-#: ./scenarios/01-what-happened.cfg:200
+#: ./scenarios/01-what-happened.cfg:202
 msgid "Yes, they are gone. Worry not!"
 msgstr ""
 
 #. [reply]
-#: ./scenarios/01-what-happened.cfg:201
+#: ./scenarios/01-what-happened.cfg:203
 msgid "The initial wave has passed, but more are coming. Be wary!"
 msgstr ""
 
 #. [value]
-#: ./scenarios/01-what-happened.cfg:205
+#: ./scenarios/01-what-happened.cfg:208
 msgid "Eeeeeeek! Don't kill me oh please don't... huh? You're not...? Oh! My lady! You're alive!"
 msgstr ""
 
 #. [reply]
-#: ./scenarios/01-what-happened.cfg:207
+#: ./scenarios/01-what-happened.cfg:210
 msgid "Yes, very much alive. Come, cheer up and let us go defeat these nasty goblins who have the nerve to invade our home."
 msgstr ""
 
 #. [reply]
-#: ./scenarios/01-what-happened.cfg:208
+#: ./scenarios/01-what-happened.cfg:211
 msgid "The goblins are all gone. They're not going to kill you now. Come on, come out of hiding."
 msgstr ""
 
 #. [reply]
-#: ./scenarios/01-what-happened.cfg:209
+#: ./scenarios/01-what-happened.cfg:212
 msgid "The goblins are gone for now. They're not going to kill you. Come on, come out of hiding."
 msgstr ""
 
-#. [value]
+#. [reply]
 #: ./scenarios/01-what-happened.cfg:213
+msgid "I will do my best to make sure they do not kill you. Come on, come out of hiding."
+msgstr ""
+
+#. [value]
+#: ./scenarios/01-what-happened.cfg:217
 msgid "Come on, goblins! You won't take me without a fight! I'll take you with... huh? Oh, uh... my lady! ..."
 msgstr ""
 
 #. [reply]
-#: ./scenarios/01-what-happened.cfg:215
+#: ./scenarios/01-what-happened.cfg:219
 msgid "Nice spirit, child! Let us go take them on together!"
 msgstr ""
 
 #. [reply]
-#: ./scenarios/01-what-happened.cfg:216
+#: ./scenarios/01-what-happened.cfg:220
 msgid "You have spirit, child, but fortunately the goblins are all gone now."
 msgstr ""
 
 #. [reply]
-#: ./scenarios/01-what-happened.cfg:217
+#: ./scenarios/01-what-happened.cfg:221
 msgid "You have spirit, child, which will be sorely needed in the coming battle. We have defeated the first wave, but more are on the way."
 msgstr ""
 
+#. [reply]
+#: ./scenarios/01-what-happened.cfg:222
+msgid "You have spirit, child, which will be sorely needed in this battle. We defeated the first wave, but more have come."
+msgstr ""
+
 #. [message]: speaker=gruk
-#: ./scenarios/01-what-happened.cfg:258
+#: ./scenarios/01-what-happened.cfg:263
 msgid "You cannot defeat me!"
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: ./scenarios/01-what-happened.cfg:262
+#: ./scenarios/01-what-happened.cfg:267
 msgid "What have you done to the guards?"
 msgstr ""
 
 #. [message]: speaker=gruk
-#: ./scenarios/01-what-happened.cfg:266
+#: ./scenarios/01-what-happened.cfg:271
 msgid "They put up a fight, but I am certain my knights have just about finished them off by now!"
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: ./scenarios/01-what-happened.cfg:270
+#: ./scenarios/01-what-happened.cfg:275
 msgid "I'll not let you get away with this!"
 msgstr ""
 
 #. [message]: speaker=tw_1st
-#: ./scenarios/01-what-happened.cfg:303
+#: ./scenarios/01-what-happened.cfg:308
 msgid "My lady, thank goodness you're safe! Most of the initiates managed to hide in the woods while they were sacking the citadel. Some are a little injured and all are scared, but they're safe."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: ./scenarios/01-what-happened.cfg:307
+#: ./scenarios/01-what-happened.cfg:312
 msgid "Well, that is good news at least."
 msgstr ""
 
 #. [objective]: condition=win
-#: ./scenarios/01-what-happened.cfg:315
+#: ./scenarios/01-what-happened.cfg:320
 msgid "Defeat Gruk and his minions."
 msgstr ""
 
 #. [message]: speaker=unit
-#: ./scenarios/01-what-happened.cfg:327
+#: ./scenarios/01-what-happened.cfg:332
 msgid "You may have killed me, but my masters will hunt you down!"
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: ./scenarios/01-what-happened.cfg:337
+#: ./scenarios/01-what-happened.cfg:342
 msgid "I should investigate what happened to the guards..."
 msgstr ""
 
 #. [objective]: condition=win
-#: ./scenarios/01-what-happened.cfg:343
+#: ./scenarios/01-what-happened.cfg:348
 msgid "Find out what happened to the guards (move leader to guardhouse)"
 msgstr ""
 
 #. [unit]: type=Elvish Archer, type=Elvish Ranger, id=chiefguard
-#: ./scenarios/01-what-happened.cfg:367
+#: ./scenarios/01-what-happened.cfg:372
 msgid "Erendor"
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: ./scenarios/01-what-happened.cfg:379
+#: ./scenarios/01-what-happened.cfg:384
 msgid "My lady! We have routed the goblin invaders, but only with heavy losses."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: ./scenarios/01-what-happened.cfg:383
+#: ./scenarios/01-what-happened.cfg:388
 msgid "Then has the danger passed already?"
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: ./scenarios/01-what-happened.cfg:387
+#: ./scenarios/01-what-happened.cfg:392
 msgid "I am unsure. I have sent a scout to investigate across the river."
 msgstr ""
 
 #. [message]: speaker=braveguard
-#: ./scenarios/01-what-happened.cfg:402
+#: ./scenarios/01-what-happened.cfg:407
 msgid "Sir, I have finished my sweep. There's not a single goblin left in the dwellings."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: ./scenarios/01-what-happened.cfg:406
+#: ./scenarios/01-what-happened.cfg:411
 msgid "Very good, now we just have to wait for the scout's report."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: ./scenarios/01-what-happened.cfg:425
+#: ./scenarios/01-what-happened.cfg:430
 msgid "Note: You can now recruit Fighters and Archers, but only in limited numbers."
 msgstr ""
 
 #. [objective]: condition=win
-#: ./scenarios/01-what-happened.cfg:431
+#: ./scenarios/01-what-happened.cfg:436
 msgid "Wait for the scout to return"
 msgstr ""
 
 #. [message]: speaker=advancescout
-#: ./scenarios/01-what-happened.cfg:474
+#: ./scenarios/01-what-happened.cfg:480
 msgid "Sir, my lady, there is a goblin base across the river! They appear to be mustering for an attack! I barely escaped with my life!"
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: ./scenarios/01-what-happened.cfg:485
+#: ./scenarios/01-what-happened.cfg:491
 msgid "Oh no! The last batch nearly finished our forces! What shall we do?"
 msgstr ""
 
 #. [message]: speaker=tw_1st
-#: ./scenarios/01-what-happened.cfg:489
+#: ./scenarios/01-what-happened.cfg:495
 msgid "My lady, the initiates will fight. Some of them have even learned offensive spells."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: ./scenarios/01-what-happened.cfg:493
+#: ./scenarios/01-what-happened.cfg:499
 msgid "They've been learning what? ... Never mind, in times like this we need everything we can get."
 msgstr ""
 
 #. [objective]: condition=win
-#: ./scenarios/01-what-happened.cfg:501 ./scenarios/03-orc-port.cfg:228 ./scenarios/05-along-the-coast.cfg:328
+#: ./scenarios/01-what-happened.cfg:507 ./scenarios/03-orc-port.cfg:228 ./scenarios/05-along-the-coast.cfg:328
 msgid "Defeat enemy leader"
 msgstr ""
 
 #. [objective]: condition=lose
-#: ./scenarios/01-what-happened.cfg:505 ./scenarios/02-dank-tunnels.cfg:326 ./scenarios/03-orc-port.cfg:241 ./scenarios/03-orc-port.cfg:621 ./scenarios/04-watery-tunnels.cfg:240 ./scenarios/06-dread-marsh.cfg:445 ./scenarios/07-chasm-descent.cfg:266 ./scenarios/08-return-home.cfg:208 ./scenarios/09-back-home.cfg:190
+#: ./scenarios/01-what-happened.cfg:511 ./scenarios/02-dank-tunnels.cfg:326 ./scenarios/03-orc-port.cfg:241 ./scenarios/03-orc-port.cfg:621 ./scenarios/04-watery-tunnels.cfg:240 ./scenarios/06-dread-marsh.cfg:445 ./scenarios/07-chasm-descent.cfg:266 ./scenarios/08-return-home.cfg:208 ./scenarios/09-back-home.cfg:190
 msgid "Death of Erendor"
 msgstr ""
 
 #. [message]: role=scoutcommenter
-#: ./scenarios/01-what-happened.cfg:526
+#: ./scenarios/01-what-happened.cfg:533
 msgid "My lady, there is a ladder descending this shaft. Perhaps they came from down there."
 msgstr ""
 
 #. [message]: id=chiefdruid
-#: ./scenarios/01-what-happened.cfg:530
+#: ./scenarios/01-what-happened.cfg:537
 msgid "I think we'd better go after them, then. The leader of the initial raiding party implied he had multiple masters, so I suspect this may not be the last of them."
 msgstr ""
 
@@ -1709,6 +1729,16 @@ msgstr ""
 msgid "ice bolt"
 msgstr ""
 
+#. [unit_type]: id=Giant Bat, race=bats
+#: ./units/bat.cfg:4
+msgid "Giant Bat"
+msgstr ""
+
+#. [unit_type]: id=Giant Bat, race=bats
+#: ./units/bat.cfg:20
+msgid "Giant bats are flying beasts that feed on insects. To larger creatures, they are little more than a nuisance."
+msgstr ""
+
 #. [unit_type]: id=Elvish Civilian, race=elf
 #: ./units/civilian.cfg:5
 msgid "Elvish Civilian"
@@ -1717,6 +1747,26 @@ msgstr ""
 #. [unit_type]: id=Elvish Civilian, race=elf
 #: ./units/civilian.cfg:21
 msgid "Since elves are not warlike by nature, most of their population is composed by civilians, who learn, at very early age, basic usage of swords and bows, so that they can defend themselves, or their homes, in times of need, forming a fairly skilled militia. However, if you are hurling civilians at your foes, you're clearly out of superior forces."
+msgstr ""
+
+#. [unit_type]: id=Giant Toad, race=monster
+#: ./units/giant_toad.cfg:4
+msgid "Giant Frog"
+msgstr ""
+
+#. [unit_type]: id=Giant Toad, race=monster
+#: ./units/giant_toad.cfg:19
+msgid "Given an adequate supply of food, some frogs can grow to truly impressive sizes. They can also grow quite aggressive."
+msgstr ""
+
+#. [attack]: type=impact
+#: ./units/giant_toad.cfg:24
+msgid "slap"
+msgstr ""
+
+#. [attack]: type=impact
+#: ./units/giant_toad.cfg:33
+msgid "tongue"
 msgstr ""
 
 #. [unit_type]: id=Elvish Initiate, race=elf
@@ -1747,8 +1797,13 @@ msgstr ""
 msgid "Little more than an annoyance, mosquitoes hatch out wherever a puddle of water might be found. Even giant mosquitoes are too small to exert a zone of control."
 msgstr ""
 
+#. [unit_type]: id=Giant Mosquito, race=monster
+#: ./units/mosquito.cfg:21
+msgid " Mosquitoes are immune to the plague effect of zombies."
+msgstr ""
+
 #. [attack]: type=pierce
-#: ./units/mosquito.cfg:29
+#: ./units/mosquito.cfg:31
 msgid "sting"
 msgstr ""
 
@@ -1767,6 +1822,16 @@ msgstr ""
 msgid "Mother Rat"
 msgstr ""
 
+#. [unit_type]: id=Rabid Rat, race=monster
+#: ./units/rat_rabid.cfg:4
+msgid "Rabid Rat"
+msgstr ""
+
+#. [unit_type]: id=Vapour Rat, race=monster
+#: ./units/rat_vapour.cfg:4
+msgid "Vapour Rat"
+msgstr ""
+
 #. [attack]: type=cold
 #: ./units/rat_vapour.cfg:52
 msgid "vile breath"
@@ -1777,9 +1842,34 @@ msgstr ""
 msgid "Vicious Rat"
 msgstr ""
 
+#. [unit_type]: id=Vicious Rat, race=monster
+#: ./units/rat_vicious.cfg:25
+msgid " A few even become adept at using their whip-like tail as a weapon, though it's only marginally more effective than their fangs."
+msgstr ""
+
+#. [attack]: type=blade
+#: ./units/rat_vicious.cfg:30
+msgid "bite"
+msgstr ""
+
 #. [attack]: type=impact
-#: ./units/rat_vicious.cfg:38
+#: ./units/rat_vicious.cfg:40
 msgid "tailwhip"
+msgstr ""
+
+#. [unit_type]: id=Swampcrawler, race=monster
+#: ./units/swampcrawler.cfg:4
+msgid "Swampcrawler"
+msgstr ""
+
+#. [unit_type]: id=Swampcrawler, race=monster
+#: ./units/swampcrawler.cfg:32
+msgid "Swampcrawlers are a larger kind of Mudcrawler, and are magical constructs of soil and water. They attack by belching lumps of mud at their foes, or by striking them with their fists. Unlike their browner cousins, they are very much at home in swamps."
+msgstr ""
+
+#. [unit_type]: id=Swampcrawler, race=monster
+#: ./units/swampcrawler.cfg:32
+msgid " This unit has minor regenerative powers; it will always rest heal."
 msgstr ""
 
 #. [attack]: type=impact
