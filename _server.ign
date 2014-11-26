@@ -20,3 +20,4 @@ _info.cfg
 Thumbs.db
 *.wesnoth
 *.project
+*.xcf

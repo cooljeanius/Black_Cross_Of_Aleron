@@ -4,10 +4,10 @@ description="A elvish school for druids comes under attack by goblins. It seems 
 (mild spoilers for first scenario may follow)
 
 In Beseiged Druids, you control Eärendil, the surviving teacher at the school, and the many and varied initiates. Not all of these are ordinary students; many have been experimenting with other forms of magic, while others are simply overachievers in some area of study. Unfortunately, they are not especially good at combat, at least initially. Together with a very small contingent of surviving guards, it is up to these students to save the island of Aleron from disaster."
-email=""
+email="celtic.minstrel.ca@somewhere"
 icon="terrain/castle/elven/keep-tile.png~BLIT(units/elves-wood/druid-defend-2.png~RC(magenta>teal),0,0)"
 passphrase="wwimciby"
 title="Besieged Druids"
 translate=no
 type="campaign"
-version=1.0
+version=1.1
