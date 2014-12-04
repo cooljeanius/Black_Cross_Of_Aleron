@@ -63,6 +63,10 @@ New stuff
 Ideas
 =====
 
+Scenario 2
+----------
+- If on the last turn the leader moves within reach of the exit, such that she would be able to reach it in the next turn, grant a one turn extension so that she can reach it.
+
 Scenario 4
 ----------
 - Watery Tunnels: Make it more obvious how to get back from the Storm Trident cave (place another whirlpool at the other end of the tunnel?)
@@ -83,6 +87,7 @@ Scenario 8
 ----------
 - Some dialogue or something at the end
 - Ending conditions are odd (only one unit has to reach the bridge)
+- The bats/mosquitoes should probably harry both sides, similar to in the swamp
 
 Scenario 9
 ----------
