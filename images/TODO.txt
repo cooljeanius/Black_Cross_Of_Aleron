@@ -1,0 +1,81 @@
+This is a list of things that are needed on the graphics front, ordered by category and priority.
+
+Portraits
+=========
+
+The following unit types need a portrait:
+- Elvish Initiate
+- Elvish Treewalker
+- Elvish Wisp
+- Elvish Mage
+- Elvish Archmage
+- Elvish Zealot
+- Elvish Priestess
+
+Attack Icons
+============
+
+- slam (Giant Frog)
+- poison fangs (Mother Rat)
+- rat tail (Vicious Rat)
+
+Units
+=====
+
+- Giant Frog
+	- attack melee
+	- attack tongue
+	- defend
+	- die
+- Elvish Initiate
+	- base
+	- attack staff
+	- attack dagger
+	- attack magic
+	- defend
+	- die
+- Elvish Shaman
+	- attack dagger
+- Elvish Druid
+	- attack dagger
+- Elvish Shyde
+	- attack dagger
+- Elvish Sorceress
+	- attack dagger
+- Elvish Enchantress
+	- attack dagger
+- Elvish Sylph
+	- attack dagger
+- Elvish Treewalker
+	- more frames for attack/defend
+	- better defend animation
+	- death animation
+- Elvish Wisp
+	- better attack magic animation
+	- attack melee
+	- defend
+	- die
+- Elvish Zealot
+	- base? (possibly the one in zealot-test.png, or possibly substitute the staff in newstaff.png)
+	- attack magic
+	- attack staff
+	- defend
+	- die
+- Elvish Priestess
+	- death animation
+- Elvish Mage
+	- base (needs a better base frame)
+	- attack magic
+	- attack staff
+	- defend
+	- die
+- Elvish Archmage
+	- attack magic
+	- attack staff
+	- defend
+	- die
+- Elvish Civilian
+	- more frames for attack/defend
+	- death animation
+
+The rat variants could use new graphics, but I consider this very low priority. However, a tailwhip animation would be welcome.

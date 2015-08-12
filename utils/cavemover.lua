@@ -11,7 +11,7 @@ function assign_good_cave_scout()
 		move_costs = helper.get_child(unit.__cfg, 'movement_costs')
 		cave_moves = unit.max_moves / move_costs.cave
 		--wesnoth.message("Unit of type " .. unit.type .. " has " .. cave_moves .. " moves on cave.")
-		if (cave_moves > 4) and (cave_moves > best_cave_moves) then
+		if (cave_moves >= 4) and (cave_moves > best_cave_moves) then
 			best_cave_moves = cave_moves
 			best_unit = unit
 		elseif cave_moves == best_cave_moves and best_unit.upkeep ~= "loyal" and unit.upkeep == "loyal" then
@@ -19,7 +19,7 @@ function assign_good_cave_scout()
 		end
 	end
 	if best_unit == nil then
-		best_unit = wesnoth.get_unit "chiefguard"
+		best_unit = wesnoth.get_units{id="chiefguard"}[1]
 	end
 	best_unit.role = 'cave_scouter'
 end
