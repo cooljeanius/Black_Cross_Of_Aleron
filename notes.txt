@@ -44,6 +44,38 @@ outlaw - the fugitive on the path home
 hajak - the direwolf rider back at the citadel
 malcornsub3 - Malcorn's scout
 
+Branching Chart
+===============
+
+- In scenario 2, you can skip getting the dwarves. If you do that, you won't get the hint about the berserker in scenario 4 (but can still obtain him if you explore that path).
+- In scenario 3, you can skip Ariandela and the cowardly orc archer, but I don't think this has any significant effects. You can also skip the merfolk, which does have significant effects (in fact it probably makes scenario 6 a lot harder).
+- In scenario 4, you have can choose to let Malcorn live (by not pursuing him), and you can choose to let Graktar live after defeating him. Both these choices are relevant later on. You can also skip the berserker, which frankly doesn't mean much. And you can skip the amulet, which doesn't mean much either (might make it a bit easier if you have it, but doesn't affect any plot stuff).
+- In scenario 5, you can skip the drakes, and you can fail to kill the enemy leader. Neither of these affect the plot at all.
+- In scenario 6, your earlier choices start to affect the plot:
+  - If you let Malcorn live, he returns as an enemy. Otherwise, you get his sergeant instead.
+  - If you let Graktar live, he returns as an ally. Otherwise, his son shows up as an enemy. (In both cases they start attacking the undead after turn 7, though.)
+  - If you kill Kaden Kreuz (rather than letting the orcs strike the killing blow), the orcs turn on you, which has repercussions later.
+  - You can let the nightgaunt, necrophage, Malcorn (if present), and his sergeant live. If you do they'll show up again in the next scenario.
+- In scenario 7, you can let Malcorn (if present) live.
+- In scenario 8, if you angered the orcs by killing Kaden Kreuz instead, they'll show up to harry your return (either Graktar or his son, depending on whether you killed Graktar back in scenario 4). There are no new significant choices here.
+- In scenario 9, your earlier choices again affect the plot:
+  - If you never got around to killing Malcorn, he shows up here, having taken over the goblins that tried to occupy the citadel while you were gone.
+  - If the above happens, and the loyal mermaid survived to the end of scenario 6, she shows up after 7 turns with reinforcements.
+
+So here's the deal. The following branch points must be tested:
+- Scenario 3: The merfolk
+- Scenarios 4, 6, 7: Let Malcorn survive
+- Scenario 4: Let Graktar live
+- Scenario 6: Kill Kaden Kreuz
+
+The following chains should cover all cases:
+- Get merfolk - Spare Graktar - Kill Kaden Kreuz - Let Malcorn live
+- Get merfolk - Spare Graktar - Let him kill Kaden Kreuz - Kill Malcorn
+- Skip merfolk - Kill Graktar - Let his son kill Kaden Kreuz - Kill Malcorn
+- Skip merfolk - Kill Graktar - Kill Kaden Kreuz - Let Malcorn live
+
+This works because the merfolk/Malcorn chain and the orcs/Kaden Kreuz chain actually don't interact at all. 
+
 TODO
 ====
 
@@ -57,7 +89,6 @@ Graphics
 
 New stuff
 ---------
-- Extra scenario
 - End cutscene
 
 Ideas
@@ -73,11 +104,7 @@ Scenario 4
 
 Scenario 5a
 -----------
-- New scenario inserted before Along the Coast, where Erendor moves south
-- He fights off some saurians and brings the lord back north
-- Start with no gold, no units except Erendor
-- Galdar is an ally who is switched to your side once you discover him.
-- In this scenario, Galdar can recruit civilians, and there's one or two loyal level 2's
+- Add some undead and a third stage where you briefly ally with the saurians
 
 Scenario 7
 ----------
