@@ -106,6 +106,10 @@ Scenario 5a
 -----------
 - Add some undead and a third stage where you briefly ally with the saurians
 
+Scenario 6
+----------
+- Tents should start out owned by you
+
 Scenario 7
 ----------
 - ??? I forget...
