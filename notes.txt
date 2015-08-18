@@ -109,9 +109,11 @@ Scenario 5a
 Scenario 6
 ----------
 - Tents should start out owned by you
+- If there are no side 3 units left, the end cutscene doesn't make sense
 
 Scenario 7
 ----------
+- Add one or two more great trees
 - ??? I forget...
 
 Scenario 8
