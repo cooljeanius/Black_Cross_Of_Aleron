@@ -28,11 +28,8 @@ Units
 	- defend
 	- die
 - Elvish Initiate
-	- base
 	- attack staff
 	- attack dagger
-	- attack magic
-	- defend
 	- die
 - Elvish Shaman
 	- attack dagger
@@ -51,31 +48,19 @@ Units
 	- better defend animation
 	- death animation
 - Elvish Wisp
-	- better attack magic animation
 	- attack melee
-	- defend
 	- die
 - Elvish Zealot
-	- base? (possibly the one in zealot-test.png, or possibly substitute the staff in newstaff.png)
-	- attack magic
-	- attack staff
-	- defend
 	- die
 - Elvish Priestess
 	- death animation
 - Elvish Mage
-	- base (needs a better base frame)
-	- attack magic
 	- attack staff
-	- defend
 	- die
 - Elvish Archmage
-	- attack magic
-	- attack staff
-	- defend
 	- die
 - Elvish Civilian
-	- more frames for attack/defend
+	- more frames for melee/defend
 	- death animation
 
 The rat variants could use new graphics, but I consider this very low priority. However, a tailwhip animation would be welcome.
