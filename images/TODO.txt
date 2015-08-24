@@ -28,7 +28,6 @@ Units
 	- defend
 	- die
 - Elvish Initiate
-	- attack staff
 	- attack dagger
 	- die
 - Elvish Shaman
