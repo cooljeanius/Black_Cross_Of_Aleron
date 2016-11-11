@@ -79,14 +79,6 @@ This works because the merfolk/Malcorn chain and the orcs/Kaden Kreuz chain actu
 TODO
 ====
 
-Graphics
---------
-- Zealot (new staff)
-- Initiate
-- Wisp (more animations and/or change to fairy graphics)
-- Mage (new staff)
-- Frog (attack icon)
-
 New stuff
 ---------
 - End cutscene
@@ -94,29 +86,20 @@ New stuff
 Ideas
 =====
 
-Scenario 2
-----------
-- If on the last turn the leader moves within reach of the exit, such that she would be able to reach it in the next turn, grant a one turn extension so that she can reach it.
-
 Scenario 4
 ----------
-- Watery Tunnels: Make it more obvious how to get back from the Storm Trident cave (place another whirlpool at the other end of the tunnel?)
+- Watery Tunnels: Make it more obvious how to get back from the Storm Trident cave - an image of water gushing out from the wall on the other end?
 
-Scenario 5a
+Scenario 5
 -----------
 - Add some undead and a third stage where you briefly ally with the saurians
 
-Scenario 7
-----------
-- ??? I forget...
-
-Scenario 8
-----------
-- Some dialogue or something at the end
-- Ending conditions are odd (only one unit has to reach the bridge)
-- The bats/mosquitoes should probably harry both sides, similar to in the swamp
-
 Scenario 9
 ----------
+- Some dialogue or something at the end
+- The bats/mosquitoes should probably harry both sides, similar to in the swamp
+
+Scenario 10
+-----------
 - Add end dialogue and/or end cutscene and/or end story after final scenario
 
