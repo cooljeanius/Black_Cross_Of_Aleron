@@ -1,49 +1,4 @@
 
-Units with unique IDs:
-
-chiefdruid - the leader Elvish Druid
-chiefguard - the hero Elvish Ranger
-braveguard - the loyal Elvish Fighter
-advancescout - the Elvish Scout
-tw_1st - the loyal Elvish Initiate with the treewalk ability
-gruk - first goblin leader enemy
-burluk - second goblin leader enemy
-
-healthy_dwarf_brother - one of two Dwarvish Fighters from the camp in the tunnels
-wounded_dwarf_brother - one of two Dwarvish Fighters from the camp in the tunnels
-
-hermitsorceress - the non-loyal Elvish Sorceress with the dominates ability
-loyalmermaid - the loyal Mermaid Initiate
-agedcaptain - an old Elvish Captain living on an island
-cowardlyorcarcher - a cowardly Orcish Archer who is decidedly un-orcish and begs for his life
-last_merman_fighter - the last standing merman fighter who swiftly dies
-pakhai - first orc leader enemy
-cowardlyarcherhinter - a grunt whose purpose is a clue to the existence/significance of the lighthouse
-first_mervillage_assaulter - a naga assaulting the village
-second_mervillage_assaulter - another naga assaulting the village
-
-fleeingspirit - a Ghost running away in the caves
-dwarfhermit - the Dwarvish Berserker living alone in the caves
-malcorn - the Death Knight
-gragchak - the orcish ruler/sovereign
-
-agedlord - the hero Elvish Lord who joins up with recruitable civilians
-glamethkor - the dwarf pathfinder leader
-kalg - the loyal troll shaman with holy aura
-firedrake - the loyal fire drake
-skydrake - the loyal sky drake
-mendal - the second (loyal) Death Knight
-ghastlord - the tethered Ghast
-nightlord - the tethered Nightgaunt
-malcornsub - Malcorn's squire
-sonofgragchak - the son of the orc sovereign
-malinkalar - the necromancer (later a lich)
-
-malcornsub2 - Malcorn's sergeant
-outlaw - the fugitive on the path home
-hajak - the direwolf rider back at the citadel
-malcornsub3 - Malcorn's scout
-
 Branching Chart
 ===============
 

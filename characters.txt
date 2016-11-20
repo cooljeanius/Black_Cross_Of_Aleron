@@ -1,0 +1,468 @@
+Characters in DruidSiege
+========================
+
+This file documents the details of every character in the campaign who has
+a unique ID, sorted according to the scenario in which they first appear
+or are mentioned.
+For each character, important information such as their name (if fixed), ID,
+race, initial type, etc is given, and also some notes about their overall place
+in the story. Particularly important characters may have personality traits noted.
+
+//                                           \\
+[[ 01 - The Goblin Sacking of Aleron Citadel ]]
+\\                                           //
+
+Eärendil
+--------
+Type: Elvish Druid
+ID: chiefdruid
+First Appearance: Scenario 1
+Role: Leader
+
+Eärendil is just one of around a dozen teachers at the Druid Citadel of Aleron.
+Unlike some of the older teachers such as Caluclya, she has no particular
+specialty yet.
+
+Gruk
+----
+Type: Goblin Rouser
+ID: gruk
+First Appearance: Scenario 1
+Role: Enemy Leader
+
+An underling of Burluk whose task was subjugating the citadel as quickly
+and efficiently as possible. It almost worked, too!
+
+Amuwen
+------
+Type: Elvish Druid
+ID: lastteacher
+First Appearance: Scenario 1
+Role: Doomed
+
+One of the older teachers at the Druid Citadel of Aleron, Amuwen specializes
+in poisons and antidotes. Unfortunately, her leg was broken during the attack
+and thus she was unable to defend herself as effectively, ultimately leading
+to her death.
+
+Tiolindë
+--------
+Type: Elvish Shyde
+ID: N/A
+First Appearance: Never (deceased)
+Role: Doomed
+
+The eldest teacher at the Druid Citadel of Aleron and formerly the head of the
+institution. She was the first to wake during the attack, and with help from Amuwen
+was able to take down a dire wolf, but at the cost of her life and Amuwen's leg.
+
+Eovyniel
+--------
+Type: Elvish Initiate (with treewalk)
+ID: tw_1st
+First Appearance: Scenario 1
+Role: Hero
+
+One of the middle-tier students at the Druid Citadel of Aleron, and Eärendil's
+little sister. She can't bring herself to address Eärendil properly as a
+teacher, and Eärendil has long since given up on rebuking her over this.
+
+Erendor
+-------
+Type: Elvish Ranger
+ID: chiefguard
+First Appearance: Scenario 1
+Role: Hero
+
+The leader of the guards stationed at Aleron Citadel in case of an event just
+such as this. Unfortunately, the goblins initially overwhelmed the guards,
+slaying many, and as a result they were not able to fulfill their duties.
+
+Brave Guard
+-----------
+Type: Elvish Fighter
+ID: braveguard
+First Appearance: Scenario 1
+Role: Loyal
+
+The fighter who performed a sweep to ensure no goblins remained hidden in
+any of the dormitories.
+
+Caluclya
+--------
+Type: Elvish Druid (modified)
+ID: herbalist
+First Appearance: Scenario 1 (on hard, scenario 10)
+Role: Loyal
+
+One of the oldest teachers at the Druid Citadel, Caluclya is an expert in the
+use of herbs. As a result, her healing is the best of any elf, and she can
+even regenerate a little when in the forest. Caluclya survived the attack
+because she was out in the mountains when the goblins struck, hunting for rare
+herbs
+
+On easy and normal mode, she returns before the others have left on their quest,
+and joins them. However, on hard mode, she stays out longer, and returns to find
+the citadel almost abandoned apart from a few remaining initiates who had somehow
+missed joining the quest. Naturally she starts putting them to work on cleaning up,
+and when more goblins appear, she organizes them into a small resistance force.
+
+Scout
+-----
+Type: Elvish Scout
+ID: advancescout
+First Appearance: Scenario 1
+Role: Loyal
+
+The scout who Erendor sent across the river to investigate the source of the goblin
+attack. He is the only surviving scout in the guards. When he returns with news, he
+is closely chased by a goblin knight.
+
+Burluk
+------
+Name: Burluk
+Type: Goblin Knight
+ID: burluk
+First Appearance: Scenario 1
+Role: Enemy Leader
+
+A knight working under Vrughnar.
+
+//                                \\
+[[ 02 - Tracing the Goblins' Path ]]
+\\                                //
+
+Dwarf Brothers
+--------------
+Type: Dwarvish Fighter
+ID: healthy_dwarf_brother, wounded_dwarf_brother
+First Appearance: Scenario 2
+Role: Loyal
+
+Two brothers who were on their way home from visiting relatives when they were
+swarmed by rats and forced to flee into a side cave. They agree to join the
+elves on their quest.
+
+//                           \\
+[[ 03 - Battle at Port Lobur ]]
+\\                           //
+
+Vrughnar
+--------
+Type: Orcish Warrior
+ID: pakhai
+First Appearance: Scenario 3
+Role: Enemy Leader
+
+When Kaden Kreuz's necromancy became well-known, Vrughnar was one of the most vocal
+in protests. As a result, he ended up being the leader of the dissidents who fled
+to the surface and conquered the port town of Lobur.
+
+Merman
+------
+Type: Merman Fighter
+ID: last_merman_fighter
+First Appearance: Scenario 3
+Role: Doomed
+
+The last holdout against the nagas invading his village. The elves show up too late to
+help him (unless you're lucky).
+
+Nagas
+-----
+Type: Naga Fighter
+ID: first_mervillage_assaulter, second_mervillage_assaulter
+First Appearance: Scenario 3
+Role: Enemy
+
+The two nagas leading the assault on Aphrophila's village. They are killed by the elves.
+
+Aphrophila
+----------
+Type: Mermaid Initiate
+ID: loyalmermaid
+First Appearance: Scenario 3
+Role: Loyal; Leader in scenario 10b
+
+An outspoken mermaid who, over the course of the quest, becomes first the spokesperson
+and later the leader of her people.
+
+Ariandela
+---------
+Type: Elvish Sorceress
+ID: hermitsorceress
+First Appearance: Scenario 3
+Role: Hero (non-loyal) ???
+
+An eccentric sorceress who lives alone by a lake northwest of Port Lobur. She is
+unwilling to join you, but begrudingly accepts if you can present her with the powerful
+Ring of Domination, an item that allows her to control the minds of weak enemies.
+
+Old Captain
+-----------
+Type: Elvish Captain
+ID: agedcaptain
+First Appearance: Scenario 3
+Role: Loyal
+
+A captain from the old wars who has seen better days, but is still fit enough to join
+in combat, albeit at reduced effectiveness compared to his prime.
+
+Surprised Grunt
+---------------
+Type: Orcish Grunt
+ID: cowardlyarcherhinter
+First Appearance: Scenario 3
+Role: Enemy
+
+This character currently serves only as a hint for the player that the lighthouse may
+be worth investigating.
+
+Orc Archer
+----------
+Type: Orcish Archer
+ID: cowardlyorcarcher
+First Apperance: Scenario 3
+Role: Loyal
+
+He fled with Vrughnar because he was afraid of being used for Kaden Kreuz's experiments,
+but found that Vrughnar was a far harsher master than Graktar. For this reason he is
+willing to join the elves?
+
+//                                    \\
+[[ 04 - Descent into the Orcish Realm ]]
+\\                                    //
+
+Graktar
+-------
+Type: Orcish Sovereign
+ID: gragchak
+First Appearance: Scenario 4
+Role: Enemy Leader; potentially Allied Leader
+
+The leader of the Shoralenon orcs, Graktar had been put in a precarious position since
+his brother returned. He chose to bide his time until he could make a move against
+Kaden Kreuz, and as a result as lost some of his followers; however, he is still
+dedicated to the task of killing his brother who has gone astray. To deny him that
+would anger him greatly.
+
+Sir Malcorn
+-----------
+Type: Death Knight
+ID: malcorn
+First Appearance: Scenario 4
+Role: Enemy Leader
+
+One of the most ambitious of Kaden Kreuz's followers. Malcorn does not remember what
+he was in life, but knows exactly where he wants to be in death - at the top. He is not
+loyal to Kaden Kreuz and would betray him in a heartbeat if it seemed like it would help
+his rise to power.
+
+Halbern
+-------
+Type: Ghost
+ID: fleeingspirit
+First Appearance: Scenario 4
+Role: Loyal
+
+A spirit who managed to wrest free of Kaden Kreuz's control and decided he did not want
+to serve the orc. Halbern does not remember what he was in life.
+
+Uncle Thrar
+-----------
+Type: Dwarvish Berserker
+ID: dwarfhermit
+First Appearance: Scenario 4
+Role: Loyal
+
+The uncle of the dwarf brothers, Thrar has been living near the orcs for many years.
+He is old enough to remember the wars fought against them, and actually kind of misses
+that time a little.
+
+//                                      \\
+[[ 05 - Reinforcements from Analandoron ]]
+\\                                      //
+
+Galdar
+------
+Type: Elvish Lord
+ID: agedlord
+First Appearance: Scenario 5
+Role: Hero
+
+Galdar is the lord of Analandoron, as well as a veteran of the old wars.
+
+Ardalandwen
+-----------
+Type: Elvish Lady
+ID: elflady
+First Appearance: Scenario 5
+Role: Allied Leader
+
+Ziltrask
+--------
+Type: Saurian Oracle
+ID: saurianleader
+First Appearance: Scenario 5
+Role: Enemy Leader
+
+Ziltrask is the leader of the saurians living in the Dread Marsh. Due to Kaden Kreuz's
+manipulations, they have been displaced from their primary settlements and forced out
+into the borders of the swamp.
+
+//                            \\
+[[ 06 - Hordes from the Marsh ]]
+\\                            //
+
+Glamethkor
+----------
+Type: Dwarvish Pathfinder
+ID: glamethkor
+First Appearance: Scenario 6
+Role: Enemy Leader
+
+Glamethkor is the leader of a group of bandits who live on the north coast of
+Shoralenon. He's a very tolerant type, and as a result has managed to gather
+followers from many races - goblins, trolls, dwarves, and humans form the
+bulk of his followers. His arch-enemy is Harry Muflin the highwayman.
+
+Kalg
+----
+Type: Troll Shaman
+ID: kalg
+First Appearance: Scenario 6
+Role: Enemy
+
+Kalg is a close friend of Glamethkor and also his second-in-command. His English
+may be poor, but he is quite smart.
+
+Drake Brothers
+--------------
+Type: Drake Burner, Drake Glider
+ID: firedrake, skydrake
+First Appearance: Scenario 6
+Role: Loyal
+
+Two drake brothers who live on a volcanic island off the north coast.
+They hate undead.
+
+//                           \\
+[[ 07 - Into the Dread Marsh ]]
+\\                           //
+
+Kaden Kreuz
+-----------
+Type: Orcish Necromancer
+ID: malinkalar
+First Appearance: Scenario 7
+Role: Enemy Leader
+
+The younger brother of Graktar, and a necromancer with nebulous goals. He studied
+with the shamans for many years, but then disappeared for some time before reuniting
+with Graktar, who initially received him with joy; however, after seeing what his
+brother had become, Graktar privately swore to destroy him himself.
+
+Kaden didn't talk much about the specifics of his goals, but if you have all the
+optional characters, the picture put together from the end cutscene should be that
+those goals may not have been bad in themselves; rather, just the methods were bad.
+
+Sir Mendal
+----------
+Type: Death Knight
+ID: mendal
+First Appearance: Scenario 7
+Role: Enemy
+
+Kaden Kreuz's most loyal servant, but something of an incompetent one.
+
+Krrrgra
+-------
+Type: Ghast
+ID: ghastlord
+First Appearance: Scenario 7
+Role: Enemy Leader
+
+Krrgra is a powerful and ancient ghast lord whom Kaden Kreuz somehow bound to his service.
+
+Terror of the Knight
+--------------------
+Type: Nightgaunt
+ID: nightlord
+First Appearance: Scenario 7
+Role: Enemy Leader
+
+The true name of this nightgaunt is unknown, but all of Kaden's followers that can speak
+simply refer to it as the Terror of the Knight. It is an ancient and powerful spirit
+whom Kaden Kreuz somehow bound to his service.
+
+Malcorn's Squire
+----------------
+Type: Deathblade
+ID: malcornsub
+First Appearance: Scenario 7
+Role: Enemy Leader
+
+One of the most loyal followers of Sir Malcorn, but something of an incompetent one.
+
+Gashak
+------
+Type: Orcish Leader
+ID: sonofgragchak
+First Appearance: Scenario 7 (only if Graktar dead)
+Role: Enemy Leader (only if Graktar dead)
+
+The son of Graktar, and burning with revenge.
+
+//                             \\
+[[ 08 - Descent into the Chasm ]]
+\\                             //
+
+Malcorn's Sergeant
+------------------
+Type: Draug
+ID: malcornsub2
+First Appearance: Scenario 8
+Role: Enemy Leader.
+
+One of the most loyal followers of Sir Malcorn, but something of an incompetent one.
+
+//                       \\
+[[ 09 - The Journey Home ]]
+\\                       //
+
+Harry Muflin
+------------
+Type: Fugitive
+ID: outlaw
+First Appearance: Scenario 9 (only if orcs not angered)
+Role: Enemy Leader
+
+An infamous highwayman who has been a scourge to caravans across Shoralenon for
+many years.
+
+//                             \\
+[[ 10 - Reclaiming the Citadel ]]
+\\                             //
+
+Hajak
+-----
+Type: Direwolf Rider
+ID: hajak
+First Appearance: Scenario 10
+Role: Enemy Leader
+
+Hajak escaped when the elves defeated Vrughnar, and fled back the way they had come
+with a few followers, eventually reaching the druid citadel.
+
+When Malcorn arrives, however, he and his followers are unable to put up any resistance
+and are easily brought to heel as Malcorn's servants.
+
+Malcorn's Scout
+---------------
+Type: Banebow
+ID: malcornsub3
+First Appearance: Scenario 10
+Role: Enemy (he's set as the leader in the scenario, but an event will always demote him)
+
+One of the most loyal followers of Sir Malcorn, and quite a bit more competent than
+the other two. He was the one who located the citadel and lead Malcorn there.
