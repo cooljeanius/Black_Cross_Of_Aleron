@@ -8,9 +8,21 @@ The following unit types need a portrait:
 - Elvish Treewalker
 - Elvish Wisp
 - Elvish Mage
-- Elvish Archmage
-- Elvish Zealot
 - Elvish Priestess
+- Orcish Necromancer
+
+The following characters should have a unique portrait:
+- Eärendil (2 forms, with wings and without)
+- Erendor
+- Eovyniel (2 forms, with wings and without)
+- Ariandela (2 forms, with wings and without)
+- Graktar
+
+The following characters could use a unique portrait (low priority):
+- Aphrophila
+- Sir Malcorn
+- Elf Captain (currently randomly-named)
+- Caluclya (2 forms, with wings and without)
 
 Attack Icons
 ============
@@ -22,6 +34,12 @@ Attack Icons
 Units
 =====
 
+- Orcish Necromancer
+	- base sprite
+	- attack melee
+	- attack magic
+	- defend
+	- die
 - Giant Frog
 	- attack melee
 	- attack tongue
