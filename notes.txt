@@ -41,6 +41,10 @@ New stuff
 Ideas
 =====
 
+General
+-------
+- Add narration to death events giving a brief account of what happens in the absence of the fallen hero.
+
 Scenario 4
 ----------
 - Watery Tunnels: Make it more obvious how to get back from the Storm Trident cave - an image of water gushing out from the wall on the other end?
@@ -49,6 +53,10 @@ Scenario 5
 -----------
 - Add some undead and a third stage where you briefly ally with the saurians
 
+Scenario 6
+----------
+- Maybe consider switching up the schedule to give the undead an advantage?
+
 Scenario 9
 ----------
 - Some dialogue or something at the end
@@ -56,5 +64,6 @@ Scenario 9
 
 Scenario 10
 -----------
+- Maybe switch up the schedule to reflect the time of year (fall)?
 - Add end dialogue and/or end cutscene and/or end story after final scenario
 
