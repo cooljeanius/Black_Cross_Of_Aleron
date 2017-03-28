@@ -44,6 +44,12 @@ Ideas
 General
 -------
 - Add narration to death events giving a brief account of what happens in the absence of the fallen hero.
+- Allow Ariandela to dominate higher-level units as she levels up - any units 2 levels below her.
+
+Scenario 3
+----------
+- Make the merman warrior loyal, in case you manage to save him.
+- Special dialogue if the orc in the lighthouse kills the guy who gives away his location.
 
 Scenario 4
 ----------
@@ -51,11 +57,18 @@ Scenario 4
 
 Scenario 5
 -----------
-- Add some undead and a third stage where you briefly ally with the saurians
+- Add a few trees to the swamp to give elves a bit of an edge
+- Reduce the number of ghosts
+- Maybe even just make the leader mainly spam WCs / Soulless?
 
 Scenario 6
 ----------
 - Maybe consider switching up the schedule to give the undead an advantage?
+
+Scenario 7
+----------
+- Remove gold from esquire's keep once it's claimed
+- Have elves comment on revelation that the necromancer is the orc leader's brother
 
 Scenario 9
 ----------
