@@ -1,5 +1,5 @@
-Characters in DruidSiege
-========================
+Characters in The Black Cross of Aleron
+=======================================
 
 This file documents the details of every character in the campaign who has
 a unique ID, sorted according to the scenario in which they first appear
