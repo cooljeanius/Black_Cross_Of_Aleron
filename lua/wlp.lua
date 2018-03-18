@@ -73,3 +73,44 @@ function wesnoth.wml_actions.nearest_unit(cfg)
 	else wesnoth.message( "WML", "No suitable unit found by [nearest_unit]" )
 	end
 end
+
+-- This isn't actually part of the Wesnoth Lua Pack, but...
+-- I didn't feel like creating a new file to host it.
+local items = wesnoth.require "wml/items"
+function wesnoth.wml_actions.highlight_image(cfg)
+	local img = cfg.image or helper.wml_error("[highlight_image] missing required image= key")
+	local bg = cfg.background or ""
+	local where = wesnoth.get_locations(cfg)[1]
+	if not where then return end
+	
+	wesnoth.scroll_to_tile(where, false, false, true)
+	if cfg.outline then
+		wesnoth.highlight_hex(where)
+	end
+
+	for i = 1, 3 do
+		items.place_halo(where[1], where[2], img)
+		wesnoth.wml_actions.redraw{}
+		wesnoth.delay(300)
+		items.remove(where[1], where[2])
+		items.place_image(where[1], where[2], bg)
+		wesnoth.wml_actions.redraw{}
+		wesnoth.delay(300)
+	end
+
+	items.place_image(where[1], where[2], bg)
+	wesnoth.wml_actions.redraw{}
+end
+
+-- Override move_unit to support location_id
+local old_move = wesnoth.wml_actions.move_unit
+function wesnoth.wml_actions.move_unit(cfg)
+	std_print("custom move unit")
+	if cfg.to_location then
+		std_print("found to_location")
+		cfg = helper.shallow_parsed(cfg)
+		local to = wesnoth.special_locations[cfg.to_location]
+		cfg.to_x, cfg.to_y = to[1], to[2]
+	end
+	old_move(cfg)
+end
