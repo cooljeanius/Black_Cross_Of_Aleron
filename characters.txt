@@ -240,7 +240,7 @@ ID: gragchak
 First Appearance: Scenario 4
 Role: Enemy Leader; potentially Allied Leader
 
-The leader of the Shoralenon orcs, Graktar had been put in a precarious position since
+The leader of the Sharnough orcs, Graktar had been put in a precarious position since
 his brother returned. He chose to bide his time until he could make a move against
 Kaden Kreuz, and as a result as lost some of his followers; however, he is still
 dedicated to the task of killing his brother who has gone astray. To deny him that
@@ -322,7 +322,7 @@ First Appearance: Scenario 6
 Role: Enemy Leader
 
 Glamethkor is the leader of a group of bandits who live on the north coast of
-Shoralenon. He's a very tolerant type, and as a result has managed to gather
+Sharnough. He's a very tolerant type, and as a result has managed to gather
 followers from many races - goblins, trolls, dwarves, and humans form the
 bulk of his followers. His arch-enemy is Harry Muflin the highwayman.
 
@@ -437,7 +437,7 @@ ID: outlaw
 First Appearance: Scenario 9 (only if orcs not angered)
 Role: Enemy Leader
 
-An infamous highwayman who has been a scourge to caravans across Shoralenon for
+An infamous highwayman who has been a scourge to caravans across Sharnough for
 many years.
 
 //                             \\
