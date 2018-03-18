@@ -15,7 +15,7 @@ function wesnoth.theme_items.unit_status()
 	if u.status.hasted then
 		table.insert(s, { "element", {
 			image = "status/hasted.png",
-			tooltip = _"hasted: Hasted units get 8 more movement points than usual. It lasts until the end of the current scenario."
+			tooltip = _"hasted: Hasted units get 4 more movement points than usual. It lasts until the end of the current scenario."
 		} })
 	end
 	return s
