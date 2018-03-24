@@ -114,3 +114,19 @@ function wesnoth.wml_actions.move_unit(cfg)
 	end
 	old_move(cfg)
 end
+
+-- Add formula= to [variable]
+-- Doesn't work for array variables though
+-- Note: Remove in 1.15 as it's built-in there
+local old_variable = wesnoth.wml_conditionals.variable
+function wesnoth.wml_conditionals.variable(cfg)
+	if cfg.formula then
+		local value = wml.variables[cfg.name]
+		local result = wesnoth.eval_formula(cfg.formula, {value = value})
+		-- WFL considers 0 as false; Lua doesn't
+		if result == 0 then return false end
+		return result
+	else
+		return old_variable(cfg)
+	end
+end
