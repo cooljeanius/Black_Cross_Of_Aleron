@@ -12,8 +12,8 @@ end
 
 local initiate_traits = {}
 do
-	local mods = H.get_child(initiate.__cfg, "modifications")
-	for trait in H.child_range(mods, "trait") do
+	local mods = wml.get_child(initiate.__cfg, "modifications")
+	for trait in wml.child_range(mods, "trait") do
 		initiate_traits[trait.id] = true
 	end
 end

@@ -1,6 +1,4 @@
 
-helper = wesnoth.require "lua/helper.lua"
-
 function assign_good_cave_scout()
 	-- Find the best cave scout in the recall list and place it on the map
 	local recallable = wesnoth.get_recall_units{side=1}
@@ -8,7 +6,7 @@ function assign_good_cave_scout()
 	local move_costs
 	local cave_moves, best_cave_moves = 0, 0
 	for i,unit in ipairs(recallable) do
-		move_costs = helper.get_child(unit.__cfg, 'movement_costs')
+		move_costs = wml.get_child(unit.__cfg, 'movement_costs')
 		cave_moves = unit.max_moves / move_costs.cave
 		--wesnoth.message("Unit of type " .. unit.type .. " has " .. cave_moves .. " moves on cave.")
 		if (cave_moves >= 4) and (cave_moves > best_cave_moves) then

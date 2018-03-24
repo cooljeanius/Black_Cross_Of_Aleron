@@ -2,11 +2,11 @@
 local helper = wesnoth.require "lua/helper.lua"
 
 function wesnoth.wml_actions.scatter_units(cfg) -- replacement for SCATTER_UNITS macro
-	local locations = wesnoth.get_locations( helper.get_child( cfg, "filter_location" ) ) or helper.wml_error( "Missing required [filter_location] in [scatter_units]" )
+	local locations = wesnoth.get_locations( wml.get_child( cfg, "filter_location" ) ) or helper.wml_error( "Missing required [filter_location] in [scatter_units]" )
 	local unit_string = cfg.unit_types or helper.wml_error( "Missing required unit_types= in [scatter_units]" )
 	local units = tonumber( cfg.units ) or helper.wml_error( "Missing or wrong required units= in [scatter_units]" )
 	local scatter_radius =  tonumber( cfg.scatter_radius ) -- not mandatory, if nil cycle will be jumped
-	local unit_table = helper.parsed( helper.get_child( cfg, "wml" ) ) or {} -- initialize as empty table, just in need
+	local unit_table = wml.parsed( wml.get_child( cfg, "wml" ) ) or {} -- initialize as empty table, just in need
 
 	local unit_types = {} -- create a table, then append each value after splitting with string.gmatch.
 
@@ -38,7 +38,7 @@ function wesnoth.wml_actions.scatter_units(cfg) -- replacement for SCATTER_UNITS
 				-- and remove those that are too close
 				-- using standard ipairs jumps some locations
 				for index = #locations, 1, -1 do --lenght of locations, until 1, step -1
-					local distance = helper.distance_between( where_to_place[1], where_to_place[2], locations[index][1], locations[index][2] )
+					local distance = wesnoth.map.distance_between( where_to_place[1], where_to_place[2], locations[index][1], locations[index][2] )
 
 					if distance < scatter_radius then
 						table.remove( locations, index )
@@ -54,14 +54,14 @@ end
 function wesnoth.wml_actions.nearest_unit(cfg)
 	local starting_x = tonumber(cfg.starting_x) or helper.wml_error("Missing required starting_x in [nearest_unit]")
 	local starting_y = tonumber(cfg.starting_y) or helper.wml_error("Missing required starting_y in [nearest_unit]")
-	local filter = (helper.get_child(cfg, "filter")) or helper.wml_error("Missing required [filter] in [nearest_unit]")
+	local filter = (wml.get_child(cfg, "filter")) or helper.wml_error("Missing required [filter] in [nearest_unit]")
 	local variable = cfg.variable or "nearest_unit" -- default
 
 	local current_distance = math.huge -- feed it the biggest value possible
 	local nearest_unit_found
 
 	for index,unit in ipairs(wesnoth.get_units(filter)) do
-		local distance = helper.distance_between( starting_x, starting_y, unit.x, unit.y )
+		local distance = wesnoth.map.distance_between( starting_x, starting_y, unit.x, unit.y )
 		if distance < current_distance then
 			current_distance = distance
 			nearest_unit_found = unit
@@ -108,7 +108,7 @@ function wesnoth.wml_actions.move_unit(cfg)
 	std_print("custom move unit")
 	if cfg.to_location then
 		std_print("found to_location")
-		cfg = helper.shallow_parsed(cfg)
+		cfg = wml.shallow_parsed(cfg)
 		local to = wesnoth.special_locations[cfg.to_location]
 		cfg.to_x, cfg.to_y = to[1], to[2]
 	end
