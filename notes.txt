@@ -34,22 +34,16 @@ This works because the merfolk/Malcorn chain and the orcs/Kaden Kreuz chain actu
 TODO
 ====
 
-New stuff
----------
-- End cutscene
-
 Ideas
 =====
 
 General
 -------
 - Add narration to death events giving a brief account of what happens in the absence of the fallen hero.
-- Allow Ariandela to dominate higher-level units as she levels up - any units 2 levels below her.
 
 Scenario 3
 ----------
-- Make the merman warrior loyal, in case you manage to save him.
-- Special dialogue if the orc in the lighthouse kills the guy who gives away his location.
+- Merman being assigned to your side should be based on lack of nearby nagas, rather than two naga kills (because another naga may come over)
 
 Scenario 4
 ----------
@@ -60,6 +54,7 @@ Scenario 5
 - Add a few trees to the swamp to give elves a bit of an edge
 - Reduce the number of ghosts
 - Maybe even just make the leader mainly spam WCs / Soulless?
+- Maybe use an assassin MicroAI for the orcs?
 
 Scenario 6
 ----------
