@@ -105,14 +105,23 @@ end
 -- Override move_unit to support location_id
 local old_move = wesnoth.wml_actions.move_unit
 function wesnoth.wml_actions.move_unit(cfg)
-	std_print("custom move unit")
 	if cfg.to_location then
-		std_print("found to_location")
 		cfg = wml.shallow_parsed(cfg)
 		local to = wesnoth.special_locations[cfg.to_location]
 		cfg.to_x, cfg.to_y = to[1], to[2]
 	end
 	old_move(cfg)
+end
+
+-- Override teleport to support location_id
+local old_teleport = wesnoth.wml_actions.teleport
+function wesnoth.wml_actions.teleport(cfg)
+	if cfg.location_id then
+		cfg = wml.shallow_parsed(cfg)
+		local to = wesnoth.special_locations[cfg.location_id]
+		cfg.x, cfg.y = to[1], to[2]
+	end
+	old_teleport(cfg)
 end
 
 -- Add formula= to [variable]
