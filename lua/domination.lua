@@ -21,29 +21,25 @@ local function enthrall_passes_chance(unit, chance)
 	end
 	if chance >= 100 then return true end
 	if chance <= 0 then return false end
-	return wesnoth.rand(1,100) <= chance
+	return wesnoth.random(1,100) <= chance
 end
 
-function wesnoth.wml_actions.enthrall_units(cfg)
-	local units = wesnoth.get_units{
-		wml.tag["not"]{status = 'dominated'},
-		wml.tag["and"](cfg)
-	}
-	local dominator_cfg, dominator = wml.get_child(cfg, 'filter_dominator')
-	if dominator_cfg then
-		dominator = wesnoth.get_units(dominator_cfg)[1]
-	end
-	local chance = cfg.chance or 100
+local function do_enthrall(units, dominator, chance, old_side, new_side, animate)
 	for _,u in ipairs(units) do
 		local success = enthrall_passes_chance(u, chance)
-		if cfg.animate ~= false then
+		if success then
+			u.status.dominated = true
+			u.variables.was_side = old_side or u.side
+			u.side = new_side
+		end
+		if animate ~= false then
 			local anim = wesnoth.create_animator()
 			local attack
 			if dominator then
 				attack = H.find_attack(dominator, {range = 'ranged'})
 			end
 			anim:add(u, 'defend', success and 'hits' or 'miss', {
-				text = (success and dominated_text or released_text)[u.gender],
+				text = (success and dominated_text or resisted_text)[u.gender],
 				color = success and {255, 51, 0} or {51, 255, 0},
 				secondary = attack,
 				facing = dominator
@@ -60,11 +56,27 @@ function wesnoth.wml_actions.enthrall_units(cfg)
 			anim:run()
 			wesnoth.delay(300, true)
 		end
-		if success then
-			u.status.dominated = true
-			u.variables.was_side = cfg.old_side or u.side
-			u.side = cfg.new_side
+	end
+end
+
+function wesnoth.wml_actions.enthrall_units(cfg)
+	local chance = cfg.chance or 100
+	local old_side, new_side = cfg.old_side, cfg.new_side
+	local dominator_cfg = wml.get_child(cfg, 'filter_dominator')
+	local filter = {
+		wml.tag["not"]{status = 'dominated'},
+		wml.tag["and"](cfg)
+	}
+	if dominator_cfg then
+		for _,dominator in ipairs(wesnoth.get_units(dominator_cfg)) do
+			std_print('Found dominator ' .. dominator.id)
+			local units = wesnoth.get_units(filter, dominator)
+			std_print('Possible units to dominate: '.. #units)
+			do_enthrall(units, dominator, chance, old_side, new_side or dominator.side, cfg.animate)
 		end
+	else
+		local units = wesnoth.get_units(filter)
+		do_enthrall(units, nil, chance, old_side, new_side or 1, cfg.animate)
 	end
 end
 
@@ -74,6 +86,8 @@ function wesnoth.wml_actions.dethrall_units(cfg)
 		wml.tag["and"](cfg)
 	}
 	for _,u in ipairs(units) do
+		u.status.dominated = false
+		u.side = u.variables.was_side
 		if cfg.animate ~= false then
 			wesnoth.scroll_to_tile(u)
 			local anim = wesnoth.create_animator()
@@ -84,8 +98,6 @@ function wesnoth.wml_actions.dethrall_units(cfg)
 			anim:run()
 			wesnoth.delay(300, true)
 		end
-		u.status.dominated = false
-		u.side = u.variables.was_side
 	end
 end
 	
