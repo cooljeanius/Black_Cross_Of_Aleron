@@ -130,3 +130,25 @@ function wesnoth.wml_conditionals.variable(cfg)
 		return old_variable(cfg)
 	end
 end
+
+-- Places a unit at a random location matching the filter
+-- Automatically excludes locations that already have a unit
+-- If all matching locations already have a unit, it does nothing
+function wesnoth.wml_actions.random_unit(cfg)
+	local filter = wml.get_child(cfg, "filter_location") or helper.wml_error "Missing [filter_location] in [random_unit]"
+	filter = {
+		wml.tag["and"](filter),
+		wml.tag["not"]{ wml.tag.filter{} }
+	}
+	local possible_locations = wesnoth.get_locations(filter)
+	if #possible_locations == 0 then
+		std_print("Error: No matching locations!")
+		return
+	end
+	cfg = wml.shallow_parsed(cfg)
+	wml.remove_child(cfg, "filter_location")
+	local which_loc = #possible_locations == 1 and 1 or wesnoth.random(1, #possible_locations)
+	cfg.x = possible_locations[which_loc][1]
+	cfg.y = possible_locations[which_loc][2]
+	wesnoth.wml_actions.unit(cfg)
+end
