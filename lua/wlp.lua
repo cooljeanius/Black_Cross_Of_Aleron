@@ -1,5 +1,6 @@
 
 local helper = wesnoth.require "lua/helper.lua"
+local utils = wesnoth.require "wml-utils"
 
 function wesnoth.wml_actions.scatter_units(cfg) -- replacement for SCATTER_UNITS macro
 	local locations = wesnoth.get_locations( wml.get_child( cfg, "filter_location" ) ) or helper.wml_error( "Missing required [filter_location] in [scatter_units]" )
@@ -109,6 +110,35 @@ function wesnoth.wml_actions.move_unit(cfg)
 		cfg = wml.shallow_parsed(cfg)
 		local to = wesnoth.special_locations[cfg.to_location]
 		cfg.to_x, cfg.to_y = to[1], to[2]
+	elseif cfg.dir then
+		-- Well, in this case we need to separate it out to multiple calls to the original.
+		-- That's because the locs for each unit are different!
+		for _,u in ipairs(wesnoth.get_units(cfg)) do
+			local x_locs, y_locs = {}, {}
+			x_locs[0], y_locs[0] = u.x, u.y
+			for dir in utils.split(cfg.dir) do
+				local count = 1
+				if dir:find(":") then
+					local error_dir = dir
+					dir, count = dir:match("([a-z]+):(%d+)")
+					if not dir or not count then
+						wml.error("Invalid direction:count in move_unit: " .. error_dir)
+					end
+				end
+				local last_x, last_y = x_locs[#x_locs], y_locs[#y_locs]
+				next_loc = wesnoth.map.get_direction(last_x, last_y, dir, count)
+				table.insert(x_locs, next_loc[1])
+				table.insert(y_locs, next_loc[2])
+			end
+			x_locs[0], y_locs[0] = nil
+			local this_cfg = {
+				id = u.id,
+				to_x = x_locs,
+				to_y = y_locs,
+			}
+			old_move(wml.tovconfig(this_cfg))
+		end
+		return
 	end
 	old_move(cfg)
 end
