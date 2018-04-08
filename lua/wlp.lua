@@ -99,7 +99,9 @@ function wesnoth.wml_actions.highlight_image(cfg)
 		wesnoth.delay(300)
 	end
 
-	items.place_image(where[1], where[2], bg)
+	if cfg.leave ~= false then
+		items.place_image(where[1], where[2], img)
+	end
 	wesnoth.wml_actions.redraw{}
 end
 
