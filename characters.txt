@@ -198,8 +198,8 @@ An eccentric sorceress who lives alone by a lake northwest of Port Lobur. She is
 unwilling to join you, but begrudingly accepts if you can present her with the powerful
 Ring of Domination, an item that allows her to control the minds of weak enemies.
 
-Old Captain
------------
+Nel-Brisad
+----------
 Type: Elvish Captain
 ID: agedcaptain
 First Appearance: Scenario 3
