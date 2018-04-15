@@ -1,8 +1,5 @@
-border_size=1
-usage=map
-
 Ss, Gg, Gg, Gg, Qxe, Qxe, Qxe, Qxe, Qxe, Qxe, Qxe, Qxe, Qxe, Qxe, Ss, Ss, Ss, Gg, Gg, Gg, Gg, Ss, Ss, Ss, Ss, Gg, Ss, Gg, Gg, Gg, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Gg, Gg, Gg, Gg, Gg
-Gg, Gg, Ss, Ss, Gg, Qxe, Qxe, Qxe, Qxe, Qxe, Gg, Qxe, Gg, Gg, Gg, Gg, Co, Gg, Gg, Gg, Gg, Gg, Gg, Ss, Gg, Ss, Ss, Ss, Gg, Gg, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss^Vhs, Ss, Ss, Gg, Gg, Gg, Gg, Gg
+Gg, Gg, Ss, Ss, Gg, Qxe, Qxe, Qxe, Qxe, Qxe, Gg, Qxe, Gg, Gg, Gg, Gg, Co, Gg, Gg, Gg, Gg, Gg, Gg, Ss, Gg, Ss, Ss, Ss, tunnel_exit Gg, Gg, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss^Vhs, Ss, Ss, Gg, Gg, Gg, Gg, Gg
 Gg, Ss, Gg, Gg^Vhs, Gg, Gg, Ss, Qxe, Ss, Gg, Ss, Gg, Gg, Gg, Gg, Co, Co, Co, Gg, Gg, Gg, Gg^Vhs, Gg, Gg, Gg, Gg, Gg, Sm, Ss, Ss, Ss, Ss, Gs^Fds, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Gs^Fds, Ss, Gg, Gg, Gg
 Gg, Ss, Gg, Gg, Gg, Gg, Gg, Ss, Ss, Ss, Ss, Ss, Ss, Gg, Co, Gg, 2 Ko, Gg, Co, Gg, Gg, Gg, Gg, Gll^Fp, Ss, Ss, Ss, Sm, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Gg
 Ss, Gg, Gg, Gg, Gg, Gg, Ss, Ss, Ss, Wwf, Wwf, Wwf, Wwf, Ss, Co, Co, Ko, Co, Co, Gg, Gg, Gg, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss^Vhs, Ss, Ss, Ss, Wwf, Ss, Ss^Vhs, Wwf, Wwf, Wwf, Ss, Ss, Ss, Gg
@@ -26,13 +23,13 @@ Ss, Ss, Wwf, Ss, Ss, Wwg, Wwg, Wwg, Wwf^Vhs, Wwf, Ss, Ss, Sm, Sm, Sm, Sm, Ss, Ww
 Ss, Ss, Wwf, Wwf, Wwf, Ss, Ss, Ss, Ss, Wwf, Sm, Sm, Sm, Sm, Ss, Ss, Ss^Vhs, Ss, Ss, Ss, Sm, Ss, Gg, Wwg, Ss, Gs^Fds, Ss, Wwf^Vhs, Wwf, Ss, Ss, Ss, Wwf, Sm, Wwg, Wwg, Wwg, Gg, Ss, Ss, Wwf, Ss, Ss, Ss, Ss, Ss
 Ss, Ss, Ss, Wwf, Ss, Ss^Vhs, Ss, Sm, Ss, Ss, Wwf, Wwf, Chs, Chs, 5 Khs, Ss, Ss, Sm, Sm, Ss, Ss, Gg, Gg, Ss, Ss, Ss, Wwf, Wwf, Ss, Wwf, Wwf, Ss, Ss, Ss, Wwg, Wwg^Ewf, Wwg^Ewf, Wwg, Wwg, Ss, Ss, Wwf, Ss, Ss, Ss, Ss
 Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Sm, Wwf, Sm, Sm, Chs, Sm, Ss, Wwf, Ss, Sm, Ss, Ss, Ss, Gg, Ss, Ss, Wwf, Ss, Ss, Wwf, Wwf, Ss, Ss, Ss, Ss, Gg, Wwg, Wwg, Wwg, Wwg, Ss, Ss, Ss, Ss, Ss, Ss, Ss
-Ss, Ss, Ss, Sm, Sm^Vhs, Gg, Gg^Fet, Gg, Ss, Sm, Ss, Ss, Ss, Ss, Ss, Ss, Wwf, Wwf, Ss, Sm, Ss, Ss, Gg, Ss, Wwf, Wwf, Wwf, Wwf, Ss, Ss, Gs^Fds, Ss, Ss, Wwf, Wwf, Ss, Sm, Wwg, Gg, Gg, Gg, Ss, Ss, Gs^Fds, Ss, Ss
+Ss, Ss, Ss, Sm, Sm^Vhs, Gg, Gg^Fet, Gg, Ss, Sm, Ss, Ss, Ss, Ss, Ss, Ss, Wwf, Wwf, Ss, Sm, Ss, Ss, Gg, Ss, Wwf, Wwf, Wwf, Wwf, Ss, Ss, Gs^Fds, Ss, Ss, Wwf, Wwf, Ss, Sm, Wwg, tunnel_entrance Gg, Gg, Gg, Ss, Ss, Gs^Fds, Ss, Ss
 Gg, Ss, Gg, Gg, Gg, Sm, Ss, Ss, Wwf, Ss, Wwf, Wwf, Wwg, Wwf, Wwg, Ss, Wwg, Ss, Ss, Ss, Ss, Ss^Vhs, Ss, Ss, Wwf, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Wwf, Ss, Ss, Ss, Ss, Gg, Gs^Fds, Ss, Ss, Ss, Ss, Ss, Ss
 Gg, Gg, Wwg^Vhs, Wwg, Wwg, Ss, Ss, Gs^Fds, Wwf, Ss, Ss, Wwg, Wwg, Wwf, Wwg, Wwg^Ewf, Wwg, Wwg, Gg, Ss, Gs^Fds, Ss, Ss, Wwf, Ss, Sm, Sm, Sm, Sm, Ss, Ss, Ss, Ss, Wwf, Ss, Ss, Wwg, Wwg, Wwg, Gg, Wwf, Wwf, Wwf, Ss, Ss, Gg
 Gg, Gg, Wwg, Wwg, Wwg^Ewf, Wwg, Ss, Wwf, Wwf, Ss, Sm, Wwg, Wwg, Wwf, Wwg, Wwg^Ewf, Wwg, Wwg^Vhs, Ss, Ss, Ss, Ss, Sm, Ss, Ss, Sm, Wwg, Sm^Vhs, Wwg, Ss, Wwg, Wwg, Wwg, Wwf, Ss, Ss, Wwg, Wwg, Wwg, Wwf, Ss, Ss, Wwf, Ss, Ss, Gg
 Gg, Gg, Wwg, Wwg^Ewl, Wwg, Wwg, Ss, Wwf, Ss, Ss, Ss, Ss, Ss, Ss, Sm, Wwg, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Wwf, Ss, Wwg, Wwg^Ewl, Wwg^Ewl, Wwg^Ewl, Wwg^Ewf, Wwg^Ewf, Wwg, Wwg, Gg, Gg, Ss, Ss, Wwg, Wwf, Ss, Sm, Sm, Ss, Wwf^Vhs, Ss, Gg
-Ss, Ss, Wwf, Wwf, Ss, Ss, Ss^Vhs, Ss, Wwf, Ss, Sm, Ss, Sm, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Wwf, Ss, Ss, Ss, Ss, Wwg, Wwg, Wwg, Wwg, Wwg, Wwg, Wwg, Gg, Gs^Fds, Gg, Gg^Vhs, Ss, Ss, Wwf, Sm, Sm, Ss, Ss, Ss, Ss, Ss
-Ss, Ss, Wwf, Wwf, Ss, Wwf, Ss, Ss, Wwf, Ss, Wwg, Wwg^Vhs, Wwg, Ss, Ss, Gs^Fds, Ss, Ss, Ss, Wwf, Wwf^Vhs, Wwf, Ss, Wwf, Wwf, Wwf, Ss, Wwg, Ss, Gg, Ss, Gg, Gg, Gg, Ss, Ss, Ss, Wwf, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss
+Ss, Ss, Wwf, Wwf, Ss, Ss, Ss^Vhs, Ss, Wwf, Ss, Sm, Ss, Sm, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Wwf, Ss, Ss, Ss, Ss, Wwg, Wwg, Wwg, Wwg, Wwg, Wwg, Wwg, Gg, Gs^Fds, Gg, Gg^Vhs, Ss, Ss, Wwf, Sm, Sm, Ss, Ss, Ss, advisor1 Ss, Ss
+Ss, Ss, Wwf, Wwf, Ss, Wwf, Ss, Ss, Wwf, Ss, Wwg, Wwg^Vhs, Wwg, Ss, Ss, Gs^Fds, Ss, Ss, Ss, Wwf, Wwf^Vhs, Wwf, Ss, Wwf, Wwf, Wwf, Ss, Wwg, Ss, Gg, Ss, Gg, Gg, Gg, Ss, Ss, Ss, Wwf, Ss, Ss, Ss, Ss, Ss, Ss, advisor2 Ss, Ss
 Ss, Ss, Co, Co, Co, Wwf, Wwf, Wwf, Ss, Wwg, Wwg^Ewf, Wwg^Ewf, Wwg, Ss, Ss, Gg, Ss, Gg, Wwf, Wwf, Ss, Ss, Ss, Ss, Sm, Sm, Ss, Ss, Gs^Fds, Ss, Ss, Ss, Wwf, Wwf, Ss, Ss, Wwf, Wwf, Chs, Chs, 1 Khs, Chs, Chs, Ss, Ss, Ss
 Gg, Ss, Co, 3 Ko, Co, Co, Ss, Ss, Ss, Wwg, Wwg, Wwg, Ss, Ss, Ss, Ss, Ss, Wwf, Ss, Gg, Gg, Ss, Ss, Ss, Sm, Ss, Wwf, Ss, Ss, Ss, Ss, Wwf, Ss, Ss, Ss, Ss, Wwf, Ss, Ss, Chs, Ss, Chs, Gs^Fds, Ss, Ss, Ss
 Gg, Gg, Gg, Co, Gg, Ss, Ss, Ss, Ss, Ss, Gg, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Sm, Ss, Wwf, Wwf, Wwf, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss, Ss^Vhs, Ss, Ss, Ss, Gg, Gg^Fet, Gg, Gg
