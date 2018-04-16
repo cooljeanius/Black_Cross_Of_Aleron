@@ -167,6 +167,17 @@ function wesnoth.wml_actions.recall(cfg)
 	old_recall(cfg)
 end
 
+-- Override unstore_unit to support location_id
+local old_unstore = wesnoth.wml_actions.unstore_unit
+function wesnoth.wml_actions.unstore_unit(cfg)
+	if cfg.location_id then
+		cfg = wml.shallow_parsed(cfg)
+		local to = wesnoth.special_locations[cfg.location_id]
+		cfg.x, cfg.y = to[1], to[2]
+	end
+	old_unstore(cfg)
+end
+
 -- Add formula= to [variable]
 -- Doesn't work for array variables though
 -- Note: Remove in 1.15 as it's built-in there
