@@ -193,3 +193,7 @@ function wesnoth.wml_actions.random_unit(cfg)
 	cfg.y = possible_locations[which_loc][2]
 	wesnoth.wml_actions.unit(cfg)
 end
+
+function wesnoth.wml_actions.popup_message(cfg)
+	wesnoth.show_popup_dialog(cfg.title or "", cfg.message, cfg.image)
+end
