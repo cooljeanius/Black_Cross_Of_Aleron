@@ -1,6 +1,6 @@
--- #textdomain wesnoth-drusi
+-- #textdomain wesnoth-celmin-bcoa
 
-local _ = wesnoth.textdomain "wesnoth-drusi"
+local _ = wesnoth.textdomain "wesnoth-celmin-bcoa"
 local old_unit_status = wesnoth.theme_items.unit_status
 function wesnoth.theme_items.unit_status()
 	local u = wesnoth.get_displayed_unit()

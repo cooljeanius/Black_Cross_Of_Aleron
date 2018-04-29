@@ -1,5 +1,5 @@
 
-local _ = wesnoth.textdomain "wesnoth-drusi"
+local _ = wesnoth.textdomain "wesnoth-celmin-bcoa"
 local H = wesnoth.require "helper"
 
 local released_text = {
