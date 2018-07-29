@@ -199,10 +199,12 @@ end
 -- If all matching locations already have a unit, it does nothing
 function wesnoth.wml_actions.random_unit(cfg)
 	local filter = wml.get_child(cfg, "filter_location") or helper.wml_error "Missing [filter_location] in [random_unit]"
-	filter = {
-		wml.tag["and"](filter),
-		wml.tag["not"]{ wml.tag.filter{} }
-	}
+	if cfg.require_vacant ~= false then
+		filter = {
+			wml.tag["and"](filter),
+			wml.tag["not"]{ wml.tag.filter{} }
+		}
+	end
 	local possible_locations = wesnoth.get_locations(filter)
 	if #possible_locations == 0 then
 		std_print("Error: No matching locations!")
