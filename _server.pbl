@@ -6,8 +6,7 @@ description="Dark forces are stirring in the land of Sharnough. An elvish school
 In The Black Cross of Aleron, you control Eärendil, the surviving teacher at the school, and the many and varied initiates. Not all of these are ordinary students; many have been experimenting with other forms of magic, while others are simply overachievers in some area of study. Unfortunately, they are not especially good at combat, at least initially. Together with a very small contingent of surviving guards, it is up to these students to save the land of Sharnough from disaster."
 email="celtic.minstrel.ca@somewhere"
 icon="terrain/castle/elven/keep-tile.png~BLIT(units/elves-wood/druid-defend-2.png~RC(magenta>teal),0,0)"
-passphrase="wwimciby"
 title="The Black Cross of Aleron"
 translate=no
 type="campaign"
-version=1.3.7
+version=2.0

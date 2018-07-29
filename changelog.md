@@ -1,5 +1,77 @@
 # Changelog
 
+## v2.0
+
+* **General**:
+	* First release for Wesnoth 1.14!
+	* Fix some cases where an enemy could take a village and give you potions.
+	* Fixed tooltip for the haste status effect giving incorrect information.
+	* Fix female Elvish Civilians having male hit sounds.
+	* Dominates ability:
+		* Now works on higher-level units as Ariandela gains levels.
+		* Has a chance of working on units of level equal to or one less than her own (5% and 25% respectively).
+		* You can no longer carry dominated units between scenarios.
+		* You can no longer choose a dominated unit's advancement if it would be freed by advancing.
+		* Can now be used by other units if Ariandela dies.
+	* When you lose due to the death of a hero, you now get a brief narration of a bad ending resulting from that hero's death.
+	* Add a death message for when a dwarf loyal dies.
+	* The aged captain now has a fixed name (but is still expendable).
+	* Items possessed by killed units are now consistently dropped on the ground, where they can then be retrieved by another qualified unit. Items covered by this are: the Ring of Domination, the Storm Trident, the Holy Necklace, and the Freezing Staff.
+	* Much of the dialogue has been overhauled and improved.
+* **Under the Hood**
+	* Some refactoring to make the scenario WML less dependent on map layout.
+* **Graphics**:
+	* Custom portraits for the elf queen and the old captain.
+* **Scenario 1** (The Goblin Sacking of Aleron Citadel):
+	* Now more supportive of ignoring the objectives, allowing a bit less linear play without risk of breaking the campaign..In particular, it is now impossible to miss Erendor.
+	* The scout who reports on the goblins is now properly chased by a wolf rider. Previously, sometimes the wolf rider who was supposed to chase him would instead wander off because he left their field of vision.
+	* Add a small chance of goblins popping out of villages alongside the initiates. This only happens before you defeat the first leader, and never on easy mode.
+* **Scenario 2** (Tracing the Goblins' Path):
+	* The initial locations of the starting enemies (the bats) are now randomized and thus less predictable.
+	* Attention is now drawn to the time limit via periodic tremors.
+	* Ending your turn on the campfire now damages you.
+* **Scenario 3** (Battle at Port Lobur):
+	* Visiting windmills now allows you to enlist a few peasants to help you for the duration of the scenario. They will leave your party when the scenario ends.
+	* The goblins that appear after giving Ariandela the ring are now fixated on her; the size of their group also depends on difficulty now. Their spawn locations are also randomized, and the impaler (on medium/hard - it's absent on easy) will always appear more or less at the front.
+	* Ariandela no longer has the dominates ability when negotiating with her; she only gains it after you give her the ring. This is to support the dialogue which links the ability to the ring.
+	* Some new easter-egg dialogue events. For example, try having the friendly orc archer kill the grunt who normally would've told on him.
+	* Randomized watch tower guardian locations on non-hard difficulty (hard difficulty isn't random only because every watch tower is guarded).
+* **Scenario 4** (Descent into the Orcish Realm):
+	* Fix Halbern's introductory dialogue playing even if his pursuers manage to kill him.
+	* Scroll to the whirlpool exit after being sucked in.
+	* The whirlpool tunnel is now considered for unit vision, so it should be more clear that you can get back just by a regular move.
+	* Additional dialogue with Halbern and potentially with the dwarf.
+	* Fix not getting kill experience for the orc leader.
+	* The water route has been widened a little but is no longer completely safe, and can no longer be traversed by even patient elves due to deep spots.
+	* Added an ancient merfolk shrine which can grant wisdom if found. This doesn't give any items or units - it just reveals the enemy's location.
+* **Scenario 5** (Reinforcements from Analandoron):
+	* The saurians will now smack the undead with their spear butt.
+	* The initial pair of saurians won't run away - they'll only attack Erendor.
+	* Major AI (and gold) tweaks to prevent it from being unwinnable.
+	* The queen is AI-controlled until she talks with the saurians. When controlled by the AI, she'll only use the faerie fire in defense, but she can also use it in offense against the undead.
+	* The undead are less smart and ignore villages, even for healing. They can no longer recruit spirits.
+	* The queen now has faerie fire and leadership, making her potentially useful after the negotiations.
+	* After negotiations, you can recruit at the saurian keep.
+	* Give more level 2 loyals on easy difficulty.
+	* Keep objectives more consistent regarding the note on Galdar's units versus Ardalandwen's units.
+* **Scenario 7** (Into the Dread Marsh):
+	* The orc leader now takes some loyal nightblades along on his assassination mission (and, hopefully, is a little smarter about the mission).
+	* Ensure the orc leader is not the one calling for vengeance after his death.
+	* The necromancer now favours recruiting walking corpses of various types, though he still recruits some other units too.
+	* If your loyal orc kills the enemy necromancer, you can avoid angering the orc leader (but only if you didn't kill him in scenario 4). However, in this event the archer must leave your party.
+	* Use a different style for the popup messages when you slay the lesser enemy leaders.
+	* The wolf pack leader now has a name and is red.
+	* When the orc leader decides to charge forward, he now drinks a haste potion first.
+	* The frog nests now function like a standard ambush.
+	* Fix leader responding to Aphrophila even if she hadn't survived that long.
+* **Scenario 8** (Descent into the Chasm):
+	* Prevent possibility of enemy finding potion caches in villages.
+	* Fix skeletal dragon announcing its own presence (wrong speaker).
+* **Scenario 9** (The Journey Home):
+	* Special dialogue if a dominated unit sights the ogres.
+	* Make the father ogre stronger on hard mode.
+	* Prevent frogs and wolves from straying too far from their normal area. For example, this means you can never encounter them before getting past the enemy castle.
+
 ## v1.3.7
 
 * Fix ability to use potions on enemies
