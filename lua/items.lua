@@ -46,27 +46,28 @@ function wesnoth.wml_actions.place_item(cfg)
 	-- Now build up the event code.
 	local evt = {name = 'moveto', first_time_only = false, id = cfg.id .. '_pickup'}
 	local condition, success, failure, take, leave = {}, {}, {}, {}, {}
-	table.insert(condition, wml.tag.have_unit{x = x, y = y, wml.tag["and"](wml.get_child(cfg, "filter") or helper.wml_error "Missing required [filter] tag in [place_item]")})
+	local lcfg = wml.literal(cfg)
+	table.insert(condition, wml.tag.have_unit{x = x, y = y, wml.tag["and"](wml.get_child(lcfg, "filter") or helper.wml_error "Missing required [filter] tag in [place_item]")})
 	table.insert(take, wml.tag.give_item(give_cfg))
 	table.insert(take, wml.tag.remove_item{x = x, y = y, image = cfg.image})
 	table.insert(take, wml.tag.remove_event{id = evt.id})
 	table.insert(leave, wml.tag.allow_undo{})
 	table.insert(success, wml.tag.message{
 		speaker = 'narrator',
-		message = cfg.text,
+		message = lcfg.text,
 		image = cfg.portrait or cfg.image,
 		wml.tag.option{
-			label = cfg.take_prompt,
+			label = lcfg.take_prompt,
 			wml.tag.command(take)
 		},
 		wml.tag.option{
-			label = cfg.leave_prompt,
+			label = lcfg.leave_prompt,
 			wml.tag.command(leave)
 		}
 	})
 	table.insert(failure, wml.tag.message{
 		speaker = 'narrator',
-		message = cfg.cannot_use_text,
+		message = lcfg.cannot_use_text,
 		image = cfg.portrait or cfg.image,
 		side_for = wesnoth.current.side -- To prevent an AI side from accidentally triggering the dialog
 	})
