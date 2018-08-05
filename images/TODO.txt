@@ -7,8 +7,6 @@ The following unit types need a portrait:
 - Elvish Initiate
 - Elvish Treewalker
 - Elvish Wisp
-- Elvish Mage
-- Elvish Priestess
 - Orcish Necromancer
 
 The following characters should have a unique portrait:
@@ -19,23 +17,22 @@ The following characters should have a unique portrait:
 - Graktar
 
 The following characters could use a unique portrait (low priority):
-- Aphrophila
+- Aphrophila (3 forms - initiate, priestess, enchantress)
 - Sir Malcorn
-- Elf Captain (currently randomly-named)
+- Nel-Brisad
 - Caluclya (2 forms, with wings and without)
+- Kaden Kreuz (3 forms - orc, spirit, lich)
 
 Attack Icons
 ============
 
 - slam (Giant Frog)
-- poison fangs (Mother Rat)
 - rat tail (Vicious Rat)
 
 Units
 =====
 
 - Orcish Necromancer
-	- base sprite
 	- attack melee
 	- attack magic
 	- defend
