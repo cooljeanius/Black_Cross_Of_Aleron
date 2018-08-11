@@ -1,5 +1,31 @@
 # Changelog
 
+## 2.0.1
+
+* **General**
+	* Fix typos and grammar errors, and tweak some dialogue.
+	* Fix double death event when Eovyniel dies.
+	* Note turns over loss and gold carryover details in all objectives.
+	* Allow the giant bat to get an AMLA.
+	* Automatically remove useless units when you end a scenario. A unit is deemed useless if:
+		* It is level 0.
+		* It has not gained any experience.
+		* It does not have anything special (initiates only), like an extra trait or ability.
+	* Reduce the recall cost for the level 0 initiate and civilian.
+	* Fix outdated description of the dominates ability.
+	* Added descriptions for all custom units that didn't previously have them, including the rats (which had only duplicated the old mainline giant rat description).
+	* Fix haste (sometimes? always?) not expiring at the end of a scenario.
+* **Scenario 1** (The Goblin Sacking of Aleron Citadel)
+	* Fix goblins not spawning when you land on a village. (This was supposed to happen on medium and hard with a little extra dialogue, but it didn't work in 2.0.)
+	* Fix Amuwen attacking unreachable enemies in her death throes.
+* **Scenario 7** (Into the Dread Marsh)
+	* Prevent mosquitoes from triggering the frog events.
+	* Reduce your carryover gold if you don't let the orcs get the kill.
+	* Add a hint if you miss the tunnel but wonder what that trapdoor is.
+* **Scenario 10** (Reclaiming the Citadel)
+	* Fix Aphrophila missing her ellipse.
+	* Fix Malcorn not showing up if you hadn't killed him earlier.
+
 ## v2.0
 
 * **General**:

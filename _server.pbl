@@ -9,4 +9,4 @@ icon="terrain/castle/elven/keep-tile.png~BLIT(units/elves-wood/druid-defend-2.pn
 title="The Black Cross of Aleron"
 translate=no
 type="campaign"
-version=2.0
+version=2.0.1
