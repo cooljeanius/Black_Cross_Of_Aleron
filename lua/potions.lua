@@ -6,11 +6,11 @@ local healing_total = wml.variables.healing_potion
 local haste_new = haste_total - (wml.variables.haste_potion_old or haste_total)
 local healing_new = healing_total - (wml.variables.healing_potion_old or healing_total)
 
-local haste_detail = wesnoth.format(_("another haste potion","$potions more haste potions",haste_new), {potions = haste_new})
-local healing_detail = wesnoth.format(_("another healing potion","$potions more healing potions",healing_new), {potions = healing_new})
+local haste_detail = wesnoth.format( _("another haste potion","$potions more haste potions",haste_new), {potions = haste_new})
+local healing_detail = wesnoth.format( _("another healing potion","$potions more healing potions",healing_new), {potions = healing_new})
 
-local haste_total = wesnoth.format(_("just one haste potion", "$potions haste potions", haste_total), {potions = haste_total})
-local healing_total = wesnoth.format(_("just one healing potion", "$potions healing potions", healing_total), {potions = healing_total})
+local haste_total = wesnoth.format( _("just one haste potion", "$potions haste potions", haste_total), {potions = haste_total})
+local healing_total = wesnoth.format( _("just one healing potion", "$potions healing potions", healing_total), {potions = healing_total})
 
 local open_green = "<span color='darkgreen' font_weight='bold'>"
 local open_orange = "<span color='orange' font_weight='bold'>"
