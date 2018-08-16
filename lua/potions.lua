@@ -3,8 +3,8 @@ local _ = wesnoth.textdomain "wesnoth-celmin-bcoa"
 
 local haste_total = wml.variables.haste_potion
 local healing_total = wml.variables.healing_potion
-local haste_new = haste_total - wml.variables.haste_potion_old
-local healing_new = healing_total - wml.variables.healing_potion_old
+local haste_new = haste_total - (wml.variables.haste_potion_old or 0)
+local healing_new = healing_total - (wml.variables.healing_potion_old or 0)
 
 local haste_detail = wesnoth.format(_("another haste potion","$potions more haste potions",haste_new), {potions = haste_new})
 local healing_detail = wesnoth.format(_("another healing potion","$potions more healing potions",healing_new), {potions = healing_new})
