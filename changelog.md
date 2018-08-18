@@ -1,5 +1,42 @@
 # Changelog
 
+## 2.0.2
+
+* **General**
+	* Whenever you get some potions, show a summary of the potions you got.
+	* Make it clearer when bonus objectives have been satisfied by striking them out in the objectives display.
+* **Scenario 2** (Tracing the Goblins' Path):
+	* Add a counter to the bonus objective description.
+* **Scenario 3** (Battle at Port Lobur):
+	* Fix merman warrior not joining your side if you beat the nagas before he dies.
+	* On hard mode, add a few loyal troops and increase enemy gold a little.
+	* Deshroud the map after searching the shipwreck.
+	* Fix a naga sometimes spawning next to the lighthouse instead of the orc's castle.
+	* Some minor map tweaks (rubble+damage in the orc's castle).
+* **Scenario 4** (Descent into the Orcish Realm):
+	* Some minor map tweaks, particularly in the lake area
+	* On hard mode, give 2 more turns.
+	* Give enemies a few loyal troops who stay near their castle.
+	* Enemy limits on level 2 recruits are now less specific, so for example (on easy) it could choose to recruit 3 chocobones but then would not be able to recruit any more level 2 units. (Note that these limits also count any loyal level 2 units.) Previously, it was limited only per type.
+	* Add a little more post-scenario dialogue, which varies depending on who you've killed.
+	* Make the upper-right area of the map (where the river flows out of the lake) less hospitable to the undead, with an illuminated patch that they'll avoid.
+* **Scenario 5** (Reinforcements from Analandoron):
+	* Some refinements to the negotiation dialogue.
+	* Reduce the number of chocobones (all difficulties) as they're especially devastating to the saurians.
+	* Ensure the saurian leader will not die before the negotiations.
+* **Scenario 6** (Hordes from the Marsh):
+	* Add some bonus dialogue if you found the sea chart in the shipwreck. This is a sort-of hint towards the drakes.
+* **Scenario 7** (Into the Dread Marsh):
+	* Fix Graktar's son not showing up in the marsh if you kill his father.
+	* Prevent frogs from triggering their own nests.
+	* Add some bridges near the necromancer's castle, and an encampment hex between the nightgaunt and ghast castles.
+	* Move the loyal, weak death knight to the aforementioned encampment hex, rather than starting him out in the necromancer's castle. This should reduce the chance that he's near the left side of the map when the orc leader decides to assassinate the necromancer. It also might make it more likely for the player to fight him.
+	* Add a counter to the bonus objective description.
+	* Fix incorrect reference to the relationship between Kaden Kreuz and Graktar's son.
+	* Increase proportion of walking corpses recruited by the necromancer.
+* **Scenario 10** (Reclaiming the Citadel):
+	* Hide the UI for the end cutscene and don't enter linger mode afterwards.
+
 ## 2.0.1
 
 * **General**:
