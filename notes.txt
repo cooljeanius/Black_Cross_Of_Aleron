@@ -42,7 +42,7 @@ General
 - Make holy aura ability use WFL if possible?
 - Auto-generate the teleport masks using ~ADJUST_ALPHA() or, if the masks exist as files in core, use them
 - Set some global veriables that can be checked by the sequel to slightly vary its dialogue
-- Use [leader] for all side leaders; requires adding save_id and side_name
+- Check interaction of resurrection with hero deaths and item drops - if resurrected, items should not drop and the game should not be over.
 
 Scenario 3
 ----------
@@ -56,11 +56,11 @@ Scenario 4
 Scenario 5
 -----------
 - Ensure the saurians won't be overcome before you even have a chance to get there (make undead AI dumber?)
-- Use a MicroAI (simple_attack) to ensure the first to saurians only target Erendor
 
 Scenario 7
 ----------
 - Maybe consider switching up the schedule to give the undead an advantage?
+- Use a swarm MicroAI for the mosquitos (need to account for swarm not attacking - lower ca_score or also add simple_attack MAI)
 
 Scenario 9
 ----------
