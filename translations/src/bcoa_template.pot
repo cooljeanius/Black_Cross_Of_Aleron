@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2018-08-11 14:24 UTC\n"
+"Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
+"POT-Creation-Date: 2018-08-18 19:16 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,6 +34,34 @@ msgstr ""
 msgid "female_domination^resisted!"
 msgstr ""
 
+#: Black_Cross_of_Aleron\lua\potions.lua:9
+msgid "another haste potion"
+msgid_plural "$potions more haste potions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Black_Cross_of_Aleron\lua\potions.lua:10
+msgid "another healing potion"
+msgid_plural "$potions more healing potions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Black_Cross_of_Aleron\lua\potions.lua:12
+msgid "just one haste potion"
+msgid_plural "$potions haste potions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Black_Cross_of_Aleron\lua\potions.lua:13
+msgid "just one healing potion"
+msgid_plural "$potions healing potions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Black_Cross_of_Aleron\lua\potions.lua:28
+msgid "no more potions"
+msgstr ""
+
 #. [lua]: wesnoth.theme_items.unit_status
 #: Black_Cross_of_Aleron\lua\unit-status.lua:12
 msgid "dominated: This unit is dominated. It will be under the control of the dominator's side until it either levels up or ends a turn not adjacent to the dominator."
@@ -50,208 +78,209 @@ msgid "The Goblin Sacking of Aleron Citadel"
 msgstr ""
 
 #. [unit]: type=Elvish Druid, id=lastteacher
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:55
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:56
 msgid "Amuwen"
 msgstr ""
 
 #. [trait]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:68
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:69
 msgid "broken leg"
 msgstr ""
 
 #. [trait]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:69
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:70
 msgid "Due to a broken leg, this unit cannot move or use melee attacks."
 msgstr ""
 
-#. [side]: id=gruk, type=Goblin Rouser
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:115
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:121
+#. [leader]: id=gruk, type=Goblin Rouser
+#. [side]
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:107
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:100
 msgid "Gruk"
 msgstr ""
 
-#. [side]: id=gruk, type=Goblin Rouser
-#. [side]: id=burluk, type=Goblin Knight
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:116
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:179
+#. [side]
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:101
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:166
 msgid "Goblins"
 msgstr ""
 
-#. [side]: id=burluk, type=Goblin Knight
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:178
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:184
+#. [leader]: id=burluk, type=Goblin Knight
+#. [side]
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:172
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:165
 msgid "Burluk"
 msgstr ""
 
 #. [part]
 #. "Bright Moon" refers to the sixth of twelve months - ie June.
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:223
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:228
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:206
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:211
 msgid "<i><small>Year of the Birch, 4th of the Bright Moon</small></i>"
 msgstr ""
 
 #. [part]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:224
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:207
 msgid "It has been nearly a year since Eärendil first came to the isle of Aleron as a teacher. At first, it had been nostalgic, remembering her time as a student here in the druid citadel, decades ago; but by now, she was fully into the routine of teaching. It was nice, imparting her skills upon the young elf maidens who had come here to learn the art, and despite the small complement of trained guards stationed nearby, it felt secluded, safe from any occasional turmoil that might strike upon the land of Sharnough."
 msgstr ""
 
 #. [part]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:229
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:212
 msgid "Today, however, that tranquil routine would be shattered in the most shocking way. Around dawn, Eärendil was roused from her slumber in the teachers' dormitory by shouts, screams, and the sort of dull thud produced when a blade strikes wood."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:263
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:261
 msgid "What's going on here?"
 msgstr ""
 
 #. [message]: speaker=lastteacher
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:267
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:265
 msgid "I have no idea! The goblins took us all by surprise! Most of the teachers were dead by the time we realized they were here! Tiolindë barely managed to take down the dire wolf, but then she too was killed. I have not seen Caluclya."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:286
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:284
 msgid "Oh no, I see smoke! Goblins are sacking the school, too! We must do something!"
 msgstr ""
 
 #. [message]: speaker=lastteacher
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:290
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:288
 msgid "I know that, but we're surrounded! There's not much we can do! And my leg is broken, so I can barely even defend myself. I'm not sure if anyone escaped."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:294
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:292
 msgid "What on earth happened to the warriors who were supposed to protect us! Have they so easily fallen to such weak goblins?"
 msgstr ""
 
 #. [message]: speaker=lastteacher
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:298
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:296
 msgid "Weak they may be, but they are many. The warriors may be overwhelmed by the numbers."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:302
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:300
 msgid "You are probably right... at this time, we must focus on ourselves. Work with me, I will back you up!"
 msgstr ""
 
 #. [message]: speaker=lastteacher
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:306
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:304
 msgid "Let's go!"
 msgstr ""
 
 #. [objective]: condition=win
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:320
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:318
 msgid "Reach the schoolhouse"
 msgstr ""
 
 #. [value]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:332
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:330
 msgid "Oh lady Eärendil, thank goodness! I was so scared! There were goblins everywhere and I was sure they would find my hiding place!"
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:334
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:332
 msgid "Calm down, child. I don't see any goblins now, so they must have moved on from this dormitory. Come, let us see if there is anyone else who needs help."
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:335
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:333
 msgid "Calm down, child. The goblins have been routed. You are safe now."
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:336
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:334
 msgid "Calm down, child. The first wave was routed, so I am sure we will survive the second wave, too."
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:337
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:335
 msgid "Calm down, child. Together we can defeat these goblins who dare threaten our home."
 msgstr ""
 
 #. [goblin]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:340
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:338
 msgid "Aha! I <i>thought</i> someone was there!"
 msgstr ""
 
 #. [goblin]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:341
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:339
 msgid "Ahhh! Lady Eärendil, help me!"
 msgstr ""
 
 #. [value]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:346
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:344
 msgid "Um... Is it safe now? Are the goblins gone?"
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:348
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:346
 msgid "There are none in this dormitory, but the citadel is still occupied."
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:349
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:347
 msgid "Yes, child, they have been routed by our guards and my magic."
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:350
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:348
 msgid "Yes, child, they are gone, but there are more on the way. We must prepare to face them."
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:351
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:349
 msgid "I fear not. We defeated the first wave, but more have now come. We must defeat them too."
 msgstr ""
 
 #. [goblin]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:354
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:352
 msgid "Ha! You thought there was nobody here, but you were wrong!!"
 msgstr ""
 
 #. [goblin]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:355
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:353
 msgid "Hmph! You don't scare me anymore! Lady Eärendil is here now!"
 msgstr ""
 
 #. [value]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:360
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:358
 msgid "Oh! Lady Eärendil! You are alive, what a relief! Does that mean the goblins have gone?"
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:362
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:360
 msgid "I fear not. They have left this dormitory but appear to be occupying the citadel. I am doing what I can to gather everyone."
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:363
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:361
 msgid "Yes, they are gone. Worry not, and rejoice! However, there is still much to do to clean up their mess."
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:364
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:362
 msgid "The initial wave has been routed, but more were sighted. Be wary!"
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:365
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:363
 msgid "The first wave was defeated, but more have arrived. We are doing our best to drive them away."
 msgstr ""
 
 #. [goblin]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:368
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:366
 msgid "As if I could let you do that!"
 msgstr ""
 
 #. [goblin]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:369
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:367
 msgid "You cannot stop Lady Eärendil! With her help we'll defeat you all!"
 msgstr ""
 
 #. [value]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:374
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:372
 msgid ""
 "Eeeeeeek! Don't kill me oh please don't... huh? You're not...?\n"
 "\n"
@@ -261,37 +290,37 @@ msgid ""
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:380
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:378
 msgid "Yes, I am very much alive. Come, cheer up and let us go teach these churlish goblins a lesson about invading our home."
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:381
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:379
 msgid "The goblins are all gone. They will not kill you now. Come on, come out of hiding."
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:382
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:380
 msgid "The goblins are gone for now. They will not kill you. Come on, come out of hiding."
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:383
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:381
 msgid "I will do my best to protect you from them. Come on, come out of hiding."
 msgstr ""
 
 #. [goblin]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:386
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:384
 msgid "It's <i>our</i> home now!"
 msgstr ""
 
 #. [goblin]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:387
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:385
 msgid "Ahhhhhhh! Lady Eärendil, Lady Eärendil, another one just popped up!"
 msgstr ""
 
 #. [value]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:392
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:390
 msgid ""
 "Come on, goblins! You won't take me without a fight! I'll take you with... huh?\n"
 "\n"
@@ -299,271 +328,271 @@ msgid ""
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:396
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:394
 msgid "Nice spirit, child! Let us go take them on together!"
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:397
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:395
 msgid "You have nice spirit, child! However, the goblins are all gone now."
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:398
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:396
 msgid "You have spirit, child, which will be sorely needed in the coming battle. We have defeated the first wave, but more are on the way."
 msgstr ""
 
 #. [reply]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:399
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:397
 msgid "You have spirit, child, which will be sorely needed in this battle. We defeated the first wave, but more have come."
 msgstr ""
 
 #. [goblin]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:402
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:400
 msgid "Hey, you there! This is our territory now! Get out or die!"
 msgstr ""
 
 #. [goblin]
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:403
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:401
 msgid "Make me! With Lady Eärendil's help, nothing can stop us now!"
 msgstr ""
 
 #. [message]: id=lastteacher
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:416
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:414
 msgid "Nooooooo!"
 msgstr ""
 
 #. [message]: id=lastteacher
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:452
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:450
 msgid "Eärendil, you're our last hope! Hurry over to find out what's happening!"
 msgstr ""
 
 #. [message]: id=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:456
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:454
 msgid "I'll go as fast as I can!"
 msgstr ""
 
 #. [message]: id=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:478
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:476
 msgid "At last, he has fallen... I had better investigate the student dorms, too. I hope they are safe..."
 msgstr ""
 
 #. [message]: id=lastteacher
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:482
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:480
 msgid "I... cannot hold out any longer. I am sorry, Eärendil, but I will have to leave the rest to you. You are our last hope."
 msgstr ""
 
 #. [message]: speaker=gruk
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:519
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:517
 msgid "One of the teachers still lives! Quick, cut her down!"
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:523
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:521
 msgid "Why are you doing this? And what happened to the guards?"
 msgstr ""
 
 #. [message]: speaker=gruk
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:527
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:525
 msgid "Oh, the guards, hehehe... they put up a fight, but I am certain my knights have just about finished them off by now!"
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:531
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:529
 msgid "And you think I'll go down as easily? Think again!"
 msgstr ""
 
 #. [objective]: condition=win
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:535
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:533
 msgid "Defeat Gruk and his minions."
 msgstr ""
 
 #. [unit]: type=Elvish Initiate, id=tw_1st
 #. This is the younger sister of Eärendil. As a result, she addresses her older sister much more casually than the other initiates.
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:551
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:549
 msgid "Eovyniel"
 msgstr ""
 
 #. [message]: speaker=tw_1st
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:579
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:577
 msgid "Oh Eärendil! Thank goodness you are safe! When the goblins attacked our dorms, the initiates scattered into the woods. Some are a little injured and all are scared, but they are safe. I suppose the goblins do not consider us a threat, for they have not put much effort into hunting us down. Where are the other teachers?"
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:583
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:581
 msgid "Well, at least there is some good news here. I am afraid the other teachers are all dead, as far as I know. I did not have the time to count corpses, though, so one or two may have escaped."
 msgstr ""
 
 #. [message]: speaker=tw_1st
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:587
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:585
 msgid "Oh no! That is terrible!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:597
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:595
 msgid "Arrgh! Curse you, elves! Burluk will have your heads for this!"
 msgstr ""
 
-#. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:616
-msgid "I should investigate the guardhouse..."
-msgstr ""
-
-#. [objective]: condition=win
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:624
-msgid "Find out what happened to the guards (move leader to guardhouse)"
-msgstr ""
-
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:677
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:684
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:697
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:645
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:652
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:665
 msgid "Ah, lady Eärendil! We have routed the goblin invaders, but only with heavy losses."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:678
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:646
 msgid "Let us take out their leader together."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:685
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:653
 msgid "I see you have taken out the leader for me, but we need to mop up these stragglers first."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:691
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:659
 msgid "Are these the lot of them, then?"
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:701
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:669
 msgid "Then has the danger passed already?"
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:707
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:675
 msgid "I am unsure. I have sent a scout to investigate across the river."
 msgstr ""
 
 #. [message]: id=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:728
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:696
 msgid "Well then, I should round up the initiates..."
 msgstr ""
 
 #. [objective]: condition=win
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:733
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:701
 msgid "Wait for the scout to return"
 msgstr ""
 
+#. [message]: speaker=chiefdruid
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:724
+msgid "I should investigate the guardhouse..."
+msgstr ""
+
+#. [objective]: condition=win
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:732
+msgid "Find out what happened to the guards (move leader to guardhouse)"
+msgstr ""
+
+#. [message]: id=herbalist
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:771
+msgid "Oh my, what has happened here?"
+msgstr ""
+
+#. [message]: id=chiefdruid
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:775
+msgid "Caluclya! Thank goodness you survived! We were attacked by goblins. The other teachers and most of the guards perished, but it appears that all the students have survived."
+msgstr ""
+
+#. [message]: id=herbalist
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:781
+msgid "Oh my! That is grim news indeed. If only I had been here to help."
+msgstr ""
+
+#. [message]: id=chiefdruid
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:785
+msgid "Do not feel too bad. They took us completely by surprise. Most of the teachers died in their sleep."
+msgstr ""
+
+#. [message]: speaker=advancescout
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:846
+msgid "Sir Erendor, lady Eärendil, there is a goblin base across the river!"
+msgstr ""
+
+#. [message]: speaker=advancescout
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:846
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:852
+msgid "They appear to be mustering for an attack! I barely escaped with my life! There are two goblin knights. One of them pursued me almost to the river, but I think I managed to give him the slip."
+msgstr ""
+
+#. [message]: speaker=advancescout
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:852
+msgid "Lady Eärendil, there is a goblin base across the river! Sir Erendor sent me to investigate."
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:872
+msgid "Oh no! We are in no condition to fight after the last attack nearly finished our forces! What shall we do?"
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:879
+msgid "Oh no! And we only just defeated this group with heavy losses. What are we to do now?"
+msgstr ""
+
+#. [message]: speaker=tw_1st
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:898
+msgid "The initiates will fight too, Eärendil. Some of them have even learned offensive spells."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:902
+msgid "They've been learning what? ... Never mind, in times like this we need everything we can get."
+msgstr ""
+
+#. [objective]: condition=win
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:909
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:283
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:340
+msgid "Defeat enemy leader"
+msgstr ""
+
 #. [message]: speaker=braveguard
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:759
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:934
 msgid "Sir Erendor, I have finished my sweep. There is not a single goblin left in the dormitories."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:768
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:943
 msgid "That is a speck of good news. At least we have a brief respite to recover our strength."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:774
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:949
 msgid "Very good, now we just have to wait for the scout's report."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:795
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:430
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:812
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:970
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:459
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:925
 #: Black_Cross_of_Aleron\utils\potions.cfg:33
 msgid "Note"
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:796
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:971
 msgid "You can now recruit Fighters and Archers, but only in limited numbers."
 msgstr ""
 
-#. [message]: id=herbalist
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:833
-msgid "Oh my, what has happened here?"
-msgstr ""
-
-#. [message]: id=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:837
-msgid "Caluclya! Thank goodness you survived! We were attacked by goblins. The other teachers and most of the guards perished, but it appears that all the students have survived."
-msgstr ""
-
-#. [message]: id=herbalist
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:843
-msgid "Oh my! That is grim news indeed. If only I had been here to help."
-msgstr ""
-
-#. [message]: id=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:847
-msgid "Do not feel too bad. They took us completely by surprise. Most of the teachers died in their sleep."
-msgstr ""
-
-#. [message]: speaker=advancescout
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:908
-msgid "Sir Erendor, lady Eärendil, there is a goblin base across the river!"
-msgstr ""
-
-#. [message]: speaker=advancescout
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:908
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:914
-msgid "They appear to be mustering for an attack! I barely escaped with my life! There are two goblin knights. One of them pursued me almost to the river, but I think I managed to give him the slip."
-msgstr ""
-
-#. [message]: speaker=advancescout
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:914
-msgid "Lady Eärendil, there is a goblin base across the river! Sir Erendor sent me to investigate."
-msgstr ""
-
-#. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:934
-msgid "Oh no! We are in no condition to fight after the last attack nearly finished our forces! What shall we do?"
-msgstr ""
-
-#. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:941
-msgid "Oh no! And we only just defeated this group with heavy losses. What are we to do now?"
-msgstr ""
-
-#. [message]: speaker=tw_1st
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:960
-msgid "The initiates will fight too, Eärendil. Some of them have even learned offensive spells."
-msgstr ""
-
-#. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:964
-msgid "They've been learning what? ... Never mind, in times like this we need everything we can get."
-msgstr ""
-
-#. [objective]: condition=win
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:971
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:254
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:346
-msgid "Defeat enemy leader"
-msgstr ""
-
 #. [message]: role=scoutcommenter
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:1004
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:1002
 msgid "Lady Eärendil, there is a ladder descending this shaft. Perhaps they came from down there."
 msgstr ""
 
 #. [message]: id=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:1008
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:1006
 msgid "I think we had better go after them, then. The leader of the initial raiding party implied that he had multiple masters, so I suspect this may not be the last of them."
 msgstr ""
 
 #. [message]: id=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:1126
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:1124
 msgid "Hello? Is anyone here?"
 msgstr ""
 
 #. [message]: id=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:1136
+#: Black_Cross_of_Aleron\scenarios\01-what-happened.cfg:1134
 msgid "This dormitory seems to be deserted..."
 msgstr ""
 
@@ -572,174 +601,172 @@ msgstr ""
 msgid "Tracing the Goblins' Path"
 msgstr ""
 
-#. [side]: type=Mother Rat
+#. [side]
 #: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:50
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:92
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:88
 msgid "Rats"
 msgstr ""
 
-#. [side]: type=Mother Rat
 #. [side]
-#. [side]: type=Giant Mudcrawler
 #: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:51
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:93
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:125
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:126
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:181
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:89
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:115
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:116
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:173
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:47
 #: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:49
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:51
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:94
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:92
 msgid "Monsters"
 msgstr ""
 
-#. [side]: type=Giant Mudcrawler
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:180
+#. [side]
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:172
 msgid "Mudcrawlers"
 msgstr ""
 
 #. [part]
 #. "Bright Moon" refers to the sixth of twelve months - ie June.
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:213
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:199
 msgid "<i><small>Year of the Birch, 14th of the Bright Moon</small></i>"
 msgstr ""
 
 #. [part]
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:214
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:200
 msgid "Eärendil led her students and their protectors down the shaft, into the dark tunnels beneath. The caves were dank and dreary, and they progressed slowly yet steadily into the gloom. After a time, rustling sounds began to disturb the silence..."
 msgstr ""
 
 #. [objective]: condition=win
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:264
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:252
 msgid "Move into the light at the far end of the tunnels"
 msgstr ""
 
-#. [objective]: condition=win
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:269
+#. [objectives]
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:255
 msgid "Defeat all enemy leaders"
 msgstr ""
 
 #. [note]
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:275
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:259
 msgid "You can flag most nests for income."
 msgstr ""
 
 #. [note]
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:278
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:262
 msgid "Areas where you can recruit are marked off with stones; stand on the nest to recruit."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:312
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:296
 msgid "Whatever is ahead, I hope it is no threat to us. That rustling is making me uneasy..."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:316
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:300
 msgid "The dankness is getting to all of us. Let us proceed with caution, just in case."
 msgstr ""
 
 #. [message]: speaker=tw_1st
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:323
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:307
 msgid "And I like not that distant rumbling... I hope the ceiling does not collapse upon us."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:416
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:400
 msgid "There's a narrow passageway here!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:432
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:416
 msgid "There is much of value in this chest! Gold, jewels, and some potions... this smells like a healing potion! And that brilliant shade could only be a potion of haste! Also... there's another narrow passage behind it."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:479
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:464
 msgid "This cave is open to the air! What a refreshing change from those dark tunnels..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:492
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:477
 msgid "I have come upon a crude shelter! And I think it is occupied!"
 msgstr ""
 
 #. [message]: speaker=healthy_dwarf_brother
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:542
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:527
 msgid "I'll thank ye not to criticize my shelter-buildin' skills."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:546
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:531
 msgid "What are you doing back there?"
 msgstr ""
 
 #. [message]: speaker=healthy_dwarf_brother
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:550
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:535
 msgid "Me an' me brother were travellin' home after visitin' relatives, but we were swarmed by the rats an' he took a heavy beatin' from one o' the great big 'uns."
 msgstr ""
 
 #. [message]: speaker=wounded_dwarf_brother
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:554
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:539
 msgid "Yeah, yeah, go ahead then. (sigh) Spread the ken o' me disgrace to all and sundry..."
 msgstr ""
 
 #. [message]: speaker=healthy_dwarf_brother
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:558
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:543
 msgid "Anyway, I snuck back here and kindled a fire to keep 'em away, since they're afeared o' fire."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:562
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:547
 msgid "We are on the tail of a band of goblins who raided our school. Would you like to accompany us?"
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:566
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:551
 msgid "I believe there are likely to be orcs behind this."
 msgstr ""
 
 #. [message]: speaker=wounded_dwarf_brother
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:570
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:555
 msgid "Goblins? Orcs? I say let me at 'em!"
 msgstr ""
 
 #. [message]: speaker=healthy_dwarf_brother
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:574
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:559
 msgid "Well, there's yer answer, miss. We'd be happy ta join ye."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:587
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:572
 msgid "I can see the light! Hurry, let us proceed out of these dreary caves!"
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:591
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:576
 msgid "At last! Though, if orcs are behind this, I fear we may again need to venture underground..."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:599
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:584
 msgid "Quickly, let us hurry out, lest the place collapse on top of us!"
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:629
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:615
 msgid "Looks like that is the last of these vermin. Let us hurry out of these caves."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:676
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:662
 msgid "Oh no! The cave is unstable! We must hurry before it collapses!"
 msgstr ""
 
 #. [message]
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:696
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:682
 msgid "The path forward is blocked... we cannot continue..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:716
+#: Black_Cross_of_Aleron\scenarios\02-dank-tunnels.cfg:702
 msgid "Gyaaah! A rat was hiding here!"
 msgstr ""
 
@@ -748,851 +775,906 @@ msgstr ""
 msgid "Battle at Port Lobur"
 msgstr ""
 
-#. [side]: id=pakhai, type=Orcish Warrior, type=Orcish Warlord
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:40
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:49
+#. [leader]: id=pakhai, type=Orcish Warrior, type=Orcish Warlord
+#. [side]
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:48
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:38
 msgid "Vrughnar"
 msgstr ""
 
-#. [side]: id=pakhai, type=Orcish Warrior, type=Orcish Warlord
+#. [side]
 #. [modify_side]
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:41
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:583
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:39
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:575
 msgid "Orcs"
 msgstr ""
 
 #. [part]
 #. "Bright Moon" refers to the sixth of twelve months - ie June.
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:89
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:115
 msgid "<i><small>Year of the Birch, 22nd of the Bright Moon</small></i>"
 msgstr ""
 
 #. [part]
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:90
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:116
 msgid "Relieved to finally be out of the caves, which had collapsed behind them, the elves set up camp in the hills near the coast. With no option of returning the way they came, Erendor sent scouts out to investigate the area. They returned with a chilling report: the human port town of Lobur had been overrun and occupied by orcs! After a night's rest, it was decided to help free Lobur before investigating further into the goblin sacking of the citadel."
 msgstr ""
 
+#. [objectives]
 #. [objective]: condition=win
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:259
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:675
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:290
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:708
 msgid "Find Ariandela and convince her to help you"
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:271
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:300
 msgid "I have never travelled up this part of the coast, but I have heard tell of a powerful sorceress living just north of here. Her name was... Ariandela, I believe."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:275
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:304
 msgid "Is that so? Perhaps she will help us out."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:287
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:316
 msgid "We were lucky to get out of these tunnels alive. The entrance is completely collapsed. We will surely need to find a different way home."
 msgstr ""
 
 #. [random_unit]: type=Elvish Sorceress, id=hermitsorceress
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:311
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:340
 msgid "Ariandela"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:317
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:346
 msgid "(knock, knock) Hello!"
 msgstr ""
 
 #. [message]: speaker=hermitsorceress
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:321
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:350
 msgid "Hello. What brings you here?"
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:325
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:354
 msgid "You must be Ariandela? We have an orc problem."
 msgstr ""
 
 #. [message]: speaker=hermitsorceress
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:329
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:358
 msgid "Should I do something about that? The orcs here bother me not."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:333
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:362
 msgid "They have sent goblins to the druid school. We fear they may be planning a larger attack."
 msgstr ""
 
 #. [message]: speaker=hermitsorceress
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:337
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:366
 msgid "And this affects me how?"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:367
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:396
 msgid "(knock, knock) Hello again, Ariandela."
 msgstr ""
 
 #. [message]: speaker=hermitsorceress
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:371
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:400
 msgid "Still trying to convince me to join you?"
 msgstr ""
 
 #. [random_unit]: id=loyalmermaid, type=Mermaid Initiate
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:397
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:426
 msgid "Aphrophila"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:408
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:437
 msgid "Is there anyone here?"
 msgstr ""
 
 #. [message]: speaker=loyalmermaid
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:412
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:441
 msgid "Oh, thank goodness you have come! The orcs have been raiding our homes recently; most of us left, but a few wanted to hang on and hope for a chance to defeat them."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:416
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:445
 msgid "Well, our aims are in harmony. We will help you out."
 msgstr ""
 
 #. [message]: speaker=loyalmermaid
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:420
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:449
 msgid "Thank you! I am sure the others will be grateful too."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:431
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:460
 msgid "You can now recruit limited numbers of Mermaid Initiates and Mermaid Hunters."
 msgstr ""
 
 #. [unit]: id=agedcaptain, type=Elvish Captain
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:447
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:476
 msgid "Nel-Brisad"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:458
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:487
 msgid "One of these cabins is inhabited!"
 msgstr ""
 
 #. [message]: speaker=agedcaptain
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:462
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:491
 msgid "Hello. It has been quite some time since I last saw an elven face."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:466
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:495
 msgid "We are assaulting the orc base just up the coast. Want to join us?"
 msgstr ""
 
 #. [message]: speaker=agedcaptain
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:470
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:499
 msgid "Sure, though I am not as agile as I used to be."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:483
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:512
 msgid "There is an odd ring in this abandoned shack... it glows softly in the darkness!"
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:487
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:516
 msgid "Perhaps it may come in handy later. Keep it safe for now."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:491
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:520
 msgid "Very well."
 msgstr ""
 
 #. [message]: speaker=cowardlyorcarcher
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:535
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:564
 msgid "Aaaagh! Stay back! Don't kill me! If you kill me, I'll shoot!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:539
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:568
 msgid "Uh... calm down. Why so flustered?"
 msgstr ""
 
 #. [message]: speaker=cowardlyorcarcher
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:543
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:572
 msgid "I don't wanna die!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:547
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:576
 msgid "Okay fine, I won't kill you."
 msgstr ""
 
 #. [message]: speaker=cowardlyorcarcher
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:551
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:580
 msgid "Phew! Can I come with you? It must be safer than staying here."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:563
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:592
 msgid "Uh... let me ask our leader."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:569
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:598
 msgid "An orc wishing to help us? That is unexpected, but I have no reason to refuse. Sure, you may tag along."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:576
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:605
 msgid "Well, we have killed the leader, but where did they come from? This port is newly built."
 msgstr ""
 
 #. [then]
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:625
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:654
 msgid "Sir Erendor, there is a cave opening in the mountains here, with indications that a lot of orcs have been coming this way."
 msgstr ""
 
 #. [else]
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:632
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:661
 msgid "Lady Eärendil, there is a cave opening in the mountains here, with indications that a lot of orcs have been coming this way."
 msgstr ""
 
 #. [option]
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:649
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:738
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:678
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:771
 msgid "Well then, I guess we must venture once more into the caves."
 msgstr ""
 
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:658
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:687
 msgid "Wait, perhaps we should seek out the sorceress Ariandela first."
 msgstr ""
 
 #. [message]: speaker=cowardlyorcarcher
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:669
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:698
 msgid "Wait... you intend to bring along that scary sorceress? She lives up north in the forest beyond the mountains, but be careful! Her clearing is booby-trapped!"
 msgstr ""
 
+#. [objective]: condition=win
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:703
+msgid "Chase after the orcs"
+msgstr ""
+
 #. [note]
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:681
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:714
 msgid "To end the scenario without obtaining Ariandela's help, simply move any unit onto the newly revealed cave entrance. <small>(at 28,10)</small>"
 msgstr ""
 
 #. [message]: speaker={SPEAKER}
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:697
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:730
 msgid "Perhaps we should give up on the search for Ariandela."
 msgstr ""
 
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:716
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:749
 msgid "Good idea - we have sought her long enough to no avail. Let us proceed into the caves now."
 msgstr ""
 
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:718
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:751
 msgid "(Note: This will forfeit your early finish bonus!)"
 msgstr ""
 
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:727
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:760
 msgid "No, I think we should continue the search a little longer."
 msgstr ""
 
 #. [message]: speaker=cowardlyarcherhinter
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:763
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:796
 msgid "Aaah! Don't thrash me! It's not my fault! I tried to stop him but he ran off to the lighthouse!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:767
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:800
 msgid "Uh... what are you talking about?"
 msgstr ""
 
 #. [message]: speaker=cowardlyarcherhinter
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:771
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:804
 msgid "Huh? You're not the boss? Wait! Waaait! You're elves! How the heck did you get here!? Whatever! <b>DIE!!!</b>"
 msgstr ""
 
 #. [message]: speaker=cowardlyarcherhinter
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:847
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:880
 msgid "W-what... $second_unit.name, you traitor! How dare you! I... I thought we were friends!"
 msgstr ""
 
 #. [message]: speaker=cowardlyorcarcher
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:851
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:884
 msgid "Friends!? I was just your whipping boy! I have <i>real</i> friends now. Goodbye."
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:947
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:980
 msgid "I have spotted a merfolk village under siege! It looks just about to be overrun!"
 msgstr ""
 
 #. [message]: speaker=last_merman_fighter
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:951
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:984
 msgid "You won't take me without a fight!"
 msgstr ""
 
 #. [message]: speaker=first_mervillage_assaulter
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:955
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:988
 msgid "You don't stand a chance. Where are your friends <i>now</i>?"
 msgstr ""
 
 #. [message]: speaker=last_merman_fighter
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:995
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1028
 msgid "Thank you so much! There are more of us hiding in this village, but I'm worried about the next one..."
 msgstr ""
 
 #. [message]: speaker=last_merman_fighter
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1038
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1071
 msgid "You will never find where the others are hiding!"
 msgstr ""
 
 #. [message]: speaker=second_mervillage_assaulter
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1042
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1075
 msgid "Fool! We will hunt them down in every nook and cranny until we find them!"
 msgstr ""
 
 #. [message]: speaker=$unit.id
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1047
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1080
 msgid "Not so fast! We will not allow you to take that village so easily!"
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1061
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1094
 msgid "We cannot keep searching forever. Let us just move on into the caves."
 msgstr ""
 
 #. [message]: role=thanker
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1097
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1130
 msgid "Well then, much thanks for the help. Mayhaps we'll meet again!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1115
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1148
 msgid "I have discovered a shipwreck! I will see if I can salvage anything from it..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1140
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1173
 msgid "It looks like an orc ship that sank here on the journey over! There's a sea chart of the area around the isle, and I found a chest of $gold gold! There are also a few healing potions here."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1157
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1199
 msgid "I have found an old cache of potions in this ruined building!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1197
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1240
 msgid "There are people hiding here! Come, fear not. We are here to help free you from the orcs."
 msgstr ""
 
 #. [message]
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1201
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1244
 msgid "Thank you so much! Since you have few strong fighters, we will help you as best we can."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1205
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1248
 msgid "Your help is very welcome."
 msgstr ""
 
 #. [message]
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1217
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1260
 msgid "By the way, we heard there is an elf captain living on the island to the east. Perhaps he too can be of help?"
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1221
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1264
 msgid "Is that so? Perhaps we shall ask him, then."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1272
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1315
 msgid "There are people here, and they are armed!"
 msgstr ""
 
 #. [message]: type=Sergeant
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1276
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1319
 msgid "What brings you to these here mountains?"
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1280
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1323
 msgid "When we discovered that Port Lobur had been occupied, we decided to lend a hand."
 msgstr ""
 
 #. [message]: type=Spearman
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1284
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1327
 msgid "Then... you'll help?"
 msgstr ""
 
 #. [message]: type=Sergeant
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1288
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1331
 msgid "It just so happens that we're the last able-bodied fighters in the resistance. If that's your fancy, we ain't gonna stand around here idle."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1292
+#: Black_Cross_of_Aleron\scenarios\03-orc-port.cfg:1335
 msgid "Thank you very much for the help, then. We can certainly use more fighters for this mission."
 msgstr ""
 
 #. [scenario]: id=watery-tunnels
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:7
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:10
 msgid "Descent into the Orcish Realm"
 msgstr ""
 
 #. [side]
-#. [side]: id=ghastlord, type=Ghast
-#. [side]: id=nightlord, type=Nightgaunt
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:37
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:70
 #: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:109
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:145
-#: Black_Cross_of_Aleron\utils\sides.cfg:58
-#: Black_Cross_of_Aleron\utils\sides.cfg:77
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:141
+#: Black_Cross_of_Aleron\utils\sides.cfg:63
+#: Black_Cross_of_Aleron\utils\sides.cfg:84
 msgid "Darkness"
 msgstr ""
 
 #. [unit]: type=Ghost, id=fleeingspirit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:115
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:120
 msgid "Halbern"
 msgstr ""
 
 #. [part]
 #. "Bright Moon" refers to the sixth of twelve months - ie June.
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:144
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:149
 msgid "<i><small>Year of the Birch, 30th of the Bright Moon</small></i>"
 msgstr ""
 
 #. [part]
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:145
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:150
 msgid "Following the orcs' trail, the elves once more ventured underground. A mountain stream flowed alongside them into the cave, before plunging into a dark tunnel too narrow to crawl through. They set up camp there, peering uncertainly into the dim tunnels ahead of them."
 msgstr ""
 
-#. [place_item]: id=holy_necklace
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:223
+#. [place_item]: id=holy_necklace #wmllint: ignore
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:229
 msgid "This looks like an interesting necklace."
 msgstr ""
 
-#. [place_item]: id=holy_necklace
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:224
+#. [place_item]: id=holy_necklace #wmllint: ignore
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:230
 msgid "holy necklace^Put it on!"
 msgstr ""
 
-#. [place_item]: id=holy_necklace
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:225
+#. [place_item]: id=holy_necklace #wmllint: ignore
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:231
 msgid "holy necklace^Leave it alone"
 msgstr ""
 
-#. [give_item]: id=freezing_staff
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:238
+#. [give_item]: id=freezing_staff #wmllint: ignore
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:244
 msgid "The staff is ice cold to the touch."
 msgstr ""
 
-#. [give_item]: id=freezing_staff
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:239
+#. [give_item]: id=freezing_staff #wmllint: ignore
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:245
 msgid "freezing staff^Take the staff"
 msgstr ""
 
-#. [give_item]: id=freezing_staff
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:240
+#. [give_item]: id=freezing_staff #wmllint: ignore
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:246
 msgid "freezing staff^Leave the staff for someone else"
 msgstr ""
 
-#. [give_item]: id=freezing_staff
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:241
+#. [give_item]: id=freezing_staff #wmllint: ignore
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:247
 msgid "freezing staff^Only a mage can use this staff!"
 msgstr ""
 
 #. [objective]: condition=win
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:278
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:285
 msgid "Defeat orc leader"
 msgstr ""
 
-#. [objective]: condition=win
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:283
+#. [objectives]
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:292
 msgid "Defeat other enemy leader"
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:332
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:387
 msgid "Again, we must descend into dark and dreary caves. What do orcs like about such places?"
 msgstr ""
 
 #. [message]: speaker=loyalmermaid
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:340
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:395
 msgid "There seems to be a river running into the cave. Perhaps we could be of use to you in exploring it."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:350
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:405
 msgid "Say, this place is a mite familiar! I've an uncle lived near here... up the west path if my memory serves. But I know not whether he lives there still."
 msgstr ""
 
 #. [popup_message]: speaker=narrator
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:365
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:420
 msgid "$unit.name is taken by surprise by the whirlpool and is sucked down into a hidden cave!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:382
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:437
 msgid "Whoa! The strength of that current caught me off guard! I seem to be in a small cave with a deep pool... there's something shiny at the bottom..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:414
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:469
 msgid "Whoa! A spirit just came out of the wall!"
 msgstr ""
 
 #. [message]: speaker=fleeingspirit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:418
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:473
 msgid "Please, you must help me! They'll make me serve Kaden Kreuz! I don't want to be enslaved to him!"
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:422
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:477
 msgid "Who is this Kaden Kreuz you speak of?"
 msgstr ""
 
 #. [message]: speaker=fleeingspirit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:468
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:523
 msgid "Never mind that now! They're here to get me! Aaaah, please help!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:482
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:537
 msgid "At last, I am free!"
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:486
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:541
 msgid "But wait, you have yet to explain this scenario!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:490
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:545
 msgid "I fear it is too late. You will have to find out for yourself."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:510
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:565
 msgid "Alright spirit, explain yourself. Who are you and why were you being chased?"
 msgstr ""
 
 #. [message]: speaker=tw_1st
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:514
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:569
 msgid "And who's Kaden Kreuz?"
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:518
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:573
 msgid "Right, that too."
 msgstr ""
 
 #. [message]: speaker=fleeingspirit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:522
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:577
 msgid "My name... I was known as Halbern in life, so you may continue to call me by that name. I was summoned from beyond the grave by Kaden Kreuz's foul arts, along with many other spirits, to serve him toward his goals."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:526
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:581
 msgid "So Kaden Kreuz is a necromancer? I thought summoned spirits had no memories or will, though."
 msgstr ""
 
 #. [message]: speaker=fleeingspirit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:530
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:585
 msgid "Because the necromancer's magic takes it from them. In life, I knew a little magic, so somehow, I managed to avoid it, but now they are after me to finish what they began."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:534
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:589
 msgid "What are Kaden Kreuz's goals?"
 msgstr ""
 
 #. [message]: speaker=fleeingspirit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:538
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:593
 msgid "I don't know. I did not wait long enough to find out."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:542
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:597
 msgid "Well, it seems there's something more sinister than we thought here... let's press on and see if we can find this Kaden Kreuz."
 msgstr ""
 
 #. [message]: speaker=gragchak
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:571
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:626
 msgid "Wait! I can't die at a time like this! Please listen!"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:581
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:636
 msgid "An orc pleading for his life! It makes me feel a little better..."
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:587
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:642
 msgid "What's this? Is an orc pleading for its life?"
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:593
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:648
 msgid "Very well, speak. We will listen."
 msgstr ""
 
 #. [message]: speaker=gragchak
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:597
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:652
 msgid "I can't die before I punish Kaden Kreuz for his insolence."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:601
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:656
 msgid "Punish him? But I thought you were working with him?"
 msgstr ""
 
 #. [message]: speaker=gragchak
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:605
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:660
 msgid "It's true. Kaden Kreuz came to us about a year ago, promising to give us more land, gold, and as much honourable battle as we could ever want. It was very tempting, and it shames me to say that I was completely taken in. Recently, I discovered that he has been desecrating our dead, even killing some of our warriors in dishonour."
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:615
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:670
 msgid "Why are you still working with such a monster? You should have slain him in his sleep by now!"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:621
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:676
 msgid "Er... forgive me, but why are you still working with him if he's that dangerous? I've heard orcs are no stranger to assassination."
 msgstr ""
 
 #. [message]: speaker=gragchak
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:627
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:682
 msgid "Fool! His power is great, and his undead hordes outnumber my warriors by a hundredfold. If he knew I planned to betray him, I would be dead by nightfall. Even if we made a dent in his forces, he'd be laughing at us in his fortress while they slaughter us to the last. It pains me to sit here and wait, but there was no other way."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:631
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:686
 msgid "So our goals are the same, right? We should work together."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:635
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:690
 msgid "Wait! Have you forgotten why we came this far? The goblins sacking our citadel? What was the reason for that?"
 msgstr ""
 
 #. [message]: speaker=gragchak
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:639
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:694
 msgid "I didn't order such a thing, but there have been many desertions recently. No orc wishes to die in dishonour. It was most probably one of those bands of deserters who you encountered."
 msgstr ""
 
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:644
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:699
 msgid "I see. That answer is satisfactory. If we let you live, would you help us?"
 msgstr ""
 
 #. [message]: speaker=gragchak
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:652
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:707
 msgid "If you can break down his hordes, I will send my forces in to finish him off. But know this. If you deprive me of the satisfaction of taking his life, we will be enemies forever."
 msgstr ""
 
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:673
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:728
 msgid "I don't quite believe that story. I think we'd rather take our chances with the undead."
 msgstr ""
 
 #. [message]: speaker=gragchak
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:677
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:732
 msgid "Curse you fickle elves! My son will surely avenge me!"
 msgstr ""
 
+#. [message]: speaker=gragchak
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:754
+msgid "For now, however, we need to evade Sir Malcorn's forces to the north. We'll have to take the west tunnels. It'll be harder, and we won't make good time, but they do eventually join up to the main northern tunnel. I'll show you the way before I leave to gather my forces."
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:758
+msgid "That sounds satisfactory to me. These undead are particularly strong. We may be able to beat them, but it would take too long."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:762
+msgid "Then let us make haste."
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:768
+msgid "For now, we should try to avoid the undead to the north, as they are particularly strong. We may be able to beat them, but it would take too long. There are some tunnels to the west there, perhaps they will lead us well?"
+msgstr ""
+
+#. [message]: race=dwarf
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:772
+msgid "Aye, those tunnels'll link up tae the main north tunnel after a bit o' wigglin' and windin'."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:776
+msgid "Then let us make haste!"
+msgstr ""
+
+#. [message]: speaker=gragchak
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:796
+msgid "To get to my brother's base, just follow the north tunnel."
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:800
+msgid "Thank you, that is helpful to know. Come now, let us make haste!"
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:806
+msgid "This Sir Malcorn appears to have entered through the north tunnel. Let us continue following him!"
+msgstr ""
+
+#. [message]: speaker=chiefdruid
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:810
+msgid "Indeed, and we should make haste!"
+msgstr ""
+
 #. [unit]: id=dwarfhermit, type=Dwarvish Berserker
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:723
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:836
 msgid "Uncle Thrar"
 msgstr ""
 
 #. [message]: speaker=dwarfhermit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:736
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:849
 msgid "Ahoy! Who goes there? Be it friend or foe?"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:743
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:856
 msgid "Waaagh! You startled me!"
 msgstr ""
 
 #. [message]: speaker=dwarfhermit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:747
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:860
 msgid "Orc scum! Ye've ten seconds to 'splain afore I cleave ye in twain!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:751
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:864
 msgid "That's not enough tiiiiime!"
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:755
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:868
 msgid "Calm yourself, friend! He is with us."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:755
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:767
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:868
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:880
 msgid "We mean you no harm; we are chasing orcs."
 msgstr ""
 
 #. [message]: speaker=dwarfhermit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:759
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:872
 msgid "Well, why dinnae ye say so in the first place!?"
 msgstr ""
 
 #. [message]: speaker=dwarfhermit
 #. "their" refers to the orcs
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:761
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:771
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:874
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:884
 msgid "Why, their castle's just t'other side o' that wall. There's a hidden passage that'll take ye right there."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:767
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:880
 msgid "Friend!"
 msgstr ""
 
 #. [message]: speaker=dwarfhermit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:771
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:884
 msgid "Orcs, ye say?"
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:777
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:890
 msgid "Thank you for the information."
 msgstr ""
 
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:779
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:892
 msgid "Can you show us this passage?"
 msgstr ""
 
 #. [message]: speaker=dwarfhermit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:783
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:896
 msgid "Aye, it's just over here..."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:793
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:834
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:906
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:947
 msgid "Thank you very much, that will surely help a lot."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:793
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:802
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:906
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:915
 msgid "Would you like to join us?"
 msgstr ""
 
 #. [message]: speaker=dwarfhermit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:797
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:807
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:910
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:920
 msgid "Aye, I might as well. It's been tae long since I cracked orc noggin."
 msgstr ""
 
 #. [message]: speaker=dwarfhermit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:807
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:920
 msgid "And lemme know if ye'd like me to show ye the passage."
 msgstr ""
 
 #. [message]: speaker=narrator
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:813
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:926
 msgid "To open the passage, move the berserker onto this village."
 msgstr ""
 
 #. [message]: speaker=dwarfhermit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:825
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:938
 msgid "See? Here's yer hidden passage."
 msgstr ""
 
 #. [set_variable]
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:861
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:974
 msgid "That engraving is still here."
 msgstr ""
 
 #. [set_variable]
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:867
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:980
 msgid "There is an engraving here depicting a merman raising their trident!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:885
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:998
 msgid "$notice_trident_engraving| And I swear it is glowing a little..."
 msgstr ""
 
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:887
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:1000
 msgid "Why not try using your trident on it?"
 msgstr ""
 
 #. [popup_message]
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:919
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:1032
 msgid "A section of the cave wall slides smoothly down into the water."
 msgstr ""
 
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:927
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:1040
 msgid "Interesting, but I think it is best we left it alone."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:934
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:1047
 msgid "$notice_trident_engraving| I wonder what it means..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:949
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:1062
 msgid "This is unusual. I have discovered what appears to be an old, abandoned merfolk shrine. I wonder why we would've built a shrine in such an place? Shall I pray to the shrine?"
 msgstr ""
 
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:951
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:1064
 msgid "Surely it can't hurt; go ahead."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:955
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:1068
 msgid "O watcher of the depths, please grant me understanding..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:979
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:1092
 msgid "Ahhh! I... I can see... I can see the enemy! A powerful death knight, wielding a staff of ice! I can feel it... he is cunning. If we do not destroy him soon, he could become a major threat to us..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:985
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:1098
 msgid "I... I see a strange land... cloaked in darkness... and creatures of steel roam the land... but I know not what this means..."
 msgstr ""
 
 #. [message]: speaker=fleeingspirit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:989
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:1102
 msgid "Creatures of steel..."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:993
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:1106
 msgid "In any event, it has little to do with our present situation. Let us carry on with our mission!"
 msgstr ""
 
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:1000
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:1113
 msgid "It's too risky; leave the shrine alone."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:1010
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1123
+#: Black_Cross_of_Aleron\scenarios\04-watery-tunnels.cfg:1123
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1157
 msgid "I found a cache of potions here!"
 msgstr ""
 
@@ -1606,219 +1688,228 @@ msgstr ""
 msgid "Reinforcements from Analandoron"
 msgstr ""
 
-#. [side]: id=agedlord, type=Elvish Lord
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:55
+#. [leader]: id=agedlord, type=Elvish Lord
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:54
 msgid "Galdar"
 msgstr ""
 
-#. [side]: id=agedlord, type=Elvish Lord
-#. [side]: id=elflady, type=Elvish Queen
+#. [side]
 #: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:64
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:79
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:81
 #: Black_Cross_of_Aleron\utils\sides.cfg:7
 msgid "Elves"
 msgstr ""
 
-#. [side]: id=elflady, type=Elvish Queen
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:75
+#. [leader]: id=elflady, type=Elvish Queen
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:76
 msgid "Ardalandwen"
 msgstr ""
 
-#. [side]: id=saurianleader, type=Saurian Oracle
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:96
+#. [leader]: id=saurianleader, type=Saurian Oracle
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:99
 msgid "Ziltrask"
 msgstr ""
 
-#. [side]: id=chocomaster, type=Chocobone
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:161
+#. [leader]: id=chocomaster, type=Chocobone
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:175
 msgid "Sir Flappy"
 msgstr ""
 
 #. [part]
 #. "Shimmering Moon" refers to the seventh of twelve months - ie July.
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:192
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:208
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:207
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:223
 msgid "<i><small>Year of the Birch, 11th of the Shimmering Moon</small></i>"
 msgstr ""
 
 #. [then]
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:199
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:214
 msgid "After slaying the orc sovereign, the elves continued north along the coast until they drew near the fabled Dread Marsh..."
 msgstr ""
 
 #. [else]
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:202
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:217
 msgid "The elves held a brief strategy meeting with Graktar, the orc sovereign, who afterward set out to muster more forces. Meanwhile, the elves continued north along the coast until they drew near the fabled Dread Marsh."
 msgstr ""
 
 #. [part]
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:209
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:224
 msgid "Even as the undead began to emerge from the swamp, Erendor left the group to muster more aid from the elf city of Sulithien. Heading south along the river, he soon had an unexpected encounter..."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:460
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:475
 msgid "I knew Galdar and Ardalandwen when I was younger, so I'm sure they'll be willing to lend us reinforcements."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:464
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:479
 msgid "I just have to head south along the river until I reach the city."
 msgstr ""
 
 #. [objective]: condition=win
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:468
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:483
 msgid "Reach the elf city"
 msgstr ""
 
 #. [objective]: condition=lose
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:472
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:487
 #: Black_Cross_of_Aleron\utils\deaths.cfg:19
 msgid "Death of Erendor"
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:528
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:543
 msgid "Are my eyes deceiving me, or do I really see saurians this far from the swamp?"
 msgstr ""
 
 #. [message]: speaker=firstaugur
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:532
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:547
 msgid "Look! There is an elf!"
 msgstr ""
 
 #. [message]: speaker=firstskirmisher
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:536
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:551
 msgid "He's alone! Let's finish him off and hurry back."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:540
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:555
 msgid "Well, it seems that they are not open to friendly conversation."
 msgstr ""
 
 #. [message]: speaker=agedlord
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:580
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:595
 msgid "Erendor! It has been such a long time since I saw you! What brings you here?"
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:584
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:599
 msgid "I wish it were better news that brings me here. We are chasing an errant necromancer, and I have come to ask for reinforcements."
 msgstr ""
 
 #. [message]: speaker=agedlord
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:588
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:603
 msgid "I see. You have not come at a good time - the saurians have recently started to harry us. Perhaps if you can help us, though, we may be able to help you in turn."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:592
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:607
 msgid "Alright. What do you need me to do?"
 msgstr ""
 
 #. [message]: speaker=agedlord
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:596
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:611
 msgid "Help us get to their leader. We would like to talk to them and work this out."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:600
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:615
 msgid "Okay, that I can do. Just let me know when you're ready to go."
 msgstr ""
 
 #. [message]: speaker=elflady
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:604
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:619
 msgid "Give me until dawn, then we can head northwest to the front lines."
 msgstr ""
 
 #. [objective]: condition=win
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:609
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:624
 msgid "Wait for Ardalandwen to prepare"
 msgstr ""
 
 #. [event]
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:616
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:631
 msgid "Why did I think negotiating with saurians was a good idea?"
 msgstr ""
 
 #. [event]
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:616
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:631
 msgid "The death of Ardalandwen was a crushing blow for the elves, leaving them unable to provide reinforcements, as they were just barely able to hold off the saurians. Without the reinforcements, Eärendil was eventually pushed back by the undead, retreating to Analandoron with the few remaining survivors of her party."
 msgstr ""
 
 #. [message]: speaker=elflady
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:647
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:662
 msgid "I am ready. Let us go."
 msgstr ""
 
 #. [message]: speaker=agedlord
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:652
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:667
 msgid "We have already located their keep. I will give you the directions."
 msgstr ""
 
 #. [objective]: condition=win
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:689
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:704
 msgid "Escort Ardalandwen to the saurian keep"
 msgstr ""
 
 #. [message]: speaker=elflady
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:711
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:726
 msgid "Great Saurian leader, please listen to our pleas. Why have you so suddenly come out to harry us?"
 msgstr ""
 
 #. [message]: speaker=saurianleader
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:715
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:730
 msgid "Hmph. Do not try to fool us, elf woman. We know you must have something to do with the undead that have been forcing us from our territory."
 msgstr ""
 
 #. [message]: speaker=elflady
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:719
-msgid "Undead? I know nothing of any undead. However, I believe Erendor here knows something."
-msgstr ""
-
-#. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:723
-msgid "As a matter of fact, yes. We have been chasing those very undead ourselves."
-msgstr ""
-
-#. [message]: speaker=elflady
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:727
-msgid "Erendor has come to us for reinforcements in fighting them, but we cannot help him if you continue to harry us. I promise you, we will get your homes back."
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:734
+msgid "Undead? I know nothing of any undead. Why would you even think I did? Elves do not often meddle in necromancy."
 msgstr ""
 
 #. [message]: speaker=saurianleader
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:731
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:738
+msgid "Allow me to offer my apology for the misunderstanding. Those who witnessed the event spoke of humanoid figures moving through the swamp, and many of my kin concluded that it must have been elven rangers assisting the undead."
+msgstr ""
+
+#. [message]
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:742
+msgid "I see, there is a certain logic to that; but it is not so. I would have known if elven forces had been sent to attack you. As to the undead, however, I believe Erendor here knows something."
+msgstr ""
+
+#. [message]: speaker=chiefguard
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:746
+msgid "As a matter of fact, yes. We have been chasing those very undead ourselves, and the necromancer who commands them."
+msgstr ""
+
+#. [message]: speaker=elflady
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:750
+msgid "(nods) Erendor has come to us for reinforcements in fighting them, but we cannot help him if you continue to harry us. I promise you, we will get your homes back."
+msgstr ""
+
+#. [message]: speaker=saurianleader
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:754
 msgid "Hmm... I will give you a chance to prove yourself. If you can defeat the undead in the sunken castle to the northwest, then we will cease attacks and wait. I will even send my two best advisors to assist you and see your actions first hand."
 msgstr ""
 
 #. [message]: speaker=elflady
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:735
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:758
 msgid "Thank you for your understanding. Of course, we will gladly destroy those undead."
 msgstr ""
 
 #. [objective]: condition=win
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:766
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:797
 msgid "Defeat the undead leader"
 msgstr ""
 
 #. [message]: speaker=saurianleader
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:793
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:824
 msgid "You have made good on your words. As promised, my advisors $firstsaurian.name and $secondsaurian.name will accompany you into the marsh until you have defeated the necromancer who is occupying our sacred temple."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:797
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:828
 msgid "Wait... a sacred temple? We heard nothing about that."
 msgstr ""
 
 #. [message]: speaker=saurianleader
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:801
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:832
 msgid "He attacked our sacred temple and drove us out of our ancestral homes. You cannot miss the temple, for it is shaped like a cross. That temple is most likely where you will find him."
 msgstr ""
 
 #. [message]: speaker=agedlord
-#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:805
+#: Black_Cross_of_Aleron\scenarios\05-reinforcements.cfg:836
 msgid "Thank you then for the information. We will now go to reunite with the rest of Erendor's party."
 msgstr ""
 
@@ -1827,14 +1918,15 @@ msgstr ""
 msgid "Hordes from the Marsh"
 msgstr ""
 
-#. [side]: id=glamethkor, type=Dwarvish Pathfinder
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:41
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:47
+#. [leader]: id=glamethkor, type=Dwarvish Pathfinder
+#. [side]
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:46
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:39
 msgid "Glamethkor"
 msgstr ""
 
-#. [side]: id=glamethkor, type=Dwarvish Pathfinder
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:43
+#. [side]
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:41
 msgid "Misfits"
 msgstr ""
 
@@ -1844,624 +1936,661 @@ msgid "Kalg"
 msgstr ""
 
 #. [side]
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:127
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:129
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:121
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:123
 msgid "Undead"
 msgstr ""
 
 #. [part]
 #. "Shimmering Moon" refers to the seventh of twelve months - ie July.
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:187
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:181
 msgid "<i><small>Year of the Birch, 13th of the Bright Moon</small></i>"
 msgstr ""
 
 #. [part]
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:188
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:182
 msgid "While Erendor was down south in Sulithien, aiding Galdar's negotiation with the saurians, the rest of the party remained encamped at the mouth of the river, near the fabled Dread Marsh. As the undead began to emerge from the swamp, haunted cries of \"elves\" lifted through the night air..."
 msgstr ""
 
 #. [objective]: condition=win
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:340
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:334
 msgid "Survive for 15 turns"
 msgstr ""
 
 #. [message]: race=dwarf
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:383
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:377
 msgid "Say, I been comin' up here sometimes when I was a wee lad; the place, 'tis riddled with narrow tunnels. Most o' ye probably cannae navigate them well, but fer dwarves, goblins, and bats, it should be a cinch. We'd best watch out fer them."
 msgstr ""
 
 #. [message]: id=glamethkor
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:388
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:382
 msgid "Well, well, what have we here? A band of elves coming up the coast! I hope they have lots of gold! Everyone, after them!"
 msgstr ""
 
 #. [message]: id=kalg
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:392
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:386
 msgid "Glammie, undead come out of swamp."
 msgstr ""
 
 #. [message]: id=glamethkor
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:396
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:390
 msgid "Bah, undead? They never have any loot. Just ignore them and focus on the elves!"
 msgstr ""
 
 #. [message]: id=loyalmermaid
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:404
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:398
 msgid "Foolish outlaws! Do they not see that the undead are a travesty to be destroyed without question? Now is not the time for petty squabbles!"
 msgstr ""
 
 #. [message]: id=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:413
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:407
 msgid "I agree, but they seem unwilling to listen. We must be careful."
 msgstr ""
 
 #. [message]: id=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:419
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:413
 msgid "If only they could see that the undead are the greater threat. Now is not the time for petty squabbles, yet they seem unwilling to listen. We must be careful."
 msgstr ""
 
+#. [message]: id=tw_1st
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:425
+msgid "By the way, that old sea chart has a dragon drawn near this area of the coast, for some reason... right over by that little island, in fact..."
+msgstr ""
+
+#. [message]: id=chiefdruid
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:429
+msgid "Probably just the mapmaker's idle fancy - dragons have not been seen in these parts for centuries."
+msgstr ""
+
+#. [message]: id=tw_1st
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:433
+msgid "Oh... that is too bad. Still, it is quite a good drawing... and maybe there is something else of interest over there?"
+msgstr ""
+
+#. [message]: id=chiefdruid
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:437
+msgid "Even if there were, I fear we would have insufficient time to investigate. Look, there are already undead approaching!"
+msgstr ""
+
 #. [message]: id=glamethkor
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:475
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:493
 msgid "Argh! These pesky undead running about everywhere are getting irksome! Make them stop!"
 msgstr ""
 
 #. [message]: id=kalg
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:479
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:497
 msgid "Understood, Glammie! Kalg will do it!"
 msgstr ""
 
 #. [message]: speaker=$nearest_unit.id
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:659
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:677
 msgid "Even the bandits have been overrun by the undead! We might be in trouble if Erendor does not return soon!"
 msgstr ""
 
 #. [message]: role=outlawpleader
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:688
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:706
 msgid "Wait, hold up! Don't kill us! Maybe we can come to an agreement!"
 msgstr ""
 
 #. [message]: role=outlawpleader, race=troll
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:693
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:711
 msgid "Wait! Don't kill! Maybe we can talk? Make agreement?"
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:697
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:715
 msgid "We are listening. What manner of agreement do you propose?"
 msgstr ""
 
 #. [message]: role=outlawpleader
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:704
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:722
 msgid "Uhhh... well... we have an awesome magic orb in the vault that we can't use. We'll give it to you and then you leave us alone, and we'll leave you alone. Deal?"
 msgstr ""
 
 #. [message]: role=outlawpleader, race=troll
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:709
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:727
 msgid "Uhhh... we have magic orb in vault, can't use. We give to you, you leave us alone, we leave you alone. Deal?"
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:713
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:731
 msgid "That sounds acceptable, but... what does this orb do?"
 msgstr ""
 
 #. [message]: role=outlawpleader
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:720
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:738
 msgid "We have no idea. It's bright, at least. I'm sure it's probably powerful."
 msgstr ""
 
 #. [message]: role=outlawpleader, race=troll
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:725
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:743
 msgid "No idea! Is bright. Is probably powerful."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:729
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:747
 msgid "Very well, we accept. Show us this orb."
 msgstr ""
 
 #. [message]: speaker=$investigator.id
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:753
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:771
 msgid "Hey! I thought I saw something from over there! Something shiny!"
 msgstr ""
 
 #. [message]: speaker=$investigator.id
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:761
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:779
 msgid "There seems to be a door at the base of this cairn... I think I can pry it open. There is light coming from within..."
 msgstr ""
 
 #. [message]: role=outlawpleader
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:783
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:801
 msgid "This is the orb. Maybe you can find some use for it?"
 msgstr ""
 
 #. [message]: role=outlawpleader, race=troll
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:788
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:806
 msgid "See, is orb. Maybe you can use it?"
 msgstr ""
 
 #. [message]: id=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:792
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:810
 msgid "Hmm... let me see... wait, is it growing brighter?"
 msgstr ""
 
 #. [message]: id=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:798
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:816
 msgid "What have you found here?"
 msgstr ""
 
 #. [message]: speaker=$investigator.id
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:802
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:820
 msgid "It appears to be a magic orb of some kind... whoops! I think I activated it! Cover your eyes!"
 msgstr ""
 
 #. [message]: role=outlawpleader
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:865
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:883
 msgid "Whoa... that was... unexpected and awesome. But it's not glowing anymore. Is it broken? We could offer something else..."
 msgstr ""
 
 #. [message]: role=outlawpleader, race=troll
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:870
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:888
 msgid "Whoa! Is awesome! But it stopped glowing. Is broken? We offer another prize?"
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:874
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:892
 msgid "Worry not; it seems to have destroyed all of the undead in the swamp outskirts, so it worked out well."
 msgstr ""
 
 #. [message]: role=outlawpleader
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:881
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:899
 msgid "Thanks, elf lady! We won't bother you again! And here's a little extra gold for your trouble."
 msgstr ""
 
 #. [message]: role=outlawpleader, race=troll
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:886
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:904
 msgid "Thanks, elf lady! We leave you alone. Take a little gold for trouble."
 msgstr ""
 
 #. [message]: speaker=$investigator.id
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:892
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:910
 msgid "Wow! It looks like it destroyed all the undead in the swamp outskirts! Unfortunately, I think I broke it - it stopped glowing."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:896
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:914
 msgid "If only we had known of it earlier..."
 msgstr ""
 
 #. [message]: speaker=$investigator.id
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:900
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:918
 msgid "I will investigate the outlaw keep as well."
 msgstr ""
 
 #. [message]: speaker=$investigator.id
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:908
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:926
 msgid "I found a stash of gold!"
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:942
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:960
 msgid "I see you have held out nicely! With the help of Galdar's troops we shall defeat the remaining undead in no time. Then we can head into the swamp."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:948
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:966
 msgid "Wow, you have done quite well in my absence. I see not a single undead in the swamp. No matter, Galdar's troops will still prove their worth when we venture into the swamp."
 msgstr ""
 
 #. [message]: speaker=agedcaptain
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:959
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:977
 msgid "Well met, Lord Galdar! It has been many years!"
 msgstr ""
 
 #. [message]: speaker=agedlord
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:963
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:981
 msgid "Is... is that my old friend, Nel-Brisad? Well met indeed! It has been such a long time since we saw each other."
 msgstr ""
 
 #. [message]: speaker=agedcaptain
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:967
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:985
 msgid "Indeed, and you a lord now. Who would have thought?"
 msgstr ""
 
 #. [message]: speaker=agedlord
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:971
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:989
 msgid "I know what you mean. But let us leave the reminiscing for later. We have undead to hunt."
 msgstr ""
 
 #. [message]: speaker=agedlord
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:977
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:995
 msgid "Lady Eärendil, I place many of my citizens under your command for this venture. They are not extensively trained in combat, but they can wield a sword and bow, which should be enough."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:981
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:999
 msgid "Thank you, Lord Galdar. I will treat them as I would treat my own initiates."
 msgstr ""
 
 #. [message]: speaker=kalg
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1007
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1025
 msgid "Undead slew best friend, and I want revenge on them. Can I join you for small while?"
 msgstr ""
 
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1009
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1027
 msgid "Sure, an extra fire-user could be very helpful in our fight."
 msgstr ""
 
 #. [message]: speaker=kalg
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1019
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1037
 msgid "I also know holy aura. Very handy, very useful against undead."
 msgstr ""
 
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1024
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1042
 msgid "No thanks, I cannot forgive you so easily."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1058
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1076
 msgid "This dwelling shows signs of recent occupation, but the owners appear to be out..."
 msgstr ""
 
 #. [message]: speaker=firedrake
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1098
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1116
 msgid "Ahoy, stranger! What brings you here?"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1102
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1120
 msgid "We are battling undead over in the swamp."
 msgstr ""
 
 #. [message]: speaker=skydrake
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1106
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1124
 msgid "Undead, eh? We've been meanin' to attend to those. Every so often they get this far out and make a nuisance of themselves."
 msgstr ""
 
 #. [message]: speaker=firedrake
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1110
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1128
 msgid "If you're aimin' to crush 'em, mate, then we'll come with you. You've found yourself an ally."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1114
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1132
 msgid "Thank you for your offer. We accept."
 msgstr ""
 
+#. [message]: id=tw_1st
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1142
+msgid "Maybe that's why there was a dragon on the sea chart! Because drakes are similar to dragons, right?"
+msgstr ""
+
+#. [message]: id=firedrake
+#: Black_Cross_of_Aleron\scenarios\06-along-the-coast.cfg:1146
+msgid "Ahahaha! But truth be told, mate, I think there's no significant relation."
+msgstr ""
+
 #. [scenario]: id=dread-marsh
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:7
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:9
 msgid "Into the Dread Marsh"
 msgstr ""
 
 #. [unit]: type=Death Knight, id=mendal
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:79
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:80
 msgid "Sir Mendal"
 msgstr ""
 
 #. [side]
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:96
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:97
 msgid "Neutral"
 msgstr ""
 
-#. [side]: id=ghastlord, type=Ghast
+#. [leader]: id=ghastlord, type=Ghast
+#. [side]
 #. This name is intended to represent a sort of screech.
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:115
 #: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:108
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:114
 msgid "Krrrgra"
 msgstr ""
 
-#. [side]: id=nightlord, type=Nightgaunt
+#. [leader]: id=nightlord, type=Nightgaunt
+#. [side]
 #. This name is a pun on night / knight.
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:144
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:151
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:148
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:140
 msgid "Terror of the Knight"
 msgstr ""
 
 #. [unit]: id=malcornsub, type=Deathblade
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:193
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:185
 msgid "Malcorn's Squire"
 msgstr ""
 
 #. [part]
 #. "Shimmering Moon" refers to the seventh of twelve months - ie July.
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:249
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:235
 msgid "<i><small>Year of the Birch, 17th of the Shimmering Moon</small></i>"
 msgstr ""
 
 #. [part]
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:250
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:236
 msgid "The elves ventured deep into the marsh, progressing ever so slowly towards the heart. Apart from a few minor skirmishes, they did not encounter any more undead, but even so, the trail was clear."
 msgstr ""
 
 #. [part]
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:254
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:240
 msgid "<i><small>Year of the Birch, 20th of the Shimmering Moon</small></i>"
 msgstr ""
 
 #. [then]
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:261
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:247
 msgid "Just as they had finally caught sight of a dark castle in the distance, a secret emissary arrived in the night from Graktar, explaining that he had set up camp in the marsh and expected more reinforcements within a day; he planned to attack when they arrived. Unfortunately for the elves, the undead didn't seem willing to wait, and several ruined fortresses teaming with undead lay between them and the dark castle..."
 msgstr ""
 
 #. [else]
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:264
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:250
 msgid "Finally, the elves sighted a dark castle poised upon the edge of a deep chasm. Between them and the castle, however, were several ruined fortresses teaming with undead..."
 msgstr ""
 
 #. [objective]: condition=win
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:475
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:257
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:463
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:243
 msgid "Defeat Kaden Kreuz"
 msgstr ""
 
-#. [objective]: condition=win
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:480
+#. [objectives]
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:473
 msgid "Defeat other enemy leaders first"
 msgstr ""
 
 #. [objective]: condition=lose
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:491
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:482
 msgid "Death of Graktar"
 msgstr ""
 
 #. [message]: speaker=malinkalar
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:503
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:494
 msgid "Ha! Those elves are so foolishly persistent. What can they hope to do against me, who controls both the orcish horde and the very dead themselves!? Come, let them try. I will send my strongest servants against them. Let us see what they are truly capable of."
 msgstr ""
 
 #. [unit]: type=Orcish Leader, id=sonofgragchak
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:518
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:509
 msgid "Gashak"
 msgstr ""
 
 #. [message]: speaker=sonofgragchak
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:534
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:526
 msgid "Ah, so the filthy elves finally make an appearance! I'll make you pay for killing my father! I an Gashak, son of Graktar, he who will end you!"
 msgstr ""
 
 #. [message]: id=loyalmermaid
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:547
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:539
 msgid "Hmph. Let us hurry and cleanse the swamp of his taint. The scent of death is already seeping into the water."
 msgstr ""
 
 #. [message]: race=lizard
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:551
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:543
 msgid "I see you are following through on your promise, elf. I will allow you to make use of my magic for a little while... but know that I am always watching you."
 msgstr ""
 
 #. [message]: speaker=tw_1st
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:555
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:547
 msgid "Look Eärendil, even here in the swamp there are a few healthy trees! Maybe I can use those to get close to the necromancer in a flash."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:559
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:551
 msgid "Do not be too hasty! If you charge forward without backup, you will only get yourself killed."
 msgstr ""
 
 #. [message]: speaker=tw_1st
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:563
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:555
 msgid "(sigh) Yes sis, I understand. I'll hold back."
 msgstr ""
 
 #. [message]: speaker=gragchak
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:692
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:688
 msgid "Hear me, Kaden Kreuz! I've had enough of your scheming and betrayal! I let you off lightly because you were my brother, but today, you will die by my hand!"
 msgstr ""
 
 #. [message]: speaker=sonofgragchak
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:696
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:692
 msgid "And you, uncle Kaden! Don't think you're exempt from my vengeance! It's your fault Father had to fight those elves!"
 msgstr ""
 
 #. [message]: speaker=malinkalar
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:708
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:704
 msgid "Ahahahaha. Fool! You think you can kill me? Then try it! It should be amusing, and even if you succeed, it's not over for me."
 msgstr ""
 
 #. [message]: speaker=tw_1st
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:712
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:713
 msgid "(gasp) Did you hear that? He plans to kill his own brother!"
 msgstr ""
 
+#. [message]: speaker=tw_1st
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:719
+msgid "(gasp) Did you hear that? He plans to kill his own uncle!"
+msgstr ""
+
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:716
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:725
 msgid "That is an orc for you, Miss Eovyniel; but let it not be said that the necromancer deserves no retribution."
 msgstr ""
 
 #. [message]: speaker=gragchak
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:762
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:771
 msgid "To think that $second_unit.name would be the one to bring down my brother, after I thought he had deserted. Let me make you an offer, $second_unit.name. Come back to me, and I will forgive your transgression and award you with a high honour."
 msgstr ""
 
 #. [message]: speaker=cowardlyorcarcher
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:766
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:776
 msgid "That... that is quite an unexpected offer..."
 msgstr ""
 
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:768
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:778
 msgid "It'll be good to return home... I'll take your offer."
 msgstr ""
 
 #. [message]: speaker=gragchak
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:784
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:794
 msgid "When we return home, we will have a feast in your honour."
 msgstr ""
 
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:790
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:800
 msgid "I'm sorry, but I like my life with the elves better."
 msgstr ""
 
 #. [message]: speaker=gragchak
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:798
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:808
 msgid "Is that how it will be? Then I cannot forgive your arrogance and that of the elves who pushed you forward to this end. Elf woman, you will pay for this."
 msgstr ""
 
 #. [message]: speaker=gragchak
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:798
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:824
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:808
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:834
 msgid "When you come up from the pit, I will be waiting."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:806
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:836
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:867
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:816
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:846
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:877
 msgid "Wait! Did the body just stir?"
 msgstr ""
 
 #. [message]: speaker=gragchak
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:824
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:834
 msgid "I warned you to leave Kaden Kreuz to me, but you did not listen. You will pay for your arrogance."
 msgstr ""
 
 #. [message]: speaker=sonofgragchak
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:828
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:838
 msgid "Arrogant elves! I'll let you go for now, but we'll meet again soon!"
 msgstr ""
 
 #. [message]: speaker=gragchak
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:847
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:857
 msgid "At last! My people are free of the yoke of Kaden Kreuz! Rejoice! Honour is restored!"
 msgstr ""
 
 #. [message]: speaker=sonofgragchak
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:851
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:861
 msgid "Kaden Kreuz is dead at last! Now we just need to regroup and mop up these elves..."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:855
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:865
 msgid "Don't celebrate too early... I thought I saw the corpse move."
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:863
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:873
 msgid "Kaden Kreuz has fallen!"
 msgstr ""
 
 #. [message]: speaker=malinkalar
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:877
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:887
 msgid "Hahahahahaha! You've made me more powerful than ever before! In fact, you have helped me get closer to my goals."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:888
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:898
 msgid "Our chase is not yet over. Let us descend into that pit and vanquish him."
 msgstr ""
 
 #. [message]: speaker=agedlord
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:892
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:902
 msgid "We must hurry. Every minute gives him more time to regain strength."
 msgstr ""
 
 #. [message]: race=lizard
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:913
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:923
 msgid "You have made good on your promise, elf lord. We will now depart to inform our leader of your good work. I wish you luck on the final effort."
 msgstr ""
 
 #. [message]: role=rouser
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:949
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:960
 msgid "Our leader has fallen! Let us punish those who let him die! Death to the elves!"
 msgstr ""
 
 #. [event]
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:951
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:962
 msgid "Angered by the death of their leader and freed from the restraints he had imposed upon them, the orcs turned upon their allies and slaughtered them to the last... only afterwards realizing the foolhardiness of this when the undead overtook them from behind."
 msgstr ""
 
 #. [scenario]: id=dread-marsh
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:956
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:967
 msgid "Noooo! Now my father will never be avenged!"
 msgstr ""
 
 #. [popup_message]
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:965
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:976
 msgid "The ghast lord Krrgra falls, collapsing into a puddle of slime that rapidly soaks into the ground and vanishes into the stagnant waters."
 msgstr ""
 
 #. [popup_message]
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:967
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:981
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:978
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:993
 msgid "At the same time, Kaden Kreuz lets out a gasp of pain. It seems that maintaining hold over such a powerful creature has taken a toll on him."
 msgstr ""
 
 #. [popup_message]
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:979
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:991
 msgid "The nightgaunt Terror of the Knight falls, fading out with a high keening until it has become totally transparent; and then, quite suddenly, the sound is abruptly cut off."
 msgstr ""
 
 #. [message]: id=loyalmermaid
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1005
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1018
 msgid "I fear we would be of little help in the chasm, so my friends and I will now take our leave and return home."
 msgstr ""
 
 #. [message]: id=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1009
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1022
 msgid "Very well then. Thank you very much for the aid, and I hope we meet again."
 msgstr ""
 
 #. [message]: id=chiefguard
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1013
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1026
 msgid "You have proven invaluable on this foray. I too hope we meet again."
 msgstr ""
 
 #. [message]: race=merman
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1026
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1039
 msgid "Merfolk are not built for climbing, so we will take our leave now and return home."
 msgstr ""
 
 #. [message]: id=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1036
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1049
 msgid "Very well. Thank you for your help until now."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1066
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1079
 msgid "A tunnel runs from the base of this tree! It appears to be quite dry and well shored. Shall I follow it to see where it leads?"
 msgstr ""
 
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1071
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1084
 msgid "Yes, investigate it. Perhaps it might lead us closer to the enemy."
 msgstr ""
 
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1082
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1095
 msgid "Now is not the time for exploring! We must focus on the battle at hand!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1099
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1112
 msgid "Should I explore this tunnel now?"
 msgstr ""
 
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1104
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1117
 msgid "Sure, let us see where it leads."
 msgstr ""
 
 #. [option]
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1115
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1128
 msgid "We have no time for that in the middle of battle!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1196
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1209
 msgid "There is a heavy trapdoor here, but it seems to be latched from below. I wonder what is below?"
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1323
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1339
 msgid "This one was sitting on a pile of treasure!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1335
+#: Black_Cross_of_Aleron\scenarios\07-dread-marsh.cfg:1352
 msgid "He had some gold, and some useful potions."
 msgstr ""
 
@@ -2471,146 +2600,146 @@ msgid "Descent into the Chasm"
 msgstr ""
 
 #. [unit]: id=malcornsub2, type=Draug
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:103
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:96
 msgid "Malcorn's Sergeant"
 msgstr ""
 
 #. [part]
 #. "Shimmering Moon" refers to the seventh of twelve months - ie July.
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:134
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:120
 msgid "<i><small>Year of the Birch, 30th of the Shimmering Moon</small></i>"
 msgstr ""
 
 #. [part]
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:135
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:121
 msgid "They had killed Kaden Kreuz, yet his spirit had fled into a great chasm – a huge scar upon the landscape, as if a giant had reached down and scooped out a gigantic handful of earth and rock. The sides were rough, and the elves slowly descended into the depths."
 msgstr ""
 
 #. [part]
 #. "Harvest Moon" refers to the eighth of twelve months - ie August.
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:140
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:126
 msgid "<i><small>Year of the Birch, 1st of the Harvest Moon</small></i>"
 msgstr ""
 
 #. [part]
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:141
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:127
 msgid "Descent was slow and difficult, and as they ventured deeper, the high walls cut off the heat of the sun, casting an unusual chill across the barren landscape."
 msgstr ""
 
 #. [part]
 #. "Harvest Moon" refers to the eighth of twelve months - ie August.
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:146
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:132
 msgid "<i><small>Year of the Birch, 4th of the Harvest Moon</small></i>"
 msgstr ""
 
 #. [part]
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:147
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:133
 msgid "It took a few days, but finally they reached the floor of the chasm and set up camp to wait out the cold of the night. In the morning, they would be heading into the necromancer's lair..."
 msgstr ""
 
 #. [objective]: condition=win
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:268
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:254
 msgid "Defeat Sir Malcorn"
 msgstr ""
 
 #. [message]: speaker=agedlord
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:281
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:267
 msgid "(shivering) This deep scar in the land is deathly cold. Even though the sun's light reaches us, its warmth does not."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:285
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:271
 msgid "Indeed it is cold. We should kill this lich and get back into the light as soon as possible."
 msgstr ""
 
 #. [message]: speaker=tw_1st
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:293
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:279
 msgid "Look! In that chasm, it is as if I can see stars! I wonder how deep it goes..."
 msgstr ""
 
 #. [message]: speaker=hermitsorceress
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:298
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:284
 msgid "That may be no ordinary chasm... this deep cold, this heavy feeling... could it be a rift in the fabric of reality? Let us pray that it does not get bigger!"
 msgstr ""
 
 #. [message]: role=cave_scouter
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:313
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:299
 msgid "Reporting back from scouting, ma'am. I spotted an old box up there, if you want to take a look. Besides that, there are undead to the northeast and to the south. I was unable to spot Kaden Kreuz himself, but given the greater mass of undead to the south, I think he'll be there."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:324
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:310
 msgid "Damn you, elves! All my work will go to waste if I die! But, I may be able to bind my spirit to this land. If we meet again... I will never forgive you."
 msgstr ""
 
 #. [message]
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:335
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:321
 msgid "Well, it was a long and difficult struggle, but finally that foul necromancer has been slain."
 msgstr ""
 
 #. [message]
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:344
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:330
 msgid "I just hope he was bluffing about binding his spirit..."
 msgstr ""
 
 #. [message]
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:348
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:334
 msgid "Do you believe he could have done such a thing, Lady Ariandela?"
 msgstr ""
 
 #. [message]
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:352
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:338
 msgid "I know but a pittance of the ways of necromancy, but it is my understanding that binding spirits is not difficult..."
 msgstr ""
 
 #. [message]
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:356
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:342
 msgid "But surely he had not the time before we slew him."
 msgstr ""
 
 #. [message]
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:360
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:346
 msgid "That is my hope also."
 msgstr ""
 
 #. [message]
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:364
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:350
 msgid "In any event, as far as I can tell he indeed appears to be dead. We should now begin our journey home."
 msgstr ""
 
 #. [message]
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:370
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:356
 msgid "Then we should begin our journey home."
 msgstr ""
 
 #. [message]
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:376
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:362
 msgid "I will accompany you back to your citadel, in case of further dangers on the road."
 msgstr ""
 
 #. [message]: id=kalg
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:380
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:366
 msgid "Lich dead, so I go home now. Goodbye."
 msgstr ""
 
 #. [message]: speaker=second_unit
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:450
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:436
 msgid "Oh my... such a huge mass of bones coming at us... just what is that?"
 msgstr ""
 
 #. [message]: race=drake
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:457
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:443
 msgid "It looks like it may have been a noble fire dragon in life. Now, it has been reduced to a pawn of this Kaden Kreuz."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:466
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:477
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:452
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:464
 msgid "This chest contains a number of healing and haste potions!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:493
+#: Black_Cross_of_Aleron\scenarios\08-chasm-descent.cfg:481
 msgid "I found a cache of potions in this village!"
 msgstr ""
 
@@ -2620,105 +2749,105 @@ msgid "The Journey Home"
 msgstr ""
 
 #. [unit]: type=Great Wolf
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:55
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:53
 msgid "Auld Crimson"
 msgstr ""
 
 #. [side]
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:92
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:90
 msgid "Ogre"
 msgstr ""
 
 #. [part]
 #. "Harvest Moon" refers to the eighth of twelve months - ie August.
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:146
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:144
 msgid "<i><small>Year of the Birch, 13th of the Harvest Moon</small></i>"
 msgstr ""
 
 #. [part]
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:147
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:145
 msgid "Having finally dispatched the lich, the elves began the long climb back up out of the chasm. Though the relief at a job well done made the journey seem easier somehow, it did not improve the time."
 msgstr ""
 
 #. [part]
 #. "Harvest Moon" refers to the eighth of twelve months - ie August.
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:152
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:150
 msgid "<i><small>Year of the Birch, 18th of the Harvest Moon</small></i>"
 msgstr ""
 
 #. [part]
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:153
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:151
 msgid "After a few days of climbing, they headed south out of the marsh, slogging through the shallow waters until finally they reached solid ground."
 msgstr ""
 
 #. [part]
 #. "Harvest Moon" refers to the eighth of twelve months - ie August.
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:158
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:156
 msgid "<i><small>Year of the Birch, 21st of the Harvest Moon</small></i>"
 msgstr ""
 
 #. [part]
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:159
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:157
 msgid "With the end finally in sight, the elves set up camp by a road leading through some low hills towards the coast. However, there were others waiting by this road..."
 msgstr ""
 
 #. [objective]: condition=win
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:310
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:308
 msgid "Reach the river and cross it, defeating the enemy leader along the way"
 msgstr ""
 
 #. [note]
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:316
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:314
 msgid "The scenario ends when the enemy leader is dead and your leader has reached the bridge."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:510
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:508
 msgid "Oh dear, I fear we have angered the mother of these eggs..."
 msgstr ""
 
 #. [message]: type=Ogre
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:535
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:533
 msgid "$second_unit.name eat puny $unit.race!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:545
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:543
 msgid "...if Mistress wills it..."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:555
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:553
 msgid "Do not expect me to submit myself to your pot."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:562
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:560
 msgid "I wouldn't make good eatin', mate. I'm full o' bones."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:570
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:568
 msgid "Ack, no! I don't wanna be eaten!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:577
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:575
 msgid "That ain't a good idea. I'm mighty stringy."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:585
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:583
 msgid "As a spirit, I'm not very nourishing."
 msgstr ""
 
 #. [message]: type=Ogre
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:594
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:592
 msgid "$second_unit.name not care! $second_unit.name has eaten only bugs for past six days!"
 msgstr ""
 
 #. [message]: type=Ogre
-#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:622
+#: Black_Cross_of_Aleron\scenarios\09-return-home.cfg:620
 msgid "You kill son! For that, you die!"
 msgstr ""
 
@@ -2753,428 +2882,429 @@ msgid "At last, $unit.name| has fallen! Now we can rest and recuperate."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:234
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:235
 msgid "We may have slain $unit.name|, but we still need to mop up the stragglers!"
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:269
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:271
 msgid "Whoa, what a stench! I think the goblins have been dumping their waste here!"
 msgstr ""
 
 #. [message]: speaker=tw_1st
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:273
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:275
 msgid "Ugh, I am <i>not</i> looking forward to cleaning up that mess..."
 msgstr ""
 
 #. [message]: speaker=$herbalist_spotter
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:307
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:309
 msgid "Hark! I hear sounds of combat over there..."
 msgstr ""
 
 #. [message]: speaker=tw_1st
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:311
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:313
 msgid "Oh Eärendil, look! I think it's Lady Caluclya!"
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:315
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:317
 msgid "By the Great Tree, could it really be? To embrace her fae side at her age is nothing short of astounding! Quick, we must hurry to her aid!"
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:372
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:374
 msgid "The battle is over. Let us rest a little and then meet at the citadel."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:465
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:470
 msgid "So, we are gathered here because our enemies have finally been defeated, though I feel there are still some questions that remain unanswered. We never did discover the truth of Kaden Kreuz's goals."
 msgstr ""
 
 #. [message]: speaker=herbalist
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:472
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:477
 msgid "It sure will be nice to sleep in a bed again after such a long time camping out in the forest, worried that the goblins might discover me while I slept."
 msgstr ""
 
 #. [message]: speaker=herbalist
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:474
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:479
 msgid "It sure will be nice to sleep in a bed again after so much travelling all across Sharnough and back again."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:479
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:484
 msgid "So, Kaden Kreuz's goals... somehow, we never thought to ask the orc himself. If anyone knows anything, now would be a good time to speak up."
 msgstr ""
 
 #. [message]: speaker=fleeingspirit
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:490
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:495
 msgid "I am afraid I know very little, but I do know one thing. Kaden Kreuz was trying to raise a huge undead army as fast as possible, for a specific purpose."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:494
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:499
 msgid "Hmm, as fast as possible? As if there were a time limit?"
 msgstr ""
 
 #. [message]: speaker=fleeingspirit
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:498
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:503
 msgid "Yes, exactly like that."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:502
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:507
 msgid "And do you have any idea what the specific purpose was?"
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:506
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:511
 msgid "Or what the time limit was?"
 msgstr ""
 
 #. [message]: speaker=fleeingspirit
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:510
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:515
 msgid "I am unsure what that purpose was, but it seemed as though he has some particular enemy in mind."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:514
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:538
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:586
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:634
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:519
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:543
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:591
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:639
 msgid "This is interesting. Does anyone else know anything?"
 msgstr ""
 
 #. [message]: speaker=cowardlyorcarcher
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:526
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:531
 msgid "I fled with Vrughnar because there were rumours that he had destroyed whole villages and used the dead for his magic."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:530
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:535
 msgid "(gasp) He would do such a thing?"
 msgstr ""
 
 #. [message]: speaker=cowardlyorcarcher
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:534
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:539
 msgid "According to rumour, it was like he was rushing. I don't know any more than that."
 msgstr ""
 
 #. [message]: speaker=dwarfhermit
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:550
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:555
 msgid "Well, as ye know, I lived right behind the orc's main fortress, so I heard rumours and such about him destroyin' villages, but I didnae put much stock in them. However..."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:554
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:559
 msgid "Is there something else? Do go on."
 msgstr ""
 
 #. [message]: speaker=dwarfhermit
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:558
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:563
 msgid "There was one time, I was out a-huntin', see. And I had just caught meself a nice brace o' wild rat, when I heard footsteps, and this big, robed orc just swept by, mutterin' to hisself."
 msgstr ""
 
 #. [message]: speaker=agedlord
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:562
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:567
 msgid "Did you hear what he said?"
 msgstr ""
 
 #. [message]: speaker=dwarfhermit
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:566
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:571
 msgid "I heardnae much, but one line did jump out. “Why can't I contact Siegel?” That's what he said. He couldnae contact Siegel."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:570
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:575
 msgid "Do you know who this Siegel is?"
 msgstr ""
 
 #. [message]: speaker=dwarfhermit
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:574
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:579
 msgid "Well, it could be any number o' people. 'Tis a human surname, see. There're a number o' families who sport it."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:578
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:583
 msgid "So without more information, we can't be sure who he was referring to."
 msgstr ""
 
 #. [message]: speaker=dwarfhermit
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:582
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:587
 msgid "Aye, that be the sum of it."
 msgstr ""
 
 #. [message]: speaker=hermitsorceress
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:598
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:603
 msgid "Well, I know naught of Kaden Kreuz, but that sparkly chasm was surely not a natural hole in the ground."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:602
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:607
 msgid "I thought that looked strange, too. Do you know what it is?"
 msgstr ""
 
 #. [message]: speaker=hermitsorceress
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:606
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:611
 msgid "I examined it more closely after we defeated the lich, while everyone else was resting for the climb up. It is definitely not just a crack in the ground. Nay, it is far worse that that - a crack in reality."
 msgstr ""
 
 #. [message]: speaker=tw_1st
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:610
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:615
 msgid "(gasp) What does that mean? Is it dangerous?"
 msgstr ""
 
 #. [message]: speaker=hermitsorceress
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:614
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:619
 msgid "Well, fortunately that crack seemed to be pretty stable. It does not seem like we will need to worry about it for a long while. Still..."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:618
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:623
 msgid "So it <i>is</i> dangerous."
 msgstr ""
 
 #. [message]: speaker=hermitsorceress
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:622
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:627
 msgid "Almost certainly. If it opens wide enough, a rift to another existence will be opened, allowing whatever resides there to come through. And I do not expect they are likely to be friendly."
 msgstr ""
 
 #. [message]: speaker=agedlord
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:626
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:631
 msgid "But do you have any idea how it was opened in the first place? Did Kaden Kreuz open it?"
 msgstr ""
 
 #. [message]: speaker=hermitsorceress
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:630
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:635
 msgid "That is impossible to tell. He may have opened it, or he may have merely discovered it."
 msgstr ""
 
 #. [message]: speaker=agedlord
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:643
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:648
 msgid "No-one knows anything? Perhaps we should question the prisoner, then."
 msgstr ""
 
 #. [message]: speaker=agedlord
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:643
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:675
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:648
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:680
 msgid "Hajak, do you know anything?"
 msgstr ""
 
 #. [message]: speaker=hajak
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:650
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:655
 msgid "Hajak know nothing! Hajak just did what Malcorn said because Hajak not want to die."
 msgstr ""
 
 #. [message]: speaker=hajak
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:657
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:662
 msgid "Hajak know nothing! Hajak ran away from Kaden Kreuz because Hajak not want to die."
 msgstr ""
 
 #. [message]: speaker=agedlord
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:661
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:666
 msgid "(sigh) Well, so much for that."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:665
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:670
 msgid "In that case, we need to focus on repairing our citadel and resuming regular classes."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:675
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:680
 msgid "Perhaps we should question the prisoner, too."
 msgstr ""
 
 #. [message]: speaker=hajak
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:679
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:709
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:684
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:714
 msgid "Erm, Hajak might know."
 msgstr ""
 
 #. [message]: speaker=hajak
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:679
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:684
 msgid "Hajak listened to Malcorn talking a lot."
 msgstr ""
 
 #. [message]: speaker=hajak
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:679
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:709
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:684
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:714
 msgid "Erm, but Hajak not really understand much."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:683
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:713
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:688
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:718
 msgid "Worry not. Just tell us what you remember."
 msgstr ""
 
 #. [message]: speaker=hajak
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:687
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:692
 msgid "Erm, Hajak remember one time, Malcorn ordered squad to scout west coast of Aleron. Malcorn told us to look out for cracks in ground, but we never found any."
 msgstr ""
 
 #. [message]: speaker=hermitsorceress
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:691
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:696
 msgid "Interesting... he was expecting more such chasms to appear? Even this far from the swamp?"
 msgstr ""
 
 #. [message]: speaker=agedlord
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:695
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:700
 msgid "That is interesting, but does not seem to have any bearing on Kaden Kreuz's goals."
 msgstr ""
 
 #. [message]: speaker=hajak
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:699
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:709
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:704
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:714
 msgid "(fidgets) Erm, er, there was one time... Kaden Kreuz was muttering to himself, and Hajak happened to hear it."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:703
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:708
 msgid "Go on?"
 msgstr ""
 
 #. [message]
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:723
-#: Black_Cross_of_Aleron\utils\sides.cfg:75
-#: Black_Cross_of_Aleron\utils\sides.cfg:83
+#. [leader]: id=malinkalar, type={TYPE}
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:728
+#: Black_Cross_of_Aleron\utils\sides.cfg:91
+#: Black_Cross_of_Aleron\utils\sides.cfg:82
 msgid "Kaden Kreuz"
 msgstr ""
 
 #. [message]
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:726
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:731
 msgid "Not enough... not fast enough... they'll be here too soon. What to do, what to do... Mary said they're too strong, even the orcish horde would fall before them... need more undead soldiers... if I destroy the village of Halg, would it be enough? Perhaps I should hunt other races too... just how long can Mary delay them? I don't even know how much time I have... must assume the worst and work as fast as possible..."
 msgstr ""
 
 #. [message]: speaker=hajak
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:730
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:735
 msgid "...is what he said. That was when Hajak decided to run away."
 msgstr ""
 
 #. [message]: speaker=tw_1st
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:737
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:742
 msgid "So who is Mary?"
 msgstr ""
 
 #. [message]: speaker=hajak
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:741
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:746
 msgid "Hajak not know. Hajak never heard the name, but for that time."
 msgstr ""
 
 #. [message]: speaker=fleeingspirit
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:745
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:750
 msgid "Sounds like a human name..."
 msgstr ""
 
 #. [message]: speaker=tw_1st
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:759
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:764
 msgid "If Mary is a human name... and Siegel is a human surname... I wonder... could they both refer to the same person? Thrar, do you know of a Mary Siegel?"
 msgstr ""
 
 #. [message]: speaker=dwarfhermit
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:763
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:768
 msgid "Hmmm, cannae say that I do, lassie. I know a few Siegels, but no Mary amongst 'em. But I cannae say that there isnae one."
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:767
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:772
 msgid "What worries me is that he seemed to be aware of some other, greater threat. Something so dangerous that he felt the need to expand his undead horde as quickly as possible."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:771
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:776
 msgid "But Graktar never said anything about that. If Kaden Kreuz <i>was</i> aware of it, why would he have kept it to himself?"
 msgstr ""
 
 #. [message]: speaker=hermitsorceress
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:775
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:780
 msgid "Knowledge is power."
 msgstr ""
 
 #. [message]: speaker=dwarfhermit
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:779
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:784
 msgid "Mayhaps he feared the orcish horde would charge in if'n they knew o' the real enemy."
 msgstr ""
 
 #. [message]: speaker=cowardlyorcarcher
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:783
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:788
 msgid "He must've been embarrassed as an orc to be so scared of whatever it was."
 msgstr ""
 
 #. [message]: speaker=loyalmermaid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:787
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:792
 msgid "He was probably afraid people would panic if they knew the full truth."
 msgstr ""
 
 #. [message]: speaker=fleeingspirit
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:791
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:796
 msgid "Are we quite sure he considered them an enemy and not a potential ally? Or a feared boss, even?"
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:800
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:805
 msgid "(gasp) I never even thought of that!"
 msgstr ""
 
 #. [message]: speaker=chiefguard
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:804
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:809
 msgid "Well, whatever the reason, there is little we can do of it now. If the threat is real, I am sure it will make itself known. For now, all we can do is focus on what we know."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:808
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:813
 msgid "(nods) And work at repairing our citadel and resuming regular classes."
 msgstr ""
 
 #. [message]: speaker=agedlord
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:815
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:820
 msgid "If this meeting is over, I should commence preparations for my return to Analandoron."
 msgstr ""
 
 #. [message]: speaker=agedcaptain
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:819
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:824
 msgid "Do you mind if I accompany you? It has been such a long time since I returned there, and I never properly said goodbye to Ardalandwen."
 msgstr ""
 
 #. [message]: speaker=agedlord
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:828
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:833
 msgid "You would be very welcome in Analandoron, and I am sure Ardalandwen would be happy to see you again."
 msgstr ""
 
 #. [message]: speaker=hermitsorceress
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:832
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:837
 msgid "I too will be departing, before nightfall. I have some things to do before returning home."
 msgstr ""
 
 #. [message]: speaker=loyalmermaid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:836
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:841
 msgid "I will be leading my people back home within a day or two."
 msgstr ""
 
 #. [message]: speaker=dwarfhermit
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:840
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:845
 msgid "Well, I might stay awhile, but once I get the hankerin' for home, I'll be off in a jiffy."
 msgstr ""
 
 #. [message]: speaker=chiefdruid
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:844
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:849
 msgid "Thank you all so much for all your help. We could not have done this without your support."
 msgstr ""
 
 #. [message]: speaker=herbalist
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:850
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:855
 msgid "Well, I should get ready for tomorrow's lessons."
 msgstr ""
 
 #. [message]: speaker=tw_1st
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:859
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:864
 msgid "Lessons will be starting already!?"
 msgstr ""
 
 #. [message]: speaker=herbalist
-#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:865
+#: Black_Cross_of_Aleron\scenarios\10-back-home.cfg:870
 msgid "Of course! I want to see all of you graduating by next winter, you know. We have no time to waste!"
 msgstr ""
 
@@ -3625,38 +3755,38 @@ msgstr ""
 msgid "Let's go then! Into the caves!"
 msgstr ""
 
-#. [give_item]: id=ring_of_domination
-#: Black_Cross_of_Aleron\utils\ariandela.cfg:176
+#. [give_item]: id=ring_of_domination #wmllint: ignore
+#: Black_Cross_of_Aleron\utils\ariandela.cfg:177
 msgid "The Ring of Domination lies on the ground."
 msgstr ""
 
-#. [give_item]: id=ring_of_domination
-#: Black_Cross_of_Aleron\utils\ariandela.cfg:177
+#. [give_item]: id=ring_of_domination #wmllint: ignore
+#: Black_Cross_of_Aleron\utils\ariandela.cfg:178
 msgid "ring of domination^Put it on."
 msgstr ""
 
-#. [give_item]: id=ring_of_domination
-#: Black_Cross_of_Aleron\utils\ariandela.cfg:178
+#. [give_item]: id=ring_of_domination #wmllint: ignore
+#: Black_Cross_of_Aleron\utils\ariandela.cfg:179
 msgid "ring of domination^Leave it."
 msgstr ""
 
-#. [give_item]: id=ring_of_domination
-#: Black_Cross_of_Aleron\utils\ariandela.cfg:179
+#. [give_item]: id=ring_of_domination #wmllint: ignore
+#: Black_Cross_of_Aleron\utils\ariandela.cfg:180
 msgid "Only a mage with arcane prowess can wield the Ring of Domination."
 msgstr ""
 
 #. [message]: speaker=unit
-#: Black_Cross_of_Aleron\utils\ariandela.cfg:184
+#: Black_Cross_of_Aleron\utils\ariandela.cfg:186
 msgid "Not a moment too soon. Looks like we've drawn some of the orcs out here."
 msgstr ""
 
 #. [message]: speaker=hermitsorceress
-#: Black_Cross_of_Aleron\utils\ariandela.cfg:188
+#: Black_Cross_of_Aleron\utils\ariandela.cfg:190
 msgid "They have finally overcome their fear of me, have they? Little do they know that it is far too late..."
 msgstr ""
 
 #. [message]: role=assassin_squad_leader
-#: Black_Cross_of_Aleron\utils\ariandela.cfg:306
+#: Black_Cross_of_Aleron\utils\ariandela.cfg:310
 msgid "Alright, come on boys! Our job is to bring down that terrible sorceress! We're a big group, so all we need to do is catch her off guard and bleed her dry! She won't be so scary then! Heh heh heh..."
 msgstr ""
 
@@ -3868,13 +3998,17 @@ msgstr ""
 msgid "shadow drain"
 msgstr ""
 
+#: Black_Cross_of_Aleron\utils\misc.cfg:83
+msgid "($leaders_killed / 3)"
+msgstr ""
+
 #. [unit]: type=Elvish {TYPE}, id=herbalist
-#: Black_Cross_of_Aleron\utils\misc.cfg:61
+#: Black_Cross_of_Aleron\utils\misc.cfg:107
 msgid "Caluclya"
 msgstr ""
 
 #. [unit]: type=Elvish Archer, type=Elvish Ranger, id=chiefguard
-#: Black_Cross_of_Aleron\utils\misc.cfg:125
+#: Black_Cross_of_Aleron\utils\misc.cfg:171
 msgid "Erendor"
 msgstr ""
 
@@ -3899,8 +4033,24 @@ msgstr ""
 msgid "Use haste potion"
 msgstr ""
 
+#. [message]: speaker=narrator
+#: Black_Cross_of_Aleron\utils\potions.cfg:92
+#: Black_Cross_of_Aleron\utils\potions.cfg:100
+msgid "Potions"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Black_Cross_of_Aleron\utils\potions.cfg:93
+msgid "You have found $potion_totals."
+msgstr ""
+
+#. [message]: speaker=narrator
+#: Black_Cross_of_Aleron\utils\potions.cfg:101
+msgid "You have found $potion_details, for a total of $potion_totals."
+msgstr ""
+
 #. [unstore_unit]
-#: Black_Cross_of_Aleron\utils\potions.cfg:115
+#: Black_Cross_of_Aleron\utils\potions.cfg:148
 msgid "hasted!"
 msgstr ""
 
@@ -3909,22 +4059,25 @@ msgstr ""
 msgid "resurrected!"
 msgstr ""
 
+#. [leader]: id=chiefdruid, type=Elvish Shyde, type=Elvish Druid
 #. She is a teacher, so the initiates address her with suitable respect.
+#: Black_Cross_of_Aleron\utils\sides.cfg:19
 #: Black_Cross_of_Aleron\utils\sides.cfg:6
-#: Black_Cross_of_Aleron\utils\sides.cfg:17
 msgid "Eärendil"
 msgstr ""
 
-#: Black_Cross_of_Aleron\utils\sides.cfg:37
-#: Black_Cross_of_Aleron\utils\sides.cfg:47
+#. [leader]: id=gragchak, type=Orcish Ruler, type=Orcish Sovereign
+#: Black_Cross_of_Aleron\utils\sides.cfg:51
+#: Black_Cross_of_Aleron\utils\sides.cfg:40
 msgid "Graktar"
 msgstr ""
 
-#: Black_Cross_of_Aleron\utils\sides.cfg:57
+#: Black_Cross_of_Aleron\utils\sides.cfg:62
 msgid "Malcorn"
 msgstr ""
 
-#: Black_Cross_of_Aleron\utils\sides.cfg:65
+#. [leader]: id=malcorn, type=Death Knight
+#: Black_Cross_of_Aleron\utils\sides.cfg:71
 msgid "Sir Malcorn"
 msgstr ""
 
