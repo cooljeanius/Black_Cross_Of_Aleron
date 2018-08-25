@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.0.3
+
+* Fix worthless elvish civilians not being deleted due to a typo
+* Fix missing ogre dialog in scenario 9 on hard mode
+* Fix possibility of Erendor appearing twice in scenario 1
+* Fix incorrect dialogue if all enemies have been defeated before visiting Erendor's outpost
+
 ## 2.0.2
 
 * **General**
