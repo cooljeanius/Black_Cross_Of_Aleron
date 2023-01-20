@@ -2,3 +2,4 @@ validate.sh
 genlang.sh
 .results/
 *.mo
+*.swp
