@@ -3,3 +3,4 @@ genlang.sh
 .results/
 *.mo
 *.swp
+*.cfg-bak
