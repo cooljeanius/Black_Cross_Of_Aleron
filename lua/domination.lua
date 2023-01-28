@@ -1,6 +1,5 @@
 
 local _ = wesnoth.textdomain "wesnoth-celmin-bcoa"
-local H = wesnoth.require "helper"
 
 local released_text = {
 	male = _"released!",
@@ -36,7 +35,7 @@ local function do_enthrall(units, dominator, chance, old_side, new_side, animate
 			local anim = wesnoth.create_animator()
 			local attack
 			if dominator then
-				attack = H.find_attack(dominator, {range = 'ranged'})
+				attack = dominator:find_attack{range = 'ranged'}
 			end
 			anim:add(u, 'defend', success and 'hits' or 'miss', {
 				text = (success and dominated_text or resisted_text)[u.gender],
@@ -68,7 +67,7 @@ function wesnoth.wml_actions.enthrall_units(cfg)
 		wml.tag["and"](cfg)
 	}
 	if dominator_cfg then
-		for _,dominator in ipairs(wesnoth.get_units(dominator_cfg)) do
+		for _,dominator in ipairs(wesnoth.units.find_on_map(dominator_cfg)) do
 			std_print('Found dominator ' .. dominator.id)
 			local units = wesnoth.get_units(filter, dominator)
 			std_print('Possible units to dominate: '.. #units)
@@ -81,7 +80,7 @@ function wesnoth.wml_actions.enthrall_units(cfg)
 end
 
 function wesnoth.wml_actions.dethrall_units(cfg)
-	local units = wesnoth.get_units{
+	local units = wesnoth.units.find_on_map{
 		status = 'dominated',
 		wml.tag["and"](cfg)
 	}

@@ -1,4 +1,3 @@
-local H = wesnoth.require "helper"
 local AH = wesnoth.require "ai/lua/ai_helper"
 local MAIUV = wesnoth.require "ai/micro_ais/micro_ai_unit_variables"
 
@@ -10,7 +9,7 @@ return function(cfg)
     -- Returns nil for first 3 arguments if no messenger has moves left
     -- Returns nil for all arguments if there are no messengers on the map
 
-    local filter = H.get_child(cfg, "filter") or { id = cfg.id }
+    local filter = wml.get_child(cfg, "filter") or { id = cfg.id }
     local messengers = wesnoth.get_units { side = wesnoth.current.side, { "and", filter } }
     if (not messengers[1]) then return end
 
@@ -19,7 +18,7 @@ return function(cfg)
 
     -- Set the next waypoint for all messengers
     -- Also find those with MP left and return the one to next move, together with the WP to move toward
-    local max_rating, best_messenger, x, y = -9e99
+    local max_rating, best_messenger, x, y = -9e99, nil, nil, nil
     for _,messenger in ipairs(messengers) do
         -- To avoid code duplication and ensure consistency, we store some pieces of
         -- information in the messenger units, even though it could be calculated each time it is needed
@@ -28,7 +27,7 @@ return function(cfg)
 
         -- If this messenger is within 3 hexes of the next waypoint, we go on to the one after that
         -- except if it's the last one
-        local dist_wp = wesnoth.map.distance_between(messenger.x, messenger.y, wp_x, wp_y)
+        local dist_wp = wesnoth.map.distance_between(messenger, wp_x, wp_y)
         if (dist_wp <= 3) and (wp_i < #waypoint_x) then wp_i = wp_i + 1 end
 
         -- Also store the rating for each messenger

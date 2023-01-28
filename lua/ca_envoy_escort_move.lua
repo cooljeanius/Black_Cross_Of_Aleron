@@ -1,4 +1,3 @@
-local H = wesnoth.require "helper"
 local AH = wesnoth.require "ai/lua/ai_helper"
 local LS = wesnoth.require "location_set"
 local M = wesnoth.map
@@ -8,7 +7,7 @@ local messenger_next_waypoint = wesnoth.require "./ca_envoy_next_waypoint"
 local function get_escorts(cfg)
     local escorts = AH.get_units_with_moves {
         side = wesnoth.current.side,
-        { "and", H.get_child(cfg, "filter_second") }
+        { "and", wml.get_child(cfg, "filter_second") }
     }
     return escorts
 end
@@ -38,7 +37,7 @@ function ca_messenger_escort_move:execution(cfg, data)
     local enemies = AH.get_attackable_enemies()
 
     local base_rating_map = LS.create()
-    local max_rating, best_unit, best_hex = -9e99
+    local max_rating, best_unit, best_hex = -9e99, nil, nil
     for _,unit in ipairs(escorts) do
         -- Only considering hexes unoccupied by other units is good enough for this
         local reach_map = AH.get_reachable_unocc(unit)
@@ -75,10 +74,10 @@ function ca_messenger_escort_move:execution(cfg, data)
                 -- This favors placing escort units between the messenger and close enemies
                 local enemy_rating, count = 0, 0
                 for _,e in ipairs(enemies) do
-                    local e_dist = M.distance_between(next_hop.x, next_hop.y, e.x, e.y)
+                    local e_dist = M.distance_between(next_hop.y, e)
                     if (e_dist <= e.max_moves + 1) then
                         count = count + 1
-                        enemy_rating = enemy_rating + 1. / (M.distance_between(x, y, e.x, e.y) + 2.) / 2.
+                        enemy_rating = enemy_rating + 1. / (M.distance_between(x, y, e) + 2.) / 2.
                     end
                 end
                 if (count > 0) then

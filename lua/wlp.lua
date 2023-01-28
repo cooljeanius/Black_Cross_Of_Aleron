@@ -1,11 +1,10 @@
 
-local helper = wesnoth.require "lua/helper.lua"
 local utils = wesnoth.require "wml-utils"
 
 function wesnoth.wml_actions.scatter_units(cfg) -- replacement for SCATTER_UNITS macro
-	local locations = wesnoth.get_locations( wml.get_child( cfg, "filter_location" ) ) or helper.wml_error( "Missing required [filter_location] in [scatter_units]" )
-	local unit_string = cfg.unit_types or helper.wml_error( "Missing required unit_types= in [scatter_units]" )
-	local units = tonumber( cfg.units ) or helper.wml_error( "Missing or wrong required units= in [scatter_units]" )
+	local locations = wesnoth.get_locations( wml.get_child( cfg, "filter_location" ) ) or wml.error( "Missing required [filter_location] in [scatter_units]" )
+	local unit_string = cfg.unit_types or wml.error( "Missing required unit_types= in [scatter_units]" )
+	local units = tonumber( cfg.units ) or wml.error( "Missing or wrong required units= in [scatter_units]" )
 	local scatter_radius =  tonumber( cfg.scatter_radius ) -- not mandatory, if nil cycle will be jumped
 	local unit_table = wml.parsed( wml.get_child( cfg, "wml" ) ) or {} -- initialize as empty table, just in need
 
@@ -20,8 +19,8 @@ function wesnoth.wml_actions.scatter_units(cfg) -- replacement for SCATTER_UNITS
 		repeat -- repeat cycle is executed at least once
 			local rand_locs = "1.." .. #locations -- concatenation for use by WML rand
 			local rand_units = "1.." .. #unit_types
-			local index = helper.rand( rand_locs ) -- use helper.rand, to avoid OOS errors
-			local index2 = helper.rand( rand_units )
+			local index = mathx.random_choice( rand_locs )
+			local index2 = mathx.random_choice( rand_units )
 			local where_to_place = locations[index]
 
 			local unit_to_put = unit_table
@@ -39,7 +38,7 @@ function wesnoth.wml_actions.scatter_units(cfg) -- replacement for SCATTER_UNITS
 				-- and remove those that are too close
 				-- using standard ipairs jumps some locations
 				for index = #locations, 1, -1 do --lenght of locations, until 1, step -1
-					local distance = wesnoth.map.distance_between( where_to_place[1], where_to_place[2], locations[index][1], locations[index][2] )
+					local distance = wesnoth.map.distance_between(where_to_place, locations[index])
 
 					if distance < scatter_radius then
 						table.remove( locations, index )
@@ -53,16 +52,16 @@ function wesnoth.wml_actions.scatter_units(cfg) -- replacement for SCATTER_UNITS
 end
 
 function wesnoth.wml_actions.nearest_unit(cfg)
-	local starting_x = tonumber(cfg.starting_x) or helper.wml_error("Missing required starting_x in [nearest_unit]")
-	local starting_y = tonumber(cfg.starting_y) or helper.wml_error("Missing required starting_y in [nearest_unit]")
-	local filter = (wml.get_child(cfg, "filter")) or helper.wml_error("Missing required [filter] in [nearest_unit]")
+	local starting_x = tonumber(cfg.starting_x) or wml.error("Missing required starting_x in [nearest_unit]")
+	local starting_y = tonumber(cfg.starting_y) or wml.error("Missing required starting_y in [nearest_unit]")
+	local filter = (wml.get_child(cfg, "filter")) or wml.error("Missing required [filter] in [nearest_unit]")
 	local variable = cfg.variable or "nearest_unit" -- default
 
 	local current_distance = math.huge -- feed it the biggest value possible
 	local nearest_unit_found
 
 	for index,unit in ipairs(wesnoth.get_units(filter)) do
-		local distance = wesnoth.map.distance_between( starting_x, starting_y, unit.x, unit.y )
+		local distance = wesnoth.map.distance_between(starting_x, starting_y, unit)
 		if distance < current_distance then
 			current_distance = distance
 			nearest_unit_found = unit
@@ -79,126 +78,37 @@ end
 -- I didn't feel like creating a new file to host it.
 local items = wesnoth.require "wml/items"
 function wesnoth.wml_actions.highlight_image(cfg)
-	local img = cfg.image or helper.wml_error("[highlight_image] missing required image= key")
+	local img = cfg.image or wml.error("[highlight_image] missing required image= key")
 	local bg = cfg.background or ""
-	local where = wesnoth.get_locations(cfg)[1]
+	local where = wesnoth.map.find(cfg)[1]
 	if not where then return end
 	
-	wesnoth.scroll_to_tile(where, false, false, true)
+	wesnoth.interface.scroll_to_hex(where, false, false, true)
 	if cfg.outline then
-		wesnoth.highlight_hex(where)
+		wesnoth.interface.highlight_hex(where)
 	end
 
 	for i = 1, 3 do
-		items.place_halo(where[1], where[2], img)
+		wesnoth.interface.add_item_halo(where[1], where[2], img)
 		wesnoth.wml_actions.redraw{}
-		wesnoth.delay(300)
-		items.remove(where[1], where[2])
-		items.place_image(where[1], where[2], bg)
+		wesnoth.interface.delay(300)
+		wesnoth.interface.remove_item(where[1], where[2])
+		wesnoth.interface.add_item_image(where[1], where[2], bg)
 		wesnoth.wml_actions.redraw{}
-		wesnoth.delay(300)
+		wesnoth.interface.delay(300)
 	end
 
 	if cfg.leave ~= false then
-		items.place_image(where[1], where[2], img)
+		wesnoth.interface.add_item_image(where[1], where[2], img)
 	end
 	wesnoth.wml_actions.redraw{}
-end
-
--- Override move_unit to support location_id
-local old_move = wesnoth.wml_actions.move_unit
-function wesnoth.wml_actions.move_unit(cfg)
-	if cfg.to_location then
-		cfg = wml.shallow_parsed(cfg)
-		local to = wesnoth.special_locations[cfg.to_location]
-		cfg.to_x, cfg.to_y = to[1], to[2]
-	elseif cfg.dir then
-		-- Well, in this case we need to separate it out to multiple calls to the original.
-		-- That's because the locs for each unit are different!
-		for _,u in ipairs(wesnoth.get_units(cfg)) do
-			local x_locs, y_locs = {}, {}
-			x_locs[0], y_locs[0] = u.x, u.y
-			for dir in utils.split(cfg.dir) do
-				local count = 1
-				if dir:find(":") then
-					local error_dir = dir
-					dir, count = dir:match("([a-z]+):(%d+)")
-					if not dir or not count then
-						wml.error("Invalid direction:count in move_unit: " .. error_dir)
-					end
-				end
-				local last_x, last_y = x_locs[#x_locs], y_locs[#y_locs]
-				next_loc = wesnoth.map.get_direction(last_x, last_y, dir, count)
-				table.insert(x_locs, next_loc[1])
-				table.insert(y_locs, next_loc[2])
-			end
-			x_locs[0], y_locs[0] = nil
-			local this_cfg = {
-				id = u.id,
-				to_x = x_locs,
-				to_y = y_locs,
-			}
-			old_move(wml.tovconfig(this_cfg))
-		end
-		return
-	end
-	old_move(cfg)
-end
-
--- Override teleport to support location_id
-local old_teleport = wesnoth.wml_actions.teleport
-function wesnoth.wml_actions.teleport(cfg)
-	if cfg.location_id then
-		cfg = wml.shallow_parsed(cfg)
-		local to = wesnoth.special_locations[cfg.location_id]
-		cfg.x, cfg.y = to[1], to[2]
-	end
-	old_teleport(cfg)
-end
-
--- Override recall to support location_id
-local old_recall = wesnoth.wml_actions.recall
-function wesnoth.wml_actions.recall(cfg)
-	if cfg.location_id then
-		cfg = wml.shallow_parsed(cfg)
-		local to = wesnoth.special_locations[cfg.location_id]
-		cfg.x, cfg.y = to[1], to[2]
-	end
-	old_recall(cfg)
-end
-
--- Override unstore_unit to support location_id
-local old_unstore = wesnoth.wml_actions.unstore_unit
-function wesnoth.wml_actions.unstore_unit(cfg)
-	if cfg.location_id then
-		cfg = wml.shallow_parsed(cfg)
-		local to = wesnoth.special_locations[cfg.location_id]
-		cfg.x, cfg.y = to[1], to[2]
-	end
-	old_unstore(cfg)
-end
-
--- Add formula= to [variable]
--- Doesn't work for array variables though
--- Note: Remove in 1.15 as it's built-in there
-local old_variable = wesnoth.wml_conditionals.variable
-function wesnoth.wml_conditionals.variable(cfg)
-	if cfg.formula then
-		local value = wml.variables[cfg.name]
-		local result = wesnoth.eval_formula(cfg.formula, {value = value})
-		-- WFL considers 0 as false; Lua doesn't
-		if result == 0 then return false end
-		return result
-	else
-		return old_variable(cfg)
-	end
 end
 
 -- Places a unit at a random location matching the filter
 -- Automatically excludes locations that already have a unit
 -- If all matching locations already have a unit, it does nothing
 function wesnoth.wml_actions.random_unit(cfg)
-	local filter = wml.get_child(cfg, "filter_location") or helper.wml_error "Missing [filter_location] in [random_unit]"
+	local filter = wml.get_child(cfg, "filter_location") or wml.error "Missing [filter_location] in [random_unit]"
 	if cfg.require_vacant ~= false then
 		filter = {
 			wml.tag["and"](filter),

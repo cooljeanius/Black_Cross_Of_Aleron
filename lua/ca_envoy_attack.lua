@@ -1,4 +1,3 @@
-local H = wesnoth.require "helper"
 local AH = wesnoth.require "ai/lua/ai_helper"
 
 local messenger_next_waypoint = wesnoth.require "./ca_envoy_next_waypoint"
@@ -25,7 +24,7 @@ local function messenger_find_enemies_in_way(messenger, goal_x, goal_y)
     for i = 2,#path do
         local sub_path, sub_cost = AH.find_path_with_shroud(messenger, path[i][1], path[i][2], { ignore_units = true })
         if (sub_cost <= messenger.moves) then
-            for xa,ya in H.adjacent_tiles(path[i][1], path[i][2]) do
+            for xa,ya in wesnoth.current.map:iter_adjacent(path[i]) do
                 local enemy = wesnoth.get_unit(xa, ya)
                 if AH.is_attackable_enemy(enemy) then return enemy end
             end
@@ -45,11 +44,11 @@ local function messenger_find_clearing_attack(messenger, goal_x, goal_y, cfg)
     local enemy_in_way = messenger_find_enemies_in_way(messenger, goal_x, goal_y)
     if (not enemy_in_way) then return end
 
-    local filter = H.get_child(cfg, "filter") or { id = cfg.id }
+    local filter = wml.get_child(cfg, "filter") or { id = cfg.id }
     local units = AH.get_units_with_attacks {
         side = wesnoth.current.side,
         { "not", filter },
-        { "and", H.get_child(cfg, "filter_second") }
+        { "and", wml.get_child(cfg, "filter_second") }
     }
     if (not units[1]) then return end
 
@@ -78,7 +77,7 @@ local function messenger_find_clearing_attack(messenger, goal_x, goal_y, cfg)
 
         -- Give a huge bonus for closeness to enemy_in_way
         local tmp_defender = wesnoth.get_unit(attack.target.x, attack.target.y)
-        local dist = wesnoth.map.distance_between(enemy_in_way.x, enemy_in_way.y, tmp_defender.x, tmp_defender.y)
+        local dist = wesnoth.map.distance_between(enemy_in_way, tmp_defender)
 
         rating = rating + 100. / dist
 

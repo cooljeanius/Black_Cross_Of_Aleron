@@ -1,6 +1,4 @@
 
-local H = wesnoth.require "lua/helper.lua"
-
 local x, y = wesnoth.current.event_context.x1, wesnoth.current.event_context.y1
 local initiate = wesnoth.get_unit(x, y)
 
@@ -81,7 +79,7 @@ if not possible_abils.slimy then
 	possible_abils.slimy = 33.3
 end
 
-chance = H.rand "1..325"
+local chance = mathx.random_choice "1..325"
 
 debug("She is at " .. x .. ',' .. y .. "; the chance was " .. chance .. "/325")
 
@@ -100,7 +98,7 @@ end
 
 debug("Final selection: " .. chosen_ability)
 
-wesnoth.set_variable("chosen_ability", chosen_ability)
+wml.variables.chosen_ability = chosen_ability
 
 --[[ The distribution table:
 

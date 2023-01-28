@@ -75,7 +75,7 @@ function ca_messenger_move:execution(cfg, data)
 
         go_to = AH.find_best_move(messenger, function(x, y)
             -- Main rating is distance from goal
-            local rating = -M.distance_between(x, y, goal[1], goal[2])
+            local rating = -M.distance_between(x, y, goal)
 
             -- Minor contribution from terrain, as a tie breaker
             local hit_chance = messenger:defense(wesnoth.get_terrain(x, y))

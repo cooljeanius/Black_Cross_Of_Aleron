@@ -17,7 +17,7 @@ function assign_good_cave_scout()
 		end
 	end
 	if best_unit == nil then
-		best_unit = wesnoth.get_units{id="chiefguard"}[1]
+		best_unit = wesnoth.units.get "chiefguard"
 	end
 	best_unit.role = 'cave_scouter'
 end

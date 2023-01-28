@@ -2,7 +2,7 @@
 local items = wesnoth.require "wml/items"
 
 function wesnoth.wml_actions.give_item(cfg)
-	local object = wml.get_child(cfg, "object") or helper.wml_error "Missing required [object] tag in [give_item]"
+	local object = wml.get_child(cfg, "object") or wml.error "Missing required [object] tag in [give_item]"
 	object = wml.shallow_parsed(object)
 	object.item_id = cfg.id
 	local recipient_filter = wml.get_child(cfg, "filter_recipient") or {x = cfg.x, y = cfg.y}
@@ -47,7 +47,7 @@ function wesnoth.wml_actions.place_item(cfg)
 	local evt = {name = 'moveto', first_time_only = false, id = cfg.id .. '_pickup'}
 	local condition, success, failure, take, leave = {}, {}, {}, {}, {}
 	local lcfg = wml.literal(cfg)
-	table.insert(condition, wml.tag.have_unit{x = x, y = y, wml.tag["and"](wml.get_child(lcfg, "filter") or helper.wml_error "Missing required [filter] tag in [place_item]")})
+	table.insert(condition, wml.tag.have_unit{x = x, y = y, wml.tag["and"](wml.get_child(lcfg, "filter") or wml.error "Missing required [filter] tag in [place_item]")})
 	table.insert(take, wml.tag.give_item(give_cfg))
 	table.insert(take, wml.tag.remove_item{x = x, y = y, image = cfg.image})
 	table.insert(take, wml.tag.remove_event{id = evt.id})
