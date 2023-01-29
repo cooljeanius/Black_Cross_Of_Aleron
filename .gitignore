@@ -4,3 +4,5 @@ genlang.sh
 *.mo
 *.swp
 *.cfg-bak
+.vscode
+.DS_Store
