@@ -1,10 +1,10 @@
 
 local x, y = wesnoth.current.event_context.x1, wesnoth.current.event_context.y1
-local initiate = wesnoth.get_unit(x, y)
+local initiate = wesnoth.units.get(x, y)
 
 local function debug(msg)
 	if wesnoth.game_config.debug then
-		wesnoth.message('Initiates', tostring(msg))
+		wesnoth.interface.add_chat_message('Initiates', tostring(msg))
 	end
 end
 

@@ -20,7 +20,7 @@ local function enthrall_passes_chance(unit, chance)
 	end
 	if chance >= 100 then return true end
 	if chance <= 0 then return false end
-	return wesnoth.random(1,100) <= chance
+	return mathx.random(1,100) <= chance
 end
 
 local function do_enthrall(units, dominator, chance, old_side, new_side, animate)
@@ -32,7 +32,7 @@ local function do_enthrall(units, dominator, chance, old_side, new_side, animate
 			u.side = new_side
 		end
 		if animate ~= false then
-			local anim = wesnoth.create_animator()
+			local anim = wesnoth.units.create_animator()
 			local attack
 			if dominator then
 				attack = dominator:find_attack{range = 'ranged'}
@@ -48,12 +48,12 @@ local function do_enthrall(units, dominator, chance, old_side, new_side, animate
 					primary = attack,
 					facing = u,
 				})
-				wesnoth.scroll_to_tile(dominator)
+				wesnoth.interface.scroll_to_hex(dominator)
 			else
-				wesnoth.scroll_to_tile(u)
+				wesnoth.interface.scroll_to_hex(u)
 			end
 			anim:run()
-			wesnoth.delay(300, true)
+			wesnoth.interface.delay(300, true)
 		end
 	end
 end
@@ -69,12 +69,12 @@ function wesnoth.wml_actions.enthrall_units(cfg)
 	if dominator_cfg then
 		for _,dominator in ipairs(wesnoth.units.find_on_map(dominator_cfg)) do
 			std_print('Found dominator ' .. dominator.id)
-			local units = wesnoth.get_units(filter, dominator)
+			local units = wesnoth.units.find_on_map(filter, dominator)
 			std_print('Possible units to dominate: '.. #units)
 			do_enthrall(units, dominator, chance, old_side, new_side or dominator.side, cfg.animate)
 		end
 	else
-		local units = wesnoth.get_units(filter)
+		local units = wesnoth.units.find_on_map(filter)
 		do_enthrall(units, nil, chance, old_side, new_side or 1, cfg.animate)
 	end
 end
@@ -88,14 +88,14 @@ function wesnoth.wml_actions.dethrall_units(cfg)
 		u.status.dominated = false
 		u.side = u.variables.was_side
 		if cfg.animate ~= false then
-			wesnoth.scroll_to_tile(u)
-			local anim = wesnoth.create_animator()
+			wesnoth.interface.scroll_to_hex(u)
+			local anim = wesnoth.units.create_animator()
 			anim:add(u, 'healed', 'hits', {
 				text = released_text[u.gender],
 				color = {0, 128, 50},
 			})
 			anim:run()
-			wesnoth.delay(300, true)
+			wesnoth.interface.delay(300, true)
 		end
 	end
 end

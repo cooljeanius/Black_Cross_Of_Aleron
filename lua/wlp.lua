@@ -2,7 +2,7 @@
 local utils = wesnoth.require "wml-utils"
 
 function wesnoth.wml_actions.scatter_units(cfg) -- replacement for SCATTER_UNITS macro
-	local locations = wesnoth.get_locations( wml.get_child( cfg, "filter_location" ) ) or wml.error( "Missing required [filter_location] in [scatter_units]" )
+	local locations = wesnoth.map.find( wml.get_child( cfg, "filter_location" ) ) or wml.error( "Missing required [filter_location] in [scatter_units]" )
 	local unit_string = cfg.unit_types or wml.error( "Missing required unit_types= in [scatter_units]" )
 	local units = tonumber( cfg.units ) or wml.error( "Missing or wrong required units= in [scatter_units]" )
 	local scatter_radius =  tonumber( cfg.scatter_radius ) -- not mandatory, if nil cycle will be jumped
@@ -26,12 +26,12 @@ function wesnoth.wml_actions.scatter_units(cfg) -- replacement for SCATTER_UNITS
 			local unit_to_put = unit_table
 			unit_to_put.type = unit_types[index2]
 
-			local free_x, free_y = wesnoth.find_vacant_tile( where_to_place[1], where_to_place[2], unit_to_put)
+			local free_x, free_y = wesnoth.paths.find_vacant_hex( where_to_place[1], where_to_place[2], unit_to_put)
 			-- to avoid placing units in strange terrains, or overwriting, in case that the WML coder placed a wrong filter;
 			-- in such case, respect of scatter_radius is not guaranteed, exactly like in SCATTER_UNITS
 
 			unit_to_put.x, unit_to_put.y = free_x, free_y
-			wesnoth.put_unit( unit_to_put )
+			wesnoth.units.to_map( unit_to_put )
 			table.remove( locations, index ) -- to remove such location from the available list, because it's already busy, and avoid overwriting already placed units
 			if scatter_radius then -- loop for scatter_radius; will remove every location within the radius
 				-- apparently, a reversed ipairs like below is the best way to check every location
@@ -115,21 +115,21 @@ function wesnoth.wml_actions.random_unit(cfg)
 			wml.tag["not"]{ wml.tag.filter{} }
 		}
 	end
-	local possible_locations = wesnoth.get_locations(filter)
+	local possible_locations = wesnoth.map.find(filter)
 	if #possible_locations == 0 then
 		std_print("Error: No matching locations!")
 		return
 	end
 	cfg = wml.shallow_parsed(cfg)
 	wml.remove_child(cfg, "filter_location")
-	local which_loc = #possible_locations == 1 and 1 or wesnoth.random(1, #possible_locations)
+	local which_loc = #possible_locations == 1 and 1 or mathx.random(1, #possible_locations)
 	cfg.x = possible_locations[which_loc][1]
 	cfg.y = possible_locations[which_loc][2]
 	wesnoth.wml_actions.unit(cfg)
 end
 
 function wesnoth.wml_actions.popup_message(cfg)
-	wesnoth.show_popup_dialog(cfg.title or "", cfg.message, cfg.image)
+	gui.show_popup(cfg.title or "", cfg.message, cfg.image)
 end
 
 function wesnoth.micro_ais.envoy(cfg)
