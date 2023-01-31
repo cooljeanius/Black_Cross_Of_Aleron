@@ -51,6 +51,9 @@ function wesnoth.wml_actions.place_item(cfg)
 	table.insert(take, wml.tag.give_item(give_cfg))
 	table.insert(take, wml.tag.remove_item{x = x, y = y, image = cfg.image})
 	table.insert(take, wml.tag.remove_event{id = evt.id})
+	if wml.child_count(cfg, 'on_take') == 1 then
+		table.insert(take, wml.tag.command(wml.get_child(cfg, 'on_take')))
+	end
 	table.insert(leave, wml.tag.allow_undo{})
 	table.insert(success, wml.tag.message{
 		speaker = 'narrator',
