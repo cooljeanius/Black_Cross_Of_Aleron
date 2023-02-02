@@ -26,7 +26,7 @@ function wesnoth.wml_actions.scatter_units(cfg) -- replacement for SCATTER_UNITS
 			local unit_to_put = unit_table
 			unit_to_put.type = unit_types[index2]
 
-			local free_x, free_y = wesnoth.paths.find_vacant_hex( where_to_place[1], where_to_place[2], unit_to_put)
+			local free_x, free_y = wesnoth.paths.find_vacant_hex( where_to_place, unit_to_put)
 			-- to avoid placing units in strange terrains, or overwriting, in case that the WML coder placed a wrong filter;
 			-- in such case, respect of scatter_radius is not guaranteed, exactly like in SCATTER_UNITS
 
@@ -60,7 +60,7 @@ function wesnoth.wml_actions.nearest_unit(cfg)
 	local current_distance = math.huge -- feed it the biggest value possible
 	local nearest_unit_found
 
-	for index,unit in ipairs(wesnoth.get_units(filter)) do
+	for index,unit in ipairs(wesnoth.units.find_on_map(filter)) do
 		local distance = wesnoth.map.distance_between(starting_x, starting_y, unit)
 		if distance < current_distance then
 			current_distance = distance
@@ -89,17 +89,17 @@ function wesnoth.wml_actions.highlight_image(cfg)
 	end
 
 	for i = 1, 3 do
-		wesnoth.interface.add_item_halo(where[1], where[2], img)
+		wesnoth.interface.add_item_halo(where.x, where.y, img)
 		wesnoth.wml_actions.redraw{}
 		wesnoth.interface.delay(300)
-		wesnoth.interface.remove_item(where[1], where[2])
-		wesnoth.interface.add_item_image(where[1], where[2], bg)
+		wesnoth.interface.remove_item(where.x, where.y)
+		wesnoth.interface.add_item_image(where.x, where.y, bg)
 		wesnoth.wml_actions.redraw{}
 		wesnoth.interface.delay(300)
 	end
 
 	if cfg.leave ~= false then
-		wesnoth.interface.add_item_image(where[1], where[2], img)
+		wesnoth.interface.add_item_image(where.x, where.y, img)
 	end
 	wesnoth.wml_actions.redraw{}
 end

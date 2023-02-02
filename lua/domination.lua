@@ -16,7 +16,7 @@ local resisted_text = {
 
 local function enthrall_passes_chance(unit, chance)
 	if type(chance) == 'string' then
-		chance = 100 - unit:defense(wesnoth.get_terrain(unit.x, unit.y))
+		chance = unit:defense_on(wesnoth.current.map[unit])
 	end
 	if chance >= 100 then return true end
 	if chance <= 0 then return false end
