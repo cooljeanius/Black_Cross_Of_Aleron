@@ -29,7 +29,7 @@ function ca_messenger_move:evaluation(cfg, data)
         if sub_cost > messenger.moves then
             break
         else
-            local unit_in_way = wesnoth.get_unit(step[1], step[2])
+            local unit_in_way = wesnoth.units.get(step[1], step[2])
             if (not AH.is_visible_unit(wesnoth.current.side, unit_in_way)) then
                 unit_in_way = nil
             end
@@ -78,7 +78,7 @@ function ca_messenger_move:execution(cfg, data)
             local rating = -M.distance_between(x, y, goal)
 
             -- Minor contribution from terrain, as a tie breaker
-            local hit_chance = messenger:defense(wesnoth.get_terrain(x, y))
+            local hit_chance = messenger:chance_to_be_hit(wesnoth.current.map[{x, y}])
             rating = rating - hit_chance / 100
 
             -- Finally, take enemy threat into account. This is pretty ad hoc so far.
@@ -135,7 +135,7 @@ function ca_messenger_move:execution(cfg, data)
         AH.checked_attack(ai, messenger, best_target, best_weapon)
     else
         -- Always attack enemy on last waypoint
-        local waypoint = wesnoth.special_locations[cfg.waypoint]
+        local waypoint = wesnoth.current.map.special_locations[cfg.waypoint]
         local waypoint_x, waypoint_y = waypoint[1], waypoint[2]
         local target = AH.get_attackable_enemies {
             x = tonumber(waypoint_x),

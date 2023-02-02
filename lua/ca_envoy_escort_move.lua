@@ -74,7 +74,7 @@ function ca_messenger_escort_move:execution(cfg, data)
                 -- This favors placing escort units between the messenger and close enemies
                 local enemy_rating, count = 0, 0
                 for _,e in ipairs(enemies) do
-                    local e_dist = M.distance_between(next_hop.y, e)
+                    local e_dist = M.distance_between(next_hop, e)
                     if (e_dist <= e.max_moves + 1) then
                         count = count + 1
                         enemy_rating = enemy_rating + 1. / (M.distance_between(x, y, e) + 2.) / 2.

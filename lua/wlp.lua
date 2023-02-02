@@ -136,8 +136,8 @@ function wesnoth.micro_ais.envoy(cfg)
 	if (cfg.action ~= 'delete') and (not cfg.id) and (not wml.get_child(cfg, "filter")) then
 		H.wml_error("Envoy [micro_ai] tag requires either id= key or [filter] tag")
 	end
-	local required_keys = { "waypoint"}
-	local optional_keys = { "id", "enemy_death_chance", "[filter]", "[filter_second]", "invert_order", "messenger_death_chance" }
+	local required_keys = { waypoint = 'string' }
+	local optional_keys = { id = 'string', enemy_death_chance = 'float', filter = 'tag', filter_second = 'tag', invert_order = 'boolean', messenger_death_chance = 'float' }
 	local score = cfg.ca_score or 300000
 	local CA_parms = {
 		ai_id = 'mai_envoy',

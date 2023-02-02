@@ -10,10 +10,10 @@ return function(cfg)
     -- Returns nil for all arguments if there are no messengers on the map
 
     local filter = wml.get_child(cfg, "filter") or { id = cfg.id }
-    local messengers = wesnoth.get_units { side = wesnoth.current.side, { "and", filter } }
+    local messengers = wesnoth.units.find_on_map { side = wesnoth.current.side, { "and", filter } }
     if (not messengers[1]) then return end
 
-    local waypoint = wesnoth.special_locations[cfg.waypoint]
+    local waypoint = wesnoth.current.map.special_locations[cfg.waypoint]
     local waypoint_x, waypoint_y = {tonumber(waypoint[1])}, {tonumber(waypoint[2])}
 
     -- Set the next waypoint for all messengers
