@@ -106,7 +106,7 @@ function ca_messenger_move:execution(cfg, data)
     
     local targets = AH.get_attackable_enemies { { "filter_adjacent", { id = messenger.id } } }
     
-    local max_rating, best_target, best_weapon = -9e99
+    local max_rating, best_target, best_weapon = -9e99, nil, nil
     for _,target in ipairs(targets) do
         for n_weapon,weapon in ipairs(messenger.attacks) do
             local att_stats, def_stats = wesnoth.simulate_combat(messenger, n_weapon, target)

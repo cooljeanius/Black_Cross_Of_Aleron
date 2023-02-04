@@ -9,8 +9,8 @@ local healing_new = healing_total - (wml.variables.healing_potion_old or healing
 local haste_detail = _("another haste potion","$potions more haste potions",haste_new):vformat{potions = haste_new}
 local healing_detail = _("another healing potion","$potions more healing potions",healing_new):vformat{potions = healing_new}
 
-local haste_total = _("just one haste potion", "$potions haste potions", haste_total):vformat{potions = haste_total}
-local healing_total = _("just one healing potion", "$potions healing potions", healing_total):vformat{potions = healing_total}
+haste_total = _("just one haste potion", "$potions haste potions", haste_total):vformat{potions = haste_total}
+healing_total = _("just one healing potion", "$potions healing potions", healing_total):vformat{potions = healing_total}
 
 local open_green = "<span color='darkgreen' font_weight='bold'>"
 local open_orange = "<span color='orange' font_weight='bold'>"

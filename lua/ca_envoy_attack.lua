@@ -25,8 +25,8 @@ local function messenger_find_enemies_in_way(messenger, goal_x, goal_y)
         local sub_path, sub_cost = AH.find_path_with_shroud(messenger, path[i][1], path[i][2], { ignore_units = true })
         if (sub_cost <= messenger.moves) then
             for xa,ya in wesnoth.current.map:iter_adjacent(path[i]) do
-                local enemy = wesnoth.units.get(xa, ya)
-                if AH.is_attackable_enemy(enemy) then return enemy end
+                local next_enemy = wesnoth.units.get(xa, ya)
+                if AH.is_attackable_enemy(next_enemy) then return next_enemy end
             end
         else  -- If we've reached the end of the path for this turn
             return
