@@ -99,5 +99,4 @@ function wesnoth.wml_actions.dethrall_units(cfg)
 		end
 	end
 end
-	
-	
+

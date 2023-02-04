@@ -82,7 +82,7 @@ function wesnoth.wml_actions.highlight_image(cfg)
 	local bg = cfg.background or ""
 	local where = wesnoth.map.find(cfg)[1]
 	if not where then return end
-	
+
 	wesnoth.interface.scroll_to_hex(where, false, false, true)
 	if cfg.outline then
 		wesnoth.interface.highlight_hex(where)
