@@ -29,7 +29,7 @@ The following chains should cover all cases:
 - Skip merfolk - Kill Graktar - Let his son kill Kaden Kreuz - Kill Malcorn
 - Skip merfolk - Kill Graktar - Kill Kaden Kreuz - Let Malcorn live
 
-This works because the merfolk/Malcorn chain and the orcs/Kaden Kreuz chain actually don't interact at all. 
+This works because the merfolk/Malcorn chain and the orcs/Kaden Kreuz chain actually don't interact at all.
 
 TODO
 ====
